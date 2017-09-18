@@ -1,13 +1,18 @@
 .ibox  {
 	padding: 15px;
-	float: left;
-	width: 33.333333333%;
-	border: 1px solid #dddddd;
+	float: left ;
+	width: 32.3%;
+	border-top: 1px solid #dddddd;
 	border-top-width: 5px;
+	background-color: pink;
+
+
 }
 
 .info  {
 	border-color: green;
+	margin: 5px;
+
 }
 
 .info span {
@@ -16,6 +21,7 @@
 
 .contact {
 	border-color: red;
+	margin: 5px;
 
 }
 .contact span {
@@ -24,6 +30,7 @@
 
 .company {
 	border-color: blue;
+	margin: 5px;
 
 }
 .company span {
@@ -34,7 +41,7 @@
  body {
  	background-color: #E5E5E5;
  	margin: 0;
- 	padding: 0;
+ 	padding: 0%;
  }
 
 
@@ -60,6 +67,17 @@
 	font-weight: bold;
 	margin: 30px;
  }
+ .air {
+ 	border-top: 1px solid #999999;
+ 	float: left;
+ 	padding: 15px;
+ 	width: 30.3% ;
+ 	border-top-width: 5px;
+ 	margin-top: 15px;
+
+ }
+ 
+ 
 
 
 
