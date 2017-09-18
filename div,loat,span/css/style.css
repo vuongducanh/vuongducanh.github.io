@@ -1,3 +1,4 @@
+
 h1{
 	font-size: 25px;
 }
@@ -6,11 +7,15 @@ h1{
 	font-size: 20px;
 	color: green;
 	text-decoration: none;
+	text-align: center;
 }
 
-#in-chich a:hover, #in-chich a.active {
+#in-chich a:hover     {
 	color: black;
 }
+ #in-chich a.active {
+ 	color: red;
+ }
 
 #in-chich a.active {
 	font-weight: bold;
@@ -33,7 +38,7 @@ img {
 	border-top-width: 5px;
 }
 
-.info  {
+.info {
 	border-color: green;
 }
 
@@ -54,6 +59,7 @@ img {
 .company span {
 	color: blue;
 }
+
 span {
 	color: red;
 }

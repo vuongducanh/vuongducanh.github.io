@@ -1,0 +1,41 @@
+ * {
+ 	    box-sizing: border-box;
+}
+
+ body {
+ 	background-color: #E5E5E5;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+img {
+	max-width: 100s%;
+}
+
+h1{ 
+	margin: 30px 0 10px 0;
+	color: #404040;
+	font-size: 24px;
+}
+
+#in-chich a {
+	font-size: 20px;
+	color: green;
+	text-decoration: none;
+}
+
+#in-chich a:hover, #in-chich a.active {
+	color: black;
+}
+
+#in-chich a.active {
+	font-weight: bold;
+ }
+
+.anh {
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+ 
+
