@@ -1,0 +1,15 @@
+.ino {
+    border: 1px solid;
+    padding: 20px;
+    border-top-width: 5px;
+    background-color: #00ffff;
+    float:left;
+    width: 32%;
+    height: 500px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 15%;
+}
+ .ino span {
+    color: #787878;
+{
