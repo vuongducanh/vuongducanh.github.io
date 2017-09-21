@@ -6,7 +6,7 @@ body {
  * {
  	box-sizing: border-box;
  }
-@keyframes title {
+@keyframes titl {
 	0%  {background-color: #EF7126; color: #F9E559;}
     25%  {background-color: #6F3662; color: #FFFFFF;}
     50%  {background-color: #9F6164; color: #F8DEBD;}
@@ -22,7 +22,7 @@ h1 {
 	background-color: #c113a7;
 	border: solid pink;
 	border-radius: 20px;
-	animation: title 10s ease infinite;
+	animation: titl 10s ease infinite;
 }
 .anh {
 	width: 1000px;
@@ -52,6 +52,25 @@ h1 {
 	margin: 5px;	
 	background-color: white;
 	height: 200px;	
+}
+@keyframes title {
+	0% {
+		width: 30px ;
+	    opacity: 0 ;
+	}
+	50% {
+		width: 30px;
+		opacity: 1 ;
+	}
+	100% {
+		width: 30px;
+		opacity: 0 ;
+	}
+}
+h2 {
+	animation: title 1s ease infinite; 
+	
+
 }
 
 

@@ -1,0 +1,23 @@
+#main {
+	font-size: 50px;
+	margin: 20px;
+	color: black;
+	text-align: center;
+}
+.wrap {
+	width: 1200px;
+	margin: auto;
+}
+
+#main {
+	  list-style-type: none;
+}
+dd {
+	font-size: 20px;
+}
+dt {
+	font-size: 20px;
+}
+ul {
+	font-size: 20px;
+}
