@@ -1,0 +1,22 @@
+#chung {
+	max-width: 1000px;
+	margin:auto;
+	text-align: center;
+
+}
+.anh  {
+	border: 1px solid red;
+	padding: 15px;
+	float:left;
+	margin: 10px;
+	width: 38.3%;
+	background-color: white;
+}
+
+.anh img {
+       width: 300px;
+       height: 200px;
+}
+.anh:hover {
+	transform: translate(0 ; -5px);
+}

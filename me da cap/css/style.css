@@ -1,0 +1,60 @@
+body {
+	margin:0;
+	padding: 0;
+	background-color: pink;
+}
+#menu {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	background-color: #143030;
+}
+#menu ul li {
+     list-style: none;
+     position: relative;
+}
+#menu ul li a {
+	text-decoration: none;
+	line-height: 32px;
+	color: white;
+	border-bottom: 1px solid #ccc;
+	display: block;
+	text-indent: 10px;
+}
+#menu ul li ul {
+	position: absolute;
+	left: 300px;
+	top: 0;
+	display: none;
+}
+#menu ul li:hover {
+	background-color: red;
+}
+
+#menu ul li:hover ul {
+     display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
