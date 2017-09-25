@@ -1,0 +1,1 @@
+consolo.log("xin chao các ban");

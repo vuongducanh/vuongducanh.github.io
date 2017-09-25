@@ -1,43 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-	margin:0;
-	padding: 0;
-	background-color: pink;
-}
-#menu {
-	width: 100%;
-	margin: auto;
-	text-align: center;
-}
-#menu ul {
 	margin: 0;
 	padding: 0;
-	width: 300px;
-	background-color: #143030;
+	background-color: pink;
+	border-radius: 15px;
+}
+#menu {
+	width: 98%;
+	margin: auto;
+
+}
+#menu ul {
+		padding: 0;
+		margin: 0;
+		width: 300px;
+		background-color: #143030;
 }
 #menu ul li {
-     list-style: none;
-     position: relative;
+	list-style: none;
+	position: relative;
 }
 #menu ul li a {
 	text-decoration: none;
-	line-height: 32px;
 	color: white;
+	line-height: 32px;
 	border-bottom: 1px solid #ccc;
 	display: block;
 	text-indent: 10px;
 }
 #menu ul li ul {
-	position: absolute;
 	left: 300px;
-	top: 0;
+	position: absolute;
+	top: 0px;
 	display: none;
 }
 #menu ul li:hover {
 	background-color: red;
 }
-
 #menu ul li:hover ul {
-     display: block;
+	display: block;
+}
+#menu ul {
+	margin-top: 15px;
+}
+
+#menu img {
+	width: 100%;
 }
 
 
