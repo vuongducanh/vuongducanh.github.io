@@ -7,21 +7,29 @@ body {
 	padding: 0;
 	background-color: pink;
 	border-radius: 15px;
+
 }
 #menu {
-	width: 98%;
+	width: 100%;
 	margin: auto;
+	text-align: -webkit-center;
+	height: 100px;
+
 
 }
 #menu ul {
 		padding: 0;
 		margin: 0;
-		width: 300px;
-		background-color: #143030;
+		width: 338px;
+		background-color: #3a4ba5;
+		text-align: center;
+		width: 367px;
 }
 #menu ul li {
 	list-style: none;
 	position: relative;
+	float: left;
+
 }
 #menu ul li a {
 	text-decoration: none;
@@ -32,10 +40,12 @@ body {
 	text-indent: 10px;
 }
 #menu ul li ul {
-	left: 300px;
+	left: 0px;
 	position: absolute;
-	top: 0px;
+	top: 18px;
 	display: none;
+	width: 235px;
+
 }
 #menu ul li:hover {
 	background-color: red;
@@ -45,9 +55,10 @@ body {
 }
 #menu ul {
 	margin-top: 15px;
+	text-align: center;
 }
 
-#menu img {
+.box img {
 	width: 100%;
 }
 
