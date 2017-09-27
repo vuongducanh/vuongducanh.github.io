@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+	}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.box{
+	padding-left: 20px;
+}
+
+.banner {
+	text-align:center;
+
+}
+.box ul li{
+	list-style: none;
+	position: relative;
+    
+}
+.box ul li a {
+	text-decoration: none;
+}
+.box ul {
+	margin: 0;
+	padding: 0;
+	height:0;
+
+}
+
+.li1 {
+	float: left;
+	width: 100px;
+	margin-top: 25px;
+	margin: 30px;
+	line-height: 40px;
+	color: white;
+	border: 2px solid red;
+    background: blue;
+    border-radius: 3px;
+    
+}
+.li1 a {
+	color: white;
+}
+.li2 a {
+	display: block;
+	display: none;
+	line-height: 40px;
+	border: 1px solid red;
+	color: white;
+	background: blue;
+
+}
+
+.box ul li a:hover {
+   	 	background: blue;
+}
+.box ul li:hover a {
+	display: block;
+
+}
+.subtitle {
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.java {
+	width: 100%;
+
+	
+}
+
+#anh img{
+	width: 100%;
+}
+.inbox {
+	float:left;
+}
+.thep {
+	font-size: 40px;
+
+}
+.inbox2 {
+	margin-left: 600px;
+}
+.inbox2 a {
+	background-color: pink;
+}
+.phan3 {
+	clear: both;
+	height: 500px;
+	float: left;
+}
+.phan31 {
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
