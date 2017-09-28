@@ -5,6 +5,7 @@
 body {
 	margin: 0;
 	padding: 0;
+
 }
 .box{
 	padding-left: 20px;
@@ -89,25 +90,172 @@ body {
 }
 .phan3 {
 	clear: both;
-	height: 500px;
-	float: left;
+	
+	
 }
 .phan31 {
+	float: right;
+}
+.phan32 {
+
+}
+.add1 {
+	color: #2f2f2f;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    padding: 0;
+    line-height: 1.4;
+}
+.phan33 img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
 	float: left;
+	padding: 10px;
+	vertical-align: middle;
+	opacity: 1;
+	transition: opacity 0.5s linear;
+	display: table-cell;
+    vertical-align: middle;
+    padding: 0px 20px;
+}
+.phan33:hover img {
+	opacity: 0.3;
+}
+.phan4 {
+	clear: both;
+	height: 150px;
+}
+.phan4 a {
+	color: #2f2f2f;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    padding: 0;
+    line-height: 1.4;
+    
+}
+.phan4  {
+	text-align: center;
+	margin-left: -150px;
+}
+.phan4 img {
+	width: 300px;
+	height: 300px;
+	border: 1px solid;
+	border-radius: 30px;
+	margin: 10px;
+}
+.phan5  img {
+		width: 300px;
+		height: 300px;
+}
+.phan5 {
+	width: 80%;
+	height: 680px;
+}
+.phan51 {
+	border: 1px solid;
+	float:right;
+	margin: 20px;
+	overflow: hidden;
+	border-radius: 20%;
+	
+}
+.phan51 img{
+	transition: 1s;
+}
+.phan51:hover img {
+	transform: scale(2);
+	opacity: 0.5;
+}
+.phan51 a {
+	height: 600px;
+}
+.phan6 {
+	clear: both;
+	height: 200spx;
+}
+.phan6 a{
+	color: #2f2f2f;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    padding: 0;
+    line-height: 1.4;
+}
+.phan6  {
+	text-align: center;
+	margin-left: -150px;
+}
+.phan80{
+	margin: auto;
+	max-width: 1200px;		
 }
 
 
+.container {
+ border:10px solid red;
+  position: relative;
+  float: left;
+  margin: 30px;
+}
 
+.image {
+  display: block;
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  }
 
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: pink;
+  overflow: hidden;
+  width: 300px;
+  height:0;
+  transition: .5s ease;
+}
 
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
 
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
+}
+.phan90 {
+	clear: both;
+	height: 400px;
+	background-color: #091b27;
+	color: white;
+	width: 100%;
+}
+.phan91 {
+	float: left;
+	margin: 40px;
+}
+#chat {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
 
-
-
-
-
-
+}
+#chat img {
+	width: 100px;
+	height: 100px;
+}
 
 
 
