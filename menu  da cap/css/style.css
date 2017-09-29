@@ -3,19 +3,23 @@
 	}
 
 body {
-	margin: 0;
+	margin: ;
 	padding: 0;
+
 
 }
 .box{
+	width: 1500px;
 	padding-left: 20px;
+	margin: auto;
 }
 
 .banner {
 	text-align:center;
+		}
 
-}
-.box ul li{
+
+.box ul li {
 	list-style: none;
 	position: relative;
     
@@ -74,7 +78,9 @@ body {
 
 #anh img{
 	width: 100%;
+	
 }
+
 .inbox {
 	float:left;
 }
@@ -137,7 +143,7 @@ body {
 }
 .phan4  {
 	text-align: center;
-	margin-left: -150px;
+	
 }
 .phan4 img {
 	width: 300px;
@@ -151,8 +157,9 @@ body {
 		height: 300px;
 }
 .phan5 {
-	width: 80%;
+	width: 73%;
 	height: 680px;
+	margin: auto;
 }
 .phan51 {
 	border: 1px solid;
@@ -174,7 +181,7 @@ body {
 }
 .phan6 {
 	clear: both;
-	height: 200spx;
+	height: 200px;
 }
 .phan6 a{
 	color: #2f2f2f;
@@ -185,7 +192,7 @@ body {
 }
 .phan6  {
 	text-align: center;
-	margin-left: -150px;
+	
 }
 .phan80{
 	margin: auto;
@@ -253,9 +260,10 @@ body {
 
 }
 #chat img {
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 }
+
 
 
 
