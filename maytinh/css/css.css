@@ -1,0 +1,16 @@
+#maytinh{
+	width: 100px;
+	margin:auto;
+}
+input {
+  display: block;
+  float: left;
+  height: 60px;
+}
+body{
+	margin:0;
+	padding: 0;
+}
+#div{
+	height: 30px;
+}
