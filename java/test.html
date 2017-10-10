@@ -1,0 +1,27 @@
+<script>
+	function bai3(n){
+ 	 var b=[2,3,4,2,5,8,0,8,7,4,2,9,6,7,5,6,3,6,6,3,6];
+ 	
+ 	var sochan=[];
+ 	var sapxep=[];
+ 	var j = b.length;
+ 	 for(var i = 0; i < j ;i++){
+ 	 		if(b[i]%2==0){
+ 	 			sochan.push(b[i]);
+ 	 			return sochan;
+ 	 		}
+
+ 	 }
+ 	 var k = sochan.length;
+ 	 var min = sochan[0];
+ 	 for (var i=0; i< k;i++){
+ 	 		if(sochan[i] < min)
+ 	 			min = sochan[i];
+ 	 }
+ 	 sapxep.push(min);
+ 		
+
+     
+ 	}
+
+</script>
