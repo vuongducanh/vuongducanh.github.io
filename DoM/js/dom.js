@@ -1,16 +1,10 @@
 
 function  changeColor(){
-	var x= document.getElementById("p1").style.color = "blue";
-	var x= document.getElementById("p2").style.color = "yellow";
-	 var x= document.getElementById("p3").style.color = "red";
-	return x;
+	document.getElementById("p1").style.color = "blue";
+	document.getElementById("p2").style.color = "yellow";
+	document.getElementById("p3").style.color = "red";
 
 }
 function changeBgColor(){
-	var y= document.body.style.backgroundColor = "red";
-	return y;
-}
-function chu(a){
-	
- ;
+	 document.body.style.backgroundColor = "grey";
 }

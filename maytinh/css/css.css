@@ -1,16 +1,44 @@
 #maytinh{
-	width: 100px;
-	margin:auto;
+	width: 500px;
+	margin: auto;
+
+
+	
+}
+.box {
+	background-color: pink;
 }
 input {
-  display: block;
-  float: left;
-  height: 60px;
+	width: 139px;
+    height: 55px;
+    float:left;
+    margin: 10px;s
+   
+  }
+#div {
+  	width: 451px;
+  	border: 5px solid pink;
+  	
+  }
+ .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
-body{
-	margin:0;
-	padding: 0;
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
-#div{
-	height: 30px;
-}
+
+ 
