@@ -1,0 +1,24 @@
+.wap{
+	    text-align: -webkit-center;
+}
+
+#box {
+  padding: 15px;
+  border: 5px solid pink;
+  width: 900px;
+
+}
+.no-img{
+	width: 879px;
+	height: 108px;
+}
+#p1{
+	width: 900px;
+	height: 190px;
+}
+img {
+	float: left;
+}
+p{
+	padding: 0px;
+}
