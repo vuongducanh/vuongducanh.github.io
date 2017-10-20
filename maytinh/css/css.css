@@ -1,9 +1,19 @@
 #maytinh{
 	width: 500px;
 	margin: auto;
-    font-family: "Times New Roman", Times, serif;
-
-	
+}
+body{
+   background-image: url("anh.jpg");
+   background-color: pink;
+   
+   background-repeat: no-repeat;
+    background-position: center;
+}
+.box{
+  background: #1c1213;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 input {
@@ -17,6 +27,7 @@ input {
   	width: 451px;
   	border: 5px solid pink;
   	border-radius: 10px;
+    font-size: 30px;
 
   	
   }
