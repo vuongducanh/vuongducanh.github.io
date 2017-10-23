@@ -1,24 +1,26 @@
-.wap{
-	    text-align: -webkit-center;
+ #anh{
+  font-size: 200%;
+   
 }
 
-#box {
-  padding: 15px;
-  border: 5px solid pink;
-  width: 900px;
+@keyframes hanh {
+    0%  {
+        left: 0px; 
+        top: px;
+        opacity: 2;
+    }
+  
+   
+   
+  100% {
+        left: 900px;
+        top: 0px;
+        opacity: 0;
+    }
+}
 
+#anh {
+    animation: hanh 4s ease infinite;
+    position: absolute;
 }
-.no-img{
-	width: 879px;
-	height: 108px;
-}
-#p1{
-	width: 900px;
-	height: 190px;
-}
-img {
-	float: left;
-}
-p{
-	padding: 0px;
-}
+
