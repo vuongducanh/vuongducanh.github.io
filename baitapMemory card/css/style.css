@@ -9,23 +9,24 @@ img{
   
 }
 body{
-	margin: 0;
+	
 	padding: 0;
 	overflow-y: scroll; 
 	background-image: url("../img/anhnen.jpg");
 	background-position: center;
 	background-repeat: repeat-y;
-	 background-size: 2000px 800px;
+	background-size: 2000px 800px;
 
 
 }
 .wrap{
 	position: relative;
 	margin: auto;
-	padding: 15px;
+	
 	max-width: 1300px;
 	max-height: 700px;
 	height: 100%;
+	    
 }
 .content{
 	position: relative;
