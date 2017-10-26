@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin-left:200px;
+	padding: 0;
+	
+}
+ #Email,#ten,#password,#đăngnhap,#nhaplaimatkhau {
+	width: 400px;
+	height: 40px;
+	font-size: 20px;
+}
+input,label{
+	margin: 20px;
+}
+.year{
+	width: 124px;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 20px;
+	border: none;
+	background-color: pink;
+
+}
+
+
+.hang2 {
+	border: 1px solid;
+	width: 450px;
+	background: url(https://lh3.googleusercontent.com/-nH7goRoy2eY/UUfPpXsaysI/AAAAAAAAFRI/vWgPkPbbp9c/s1020/wrap_bg.jpg) no-repeat 50% top;
+	border-radius: 20px;
+	 
+    box-shadow: 10px 10px 5px #888888;
+	
+}
+
+
+#ab{
+	background-color: blue;
+}
+
+
