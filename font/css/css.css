@@ -8,7 +8,7 @@ body {
 	
 }
  #Email,#ten,#password,#đăngnhap,#nhaplaimatkhau {
-	width: 400px;
+	width: 425px;
 	height: 40px;
 	font-size: 20px;
 }
@@ -28,8 +28,8 @@ input,label{
 
 .hang2 {
 	border: 1px solid;
-	width: 450px;
-	background: url(https://lh3.googleusercontent.com/-nH7goRoy2eY/UUfPpXsaysI/AAAAAAAAFRI/vWgPkPbbp9c/s1020/wrap_bg.jpg) no-repeat 50% top;
+	width: 538px;
+	background-color: #96852e;
 	border-radius: 20px;
 	 
     box-shadow: 10px 10px 5px #888888;
@@ -39,6 +39,9 @@ input,label{
 
 #ab{
 	background-color: blue;
+}
+option{
+
 }
 
 

@@ -4,24 +4,26 @@
 	<title>log in</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/css.css">
+	
 </head>
 <body>
 	<div id="conten">
-		<form action="ketqua.html">
+		<form action="ketqua.html" id="form-register">
 			<div class="hang2">
 				<h1> Đăng ký</h1>
 
 
-				<input type="text" id="ten"  placeholder="Tên"  name="ten"><br/>
+				<input type="text" id="ten"  placeholder="Họ và tên"  name="ten" >
+				<span class="error"></span><br/>
 
 
 				<label for="Email">Email</label>   <br/>
-				<input type="text"  id="Email"  placeholder="Email hoặc số điện thoại "   name="Email"> <br/>
+				<input type="text"  id="Email"  placeholder="Email hoặc số điện thoại "   name="Email"><span class="error"></span><br/>
 
-				<!-- for phải đặt giống password đề khi ckick chuột vào chữ vẫn vieeat được -->
+				<!-- for phải đặt giống tên id đề khi ckick chuột vào chữ vẫn vieeat được -->
 
 				<label for="password">Mật khẩu </label> <br/>
-				<input type="text" id="password"  placeholder="nhập mật khẩu từ 6 đến 32 kí tự" name="password"><br/>
+				<input type="text" id="password"  placeholder="nhập mật khẩu từ 6 đến 32 kí tự" name="password"><span class="error"></span><br/>
 
 				<input type="text" id="nhaplaimatkhau" placeholder="nhập lại mật khẩu "  name=""><br/>
 
@@ -87,7 +89,7 @@
 					<option value="04">11</option>
 					<option value="04">12</option>
 				</select>
-                  <br/>
+				<br/>
 				<input type="text" id="password"  placeholder= "nơi ở hiện tại" name="sống"><br/>
 
 				<input type="radio" id="remenber" value="nam"  name="remenber"><label for="remenber"> Nam</label> 
@@ -103,7 +105,7 @@
 		</div>
 	</div>
 
-<script src="jquery-3.2.1.js"></script>
-<script src="js/js.js"></script>
+	<script src="jquery-3.2.1.js"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
