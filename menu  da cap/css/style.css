@@ -41,9 +41,9 @@ body {
 	margin: 30px;
 	line-height: 40px;
 	color: white;
-	border: 2px solid red;
-    background: blue;
-    border-radius: 3px;
+	
+    
+  
     
 }
 .li1 a {
@@ -54,13 +54,13 @@ body {
 	display: none;
 	line-height: 40px;
 	border: 1px solid red;
-	color: white;
-	background: blue;
+	background: #d6ef10;
+    width: 301px;
 
 }
 
 .box ul li a:hover {
-   	 	background: blue;
+   	 color: red;
 }
 .box ul li:hover a {
 	display: block;
@@ -93,6 +93,7 @@ body {
 }
 .inbox2 a {
 	background-color: pink;
+	  box-shadow: 10px 10px 5px #888888;
 }
 .phan3 {
 	clear: both;
@@ -263,22 +264,12 @@ body {
 	width: 50px;
 	height: 50px;
 }
+.tren  {
+	background-color: #099264;
+	width: 1480px;
+	height: 120px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
