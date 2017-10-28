@@ -1,0 +1,14 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	background-color: #099264;
+	width: 1500px;
+	height: 50px;
+	margin: auto;
+	margin-top:5px;
+}
