@@ -10,7 +10,7 @@ img{
 }
 body{
 	 
-	background-image: url("..img/anhnen.jpg");
+	background-image: url("../img/anhnen.jpg");
 	background-position: center;
 	background-repeat: repeat-y;
 	background-size: 2000px 800px;
