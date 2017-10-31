@@ -3,10 +3,16 @@ var url = new URL(window.location.href);
 
 var searchParams = new URLSearchParams(url.search);
 
-$("#ten").html("Họ và Tên : "+searchParams.get("ten"));
+$("#ten").html("Full name : "+searchParams.get("ten"));
+
+// searchParams.get("ten")); có nghĩa là lấy kết quả ở trang chủ rồi in ra ở trang đăng kí thành công
 $("#Email").html("Email : "+searchParams.get("Email"));
-$("#password").html("Mật khẩu : "+searchParams.get("password"));
-$("#ngày").html("Năm tháng ngày sinh : "+searchParams.get("sinh"));
-$("#song").html("Quê quán : "+searchParams.get("song"));
-$("#remenber").html("Giới tinh : "+searchParams.get("remenber"));
+$("#password").html("Password : "+searchParams.get("password"));
+
+$("#mk").html("Please come bac password   : "+searchParams.get("lai"));
+
+$("#lai").html("re-enter password: "+searchParams.get("lai"));
+$("#ngày").html("Birthday : "+searchParams.get("sinh"));
+$("#song").html("Home town : "+searchParams.get("song"));
+$("#remenber").html("sex: "+searchParams.get("remenber"));
 

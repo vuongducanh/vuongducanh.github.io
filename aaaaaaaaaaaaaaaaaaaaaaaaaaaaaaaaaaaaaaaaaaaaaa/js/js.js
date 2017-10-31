@@ -1,0 +1,1 @@
+$('#anh').css("color","red")

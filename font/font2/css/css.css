@@ -7,7 +7,7 @@ body {
 	padding: 0;
 	
 }
- #Email,#date,#ten,#password,#đăngnhap,#nhaplaimatkhau, #passwor{
+ #Email,#date,#ten,#password,#đăngnhap,#nhaplaimatkhau {
 	width: 425px;
 	height: 40px;
 	font-size: 20px;
@@ -31,7 +31,7 @@ input{
 
 .hang2 {
 	border: 1px solid;
-	width: 531px;
+	width: 460px;
 	background-color: #e2d9da;
 	border-radius: 20px;
     box-shadow: 10px 10px 5px #888888;
