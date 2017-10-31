@@ -1,6 +1,6 @@
 $('#form-register').on('submit',function(){
 	 var ketqua = true;
-		if($('#ten').val().trim() ==''){
+		if($('#ten').val().match(  ) == null){
 		   $('#ten').next('span').text('!error').css("color","red");
 			ketqua =  false;
 		}else{
