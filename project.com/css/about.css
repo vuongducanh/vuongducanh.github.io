@@ -4,7 +4,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	border:;
+	
 }
 .banner{
 	background-color: #099264;
@@ -20,7 +20,7 @@ input{
     margin-top: 14px;
     font-size: 30px;
     position: relative;
-    top: -29px;
+    top: 0px;
     left: 36px;	
     border:solid;
    
