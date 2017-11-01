@@ -20,7 +20,7 @@ $('#form-register').on('submit',function(){
 		}else {
 			$('#password').next('span').text('')
 		}
-		if($('#nhaplaimatkhau').val() != $('#password').val() ){
+		if($('#nhaplaimatkhau').val() != $('#password').val()){
 			$('#nhaplaimatkhau').next('span').text('!error').css("color","red");
 			ketqua = false;
 		}else {
