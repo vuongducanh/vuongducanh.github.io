@@ -17,12 +17,12 @@ body{
 input{
     width: 700px;
     height: 48px;
-    margin-top: 14px;
-    font-size: 30px;
+   
     position: relative;
     top: 0px;
     left: 36px;	
     border:solid;
+   
    
 }
 i {
@@ -34,19 +34,24 @@ i {
 i:active{
 	background-color: red;
 }
-button{
+/*button{
 	height: 48px;
-}
+
+}*/
 .banner a{
 	text-decoration: none;
-	
+}
+.img{
+ width: 60%;
+ float: left;
+}
+.login{
+ width: 40%;
+ float: left;
+ margin-top: 14px;
 }
 
-.login{
-	right: 400px;
-    position: absolute;
-    top: 19px;
-}
+
 button {
     background-color: #4CAF50;
     border: none;
@@ -58,11 +63,12 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    
 }
 #open-login{
 	margin-right: 124px; 
-
 }
-#open-registry{
-	margin-right: -85px;
+
+.container {
+    width: 80%;
 }
