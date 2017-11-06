@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	
  }
+
  * {
  	box-sizing: border-box;
  }
@@ -15,7 +16,9 @@ body {
 }
 
 
-
+img{
+	max-width: 100%;
+}
 
 h1 {
 	font-size: 70px;
@@ -25,7 +28,7 @@ h1 {
 	animation: titl 10s ease infinite;
 }
 .anh {
-	width: 1000px;
+	max-width: 1000px;
 	margin:auto;
 	text-align: center;
 
@@ -71,6 +74,13 @@ h2 {
 	animation: title 1s ease infinite; 
 	
 
+}
+@media only screen and (max-width: 500px){
+	.thumb2,.thumb1{
+		width: 100%;
+	}
+
+	
 }
 
 
