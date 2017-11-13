@@ -4,6 +4,7 @@
 body{
 	margin: 0;
 	padding: 0;
+   
 	
 }
 .banner{
@@ -34,10 +35,9 @@ i {
 i:active{
 	background-color: red;
 }
-/*button{
-	height: 48px;
-
-}*/
+.modal {
+	margin-left: 30px;
+}
 .banner a{
 	text-decoration: none;
 }
@@ -49,6 +49,7 @@ i:active{
  width: 40%;
  float: left;
  margin-top: 14px;
+
 }
 
 
@@ -65,10 +66,5 @@ button {
     cursor: pointer;
     
 }
-#open-login{
-	margin-right: 124px; 
-}
 
-.container {
-    width: 80%;
-}
+
