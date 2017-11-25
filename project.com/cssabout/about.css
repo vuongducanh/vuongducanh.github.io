@@ -13,6 +13,7 @@ body{
     height: 100vh;
     /*max-width: 100%;*/
     background-size: 100%; 
+    background-repeat: no-repeat;
 }
 
 .tenmunu{
