@@ -1,120 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Dự Án</title>
-	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<title> Demo </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="cssabout/about.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<script type="text/javascript" src="js/about.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script type="text/javascript" src="jsabout/about.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
-	<div class="trang">
-		<div id="wap">
-			<div class="banner" >
 
-				<div class="img"> 
-					<a href="#"><img src="img/logo.jpg" style="width: 117px"></a>
-
-					<input type="text" name="anh" placeholder="Nhập từ tìm kiếm">
-					<i class="fa fa-search" aria-hidden="true"></i>
-				</div> 
-
-				<div class="login"> 
-					
-					<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" >
-						Đăng nhập
-					</button >
-
-
-					<div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-									
-								</div>
-								<div class="modal-body">
-									<a href="">1234</a>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Save changes</button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="width: 122.06px;">
-						Đăng kí
+	
+	<div id="toantrang">
+		
+		<nav class="navbar navbar-default navbar-fixed-top navbar-right" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
 					</button>
 
+					
+				</div>
+				<div class="tenmunu">
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<a href="#"><img src="img/logo.png"></a>
+						<ul class="nav navbar-nav ">
 
-					<div class="modal fade" id="myModal2"  role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-									
-								</div>
-								<div class="modal-body">
-									<a href="">1234</a>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Save changes</button>
-								</div>
-							</div>
-						</div>
+							<li class="active"><a href="#">Trang chủ</a></li>
+							<li ><a href="#"  class="text-danger">Blog</a></li>
+							<li><a href="#">Đăng tin</a></li>
+							<li><a href="#">Về chúng tôi</a></li>
+						</ul>
 					</div>
 				</div>
-
 			</div>
+		</nav>
+		<div class="banner">
 		</div>
-
-		<div class="container" >
-
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1"></li>
-					<li data-target="#myCarousel" data-slide-to="2"></li>
-				</ol>
-
-
-				<div class="carousel-inner">
-					<div class="item active">
-						<img src="http://wonderads.vn/upload/thuvienanh/1506505756banner-trang-chu31.jpg" style="width:100%;">
-					</div>
-
-					<div class="item">
-						<img src="http://wonderads.vn/upload/thuvienanh/1506505749banner-trang-chu2.jpg" style="width: 100%;">
-					</div>
-
-					<div class="item">
-						<img src="http://wonderads.vn/upload/thuvienanh/1506505749banner-trang-chu2.jpg" style="width:100%;">
-					</div>
-				</div>
-
-
-				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#myCarousel" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-		</div>
-		
-
+	
 	</div>
 
-
-     
 	<script src="jquery-3.2.1.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
