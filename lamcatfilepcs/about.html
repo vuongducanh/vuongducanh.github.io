@@ -5,7 +5,7 @@
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<script type="text/javascript" src="js/js.js"></script>
-	<link rel="stylesheet" type="text/css" href="font-awesome">
+
 	<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
 </head>
 <body>
@@ -24,15 +24,14 @@
 
 				<p class="sohocvien"> Học viên </p>
 
-				<input type="button" value="ketqua"  onclick="sotien()">
-
 				<div  id="ketquasinhvien"  style=" font-size: 61pt; color: rgb(0,175,239);" ></div>
 
 
-				<img src="img/muiten.jpg" class="muiten">
+				<img  src="img/muiten.jpg" class="muiten"  type ="button"   onclick="sotien()"  >
 
 
 				<h1 class="cv">CV gửi về : cuong@techmaster</h1>
+
 				<p class="phone" style="color: white; position: absolute; bottom: 103px; right: -596px; font-size: 30pt;">0902209011</p>
 
 				<img src="img/phone.jpg" class="anhphone" "> 
@@ -50,9 +49,18 @@
 	</div>
 
 
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+	<script src="jquery-3.2.1.js"></script>
 	<!-- <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
+	
 
+<!-- <script >
+$(document).keyup(function(e) {
+  if (e.keyCode == 13) { 
+  	
+  }   
+  
+});
+</script> -->
 	
 	
 </body>
