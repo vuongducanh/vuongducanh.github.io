@@ -25,22 +25,30 @@ body{
     top: 45px;
     left: 0px;
 }
-h3,h1,h2{
+h1{
 	color: white;
-	 
-	 margin-top: 67px;
 }
-	
-
-h2{
-	
+.tuyen_dung {
+	margin-top: 80px;
+}
+.luong{
+	margin-top: 76px;
+	position: relative;
+}
+.nhap{
+	position: absolute;
+	    top: 277px;
+    left: 125px;
+}
+.cv{
+	margin-top: 70px;
 }
 
 input{
 	margin-top: 70px;
 	width: 200px;
 	height: 200px;
-	box-shadow: 0px 10px 5px #888888;
+	box-shadow: 0px 10px 5px rgb(230,230,230);
 	font-size: 173px;
 }
 .img2 img{
@@ -57,19 +65,23 @@ input{
 }
 
 @font-face{
-    font-family: h1;
-    src: url(Quicksand_Light_Obliq.otf);
+    font-family: tuyendung;
+    src: url(Quicksand_Light.otf);
+    font-size: 34.38pt;
 }
-h1{
-	font-family: h1;
-	font-size: 34.38pt;
+.tuyen_dung{
+	font-family: tuyendung;
+	
 }
 @font-face{
-	font-family: h2;
+	font-family: sinh;
 	src:url(Quicksand_Bold.otf);
-	font-size: 31.38pt;
+	font-size: 34.38pt;
 }
-h2{
-	font-family: h2;
+.luong{
+	font-family: sinh;	
+}
+.sinhvien{
+	font-family: sinh;
 }
 
