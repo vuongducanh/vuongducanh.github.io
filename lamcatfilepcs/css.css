@@ -9,8 +9,8 @@ body{
 	background-color: rgb(0,175,239);
 	width: 1367px;
 	height: 768px;
-	/*clip-path: polygon(0 0, 100% 0, 100% 50%, 0 70%);
-*/
+	/*clip-path: polygon(0 0, 100% 0, 100% 50%, 0 70%);*/
+
 	margin: auto;
 }
 
@@ -37,8 +37,10 @@ h1{
 }
 .nhap{
 	position: absolute;
-	    top: 277px;
+	    top: 290px;
     left: 125px;
+    width:400px;
+
 }
 .cv{
 	margin-top: 70px;
@@ -49,7 +51,16 @@ input{
 	width: 200px;
 	height: 200px;
 	box-shadow: 0px 10px 5px rgb(230,230,230);
-	font-size: 173px;
+	background-color: white;
+}
+#ketquasinhvien{
+	 width: 200px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 413px;
+    left: 400px;
+    box-shadow:  0px 10px 5px rgb(230,230,230);
 }
 .img2 img{
     position: absolute;
@@ -71,17 +82,43 @@ input{
 }
 .tuyen_dung{
 	font-family: tuyendung;
-	
 }
 @font-face{
-	font-family: sinh;
+	font-family: phu_trach_sinh_vien_luong_cv;
 	src:url(Quicksand_Bold.otf);
 	font-size: 34.38pt;
 }
-.luong{
-	font-family: sinh;	
-}
-.sinhvien{
-	font-family: sinh;
+.cv,.luong,.sinhvien,.phone,#ketquasinhvien,#input1,.sohocvien{
+	font-family: phu_trach_sinh_vien_luong_cv;
 }
 
+@font-face{
+	font-family: nhap_so_sinh_vien_o_duoi;
+	src:url(Quicksand_Bold.otf);
+	src: url(Quicksand_Light.otf);
+}
+.nhap{
+	font-family: nhap_so_sinh_vien_o_duoi;
+}
+.muiten{
+	width: 95px;
+	height: 38px;
+	position: absolute;
+	top: 499px;
+    left: 247px;
+}
+.anhphone{
+	width: 93px;
+	height: 93px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 83px;
+    right: -318px;
+}
+.sohocvien{
+	position: absolute;
+    bottom: 113px;
+    left: 14px;
+    font-size: 39px;
+    color:  rgb(0,175,239);
+}
