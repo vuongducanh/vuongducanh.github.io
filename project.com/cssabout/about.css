@@ -1,34 +1,50 @@
 *{
 	box-sizing: border-box;
+  -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
 }
 body{
 	margin: 0;
 	padding: 0;
+  overflow-x:hidden;
    
 	
 }
+li a {
+  color: yellow;
+}
+
  div .banner{
-    background-image:  url("../img/bana1.jpg")  ;
+    background-image:  url("../img/bana1.jpg") ;
     /*linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5))*/ 
     height: 100vh;
     /*max-width: 100%;*/
     background-size: 100%; 
     background-repeat: no-repeat;
 }
+}
 @media screen and (max-width: 600px) {
     div .banner {
         background-size: auto;
         background-position: center;
     }
+
 }
 
 .tenmunu{
   margin-top: 30px;
   position: relative;
+
 }
 .tenmunu img{
-    
+    float: right;
+    margin-right: 57px;
     width: 102px;
+}
+@media all and (max-width: 600px){
+  .logoimg{
+       background-color: yellow;
+  }
 }
 .navbar {
   opacity: 0.5;
@@ -48,29 +64,9 @@ body{
   text-align: center; 
   
 }
-.section-header{
-     animation: anh  1s ; 
-}
-@keyframes anh{
-     0% {
-        transform: translateX(0px)
-     }
-     25% {
-        transform: translateX(25px)
-     }
-     50% {
-        transform: translateX(50px)
-     }
-     75% {
-        transform: translateX(75px)
-     }
-     100% {
-      transform: translateX(100px)
-}
-}
+
 #contact{
-    
-    font-family: 'Teko', sans-serif;
+  font-family: 'Teko', sans-serif;
   padding-top: 60px;
   width: 100%;
   width: 100vw;
@@ -79,9 +75,10 @@ body{
   background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color : #fff;  
-  margin-top: 100px;  
+  margin-top: 100px;
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateX(-100%);  
+ 
 }
 .contact-section{
   padding-top: 40px;

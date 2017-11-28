@@ -15,8 +15,8 @@
 	
 	<link rel="stylesheet" type="text/css" href="cssabout/about.css">
 	<link rel="stylesheet" type="text/css" href="cssabout/csshai.css">
-    <link rel="stylesheet" type="text/css" href="cssabout/longin.css">
-    <!-- hêt phần css  -->
+	<link rel="stylesheet" type="text/css" href="cssabout/longin.css">
+	<!-- hêt phần css  -->
 
 </head>
 <body>
@@ -26,7 +26,7 @@
 
 		<!-- bắt đầu mune  -->
 		<nav class="navbar navbar-default navbar-fixed-top navbar-right" role="navigation">
-			<div class="container-fluid">
+			<div class="container-fluid" style=" background-color: #494d63;">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span>
@@ -37,11 +37,10 @@
 				</div>    <!--  cái   thẻ class = "button-head "này à ở màn hình điên thoại thì nó hiện lên  -->
 
 
-				<div class="tenmunu">
+				<div class="tenmenu">
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<a href="about.html"><img src="img/logo.png"></a>
+						<a href="about.html" class="logoimg"><img src="img/logo.png"></a>
 						<ul class="nav navbar-nav ">
-
 							<li class="active"><a href="#">Trang chủ</a></li>
 							<li ><a href="#"  class="text-danger">Blog</a></li>
 							<li><a href="#">Đăng tin</a></li>
@@ -51,19 +50,27 @@
 				</div>
 			</div>
 		</nav>
+		
+		<div class="search-wrapper">
+			<div class="input-holder">
+				<input type="text" class="search-input" placeholder="Type to search" />
+				<button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+			</div>
+			<span class="close" onclick="searchToggle(this, event);"></span>
+		</div>
 		<!-- hết phần muenu  -->
 
-          
 
 
-        <!-- phần background img -->
+
+		<!-- phần background img -->
 		<div class="banner" >
 		</div>
 		<!-- hết phần background img -->
 
 
 		<!-- phần đăng nhập  -->
-	<section id="contact">
+		<section id="contact">
 			<div class="section-content">
 				<h1 class="section-header"> Hãy <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s">Liên Hệ Với chúng tôi</span></h1>
 				
@@ -72,29 +79,29 @@
 			<div class="container">
 				<form>
 					<div class="col-md-6 form-line">
-			  			<div class="form-group">
-			  				<label for="exampleInputUsername">Tên bạn</label>
-					    	<input type="text" class="form-control" id="" placeholder=" Enter Name">
-				  		</div>
-				  		<div class="form-group">
-					    	<label for="exampleInputEmail">Email</label>
-					    	<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
-					  	</div>	
-					  	<div class="form-group">
-					    	<label for="telephone">Số điện thoại</label>
-					    	<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
-			  			</div>
-			  		</div>
-			  		<div class="col-md-6">
-			  			<div class="form-group">
-			  				<label for ="description"> Nhắn tin</label>
-			  			 	<textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
-			  			</div>
-			  			<div>
+						<div class="form-group">
+							<label for="exampleInputUsername">Tên bạn</label>
+							<input type="text" class="form-control" id="" placeholder=" Enter Name">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail">Email</label>
+							<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+						</div>	
+						<div class="form-group">
+							<label for="telephone">Số điện thoại</label>
+							<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label for ="description"> Nhắn tin</label>
+							<textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+						</div>
+						<div>
 
-			  				<button type="button" class="btn btn-default submit">Gửi tin</button>
-			  			</div>
-			  			
+							<button type="button" class="btn btn-default submit">Gửi tin</button>
+						</div>
+
 					</div>
 				</form>
 			</div>
@@ -106,7 +113,7 @@
 		
 		<!-- hết phần animation -->
 
-     
+
 
 
 	</div>
