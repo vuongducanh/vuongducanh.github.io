@@ -4,18 +4,27 @@
 	<title> Demo </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" type="text/css" href="cssabout/about.css">
+	
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<script type="text/javascript" src="jsabout/about.js"></script>
+	<!-- hết  phần thư viện font -->
+
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- hết  phần css cho bootstrap -->
+	
+	
+	<link rel="stylesheet" type="text/css" href="cssabout/about.css">
+	<link rel="stylesheet" type="text/css" href="cssabout/csshai.css">
+    <link rel="stylesheet" type="text/css" href="cssabout/longin.css">
+    <!-- hêt phần css  -->
 
 </head>
 <body>
 
 	
 	<div id="toantrang">
-		
+
+		<!-- bắt đầu mune  -->
 		<nav class="navbar navbar-default navbar-fixed-top navbar-right" role="navigation">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -24,13 +33,13 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-					</button>
+					</button>           
+				</div>    <!--  cái   thẻ class = "button-head "này à ở màn hình điên thoại thì nó hiện lên  -->
 
-					
-				</div>
+
 				<div class="tenmunu">
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<a href="#"><img src="img/logo.png"></a>
+						<a href="about.html"><img src="img/logo.png"></a>
 						<ul class="nav navbar-nav ">
 
 							<li class="active"><a href="#">Trang chủ</a></li>
@@ -42,13 +51,68 @@
 				</div>
 			</div>
 		</nav>
+		<!-- hết phần muenu  -->
+
+          
+
+
+        <!-- phần background img -->
 		<div class="banner" >
 		</div>
+		<!-- hết phần background img -->
+
+
+		<!-- phần đăng nhập  -->
+	<section id="contact">
+			<div class="section-content">
+				<h1 class="section-header"> Hãy <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s">Liên Hệ Với chúng tôi</span></h1>
+				
+			</div>
+			
+			<div class="container">
+				<form>
+					<div class="col-md-6 form-line">
+			  			<div class="form-group">
+			  				<label for="exampleInputUsername">Tên bạn</label>
+					    	<input type="text" class="form-control" id="" placeholder=" Enter Name">
+				  		</div>
+				  		<div class="form-group">
+					    	<label for="exampleInputEmail">Email</label>
+					    	<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+					  	</div>	
+					  	<div class="form-group">
+					    	<label for="telephone">Số điện thoại</label>
+					    	<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
+			  			</div>
+			  		</div>
+			  		<div class="col-md-6">
+			  			<div class="form-group">
+			  				<label for ="description"> Nhắn tin</label>
+			  			 	<textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+			  			</div>
+			  			<div>
+
+			  				<button type="button" class="btn btn-default submit">Gửi tin</button>
+			  			</div>
+			  			
+					</div>
+				</form>
+			</div>
+		</section>
+		<!-- hết phần đăng nhập -->
+
 		
+		<!-- phần animation -->
+		
+		<!-- hết phần animation -->
+
+     
+
 
 	</div>
-
 	<script src="jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="jsabout/about.js"></script>
+	<script type="text/javascript" src="jsabout/about2.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
