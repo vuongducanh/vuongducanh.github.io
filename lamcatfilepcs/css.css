@@ -12,7 +12,6 @@ body{
 	width: 1367px;
 	height: 768px;
 	border: 1px solid;
-
 	margin: auto;
 }
 
@@ -103,17 +102,10 @@ input{
 	top: 499px;
     left: 247px;
 }
-.anhphone{
-	width: 93px;
-	height: 93px;
-	border-radius: 50%;
-	position: absolute;
-	bottom: 83px;
-    right: -318px;
-}
+
 .sohocvien{
 	position: absolute;
-       bottom: 126px;
+     bottom: 126px;
     left: 54px;
     font-size: 22px;
     color: #0047b1;
@@ -149,6 +141,30 @@ input{
     left: 702px;
     box-shadow: 0px 10px 5px rgb(230,230,230);
 }
+@media all and (max-width: 600px){
+    body{
+
+    }
+    .demo{
+        border: none;
+    background: url("img/Rectangle1copy.png");
+    background-repeat: no-repeat;
+    width: 1367px;
+    height: 768px;
+   
+    margin: auto;
+
+    }
+    .imglogo{
+       margin-left: -57px;
+       width: 984px;
+       height: 235px;
+    }
+    .nhap{
+
+    }
+}
+
 .phonering-alo-phone.phonering-alo-static {
     opacity:.6
 }
