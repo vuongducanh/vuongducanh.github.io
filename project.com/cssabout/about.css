@@ -10,9 +10,6 @@ body{
    
 	
 }
-li a {
-  color: yellow;
-}
 
  div .banner{
     background-image:  url("../img/bana1.jpg") ;
@@ -23,43 +20,20 @@ li a {
     background-repeat: no-repeat;
 }
 }
-@media screen and (max-width: 600px) {
-    div .banner {
-        background-size: auto;
-        background-position: center;
-    }
 
-}
 
-.tenmunu{
+.tenmenu{
   margin-top: 30px;
   position: relative;
 
 }
-img {
+ .tenmenu img {
   float: right;
   margin-right: 60px;
 }
 
-@media screen and (max-width: 1000px){
-    .logoimg{
-   
-    width: 104px;
-    height: 49px;
-   
 
-  }
-}
-@media screen and (max-width: 600px){
-    .logoimg{
-    position: absolute;
-    width: 104px;
-    height: 49px;
-    top: 1px;
-    left: 0;
 
-  }
-}
 .navbar {
   opacity: 0.5;
   
@@ -132,14 +106,7 @@ textarea.form-control {
 }
 
 
-
-
-
-
-
-
-
-
+/*đây là phần style cho cái anh những sản phẩm tiêu biểu*/
 .gallery-title
 {
     font-size: 36px;
@@ -192,6 +159,6 @@ textarea.form-control {
     margin-bottom: 30px;
 }
 
-
+/* hết phần css cho ảnh tiêu biểu*/
  
 

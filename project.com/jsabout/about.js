@@ -15,6 +15,10 @@ $(function(){
      });
 });
 
+// hết phần animation cho khối đăng nhập và nhắn tin
+
+
+// phàn js cho hiệu ứng ô tìm kiếm
 $(function(){
      $(window).on('scroll',function(){
       var a = $('.search-wrapper')[0].getBoundingClientRect().top;   //lấy thông số đối tượng đấy trái, trên, rộng và chiều cao.
@@ -31,8 +35,10 @@ $(function(){
 
      });
 });
-// hết phần js cho hiệu ứng anomation
+// hết phần js cho hiệu ứng anomation của khung tìm kiếm
 
+
+// bắt đầu phần hiệu ứng của khung những sản phẩm tiêu biểu
 function searchToggle(obj, evt){
     var container = $(obj).closest('.search-wrapper');
         if(!container.hasClass('active')){
@@ -45,34 +51,8 @@ function searchToggle(obj, evt){
             container.find('.search-input').val('');
         }
 }
+// hất phần jc cho sản phẩm tiêu biểu
 
-
-$(document).ready(function(){
-
-    $(".filter-button").click(function(){
-        var value = $(this).attr('data-filter');
-        
-        if(value == "all")
-        {
-            //$('.filter').removeClass('hidden');
-            $('.filter').show('1000');
-        }
-        else
-        {
-//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-            
-        }
-    });
-    
-    if ($(".filter-button").removeClass("active")) {
-$(this).removeClass("active");
-}
-$(this).addClass("active");
-
-});
 
 
 
