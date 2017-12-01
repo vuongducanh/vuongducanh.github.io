@@ -11,7 +11,7 @@
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- hết  phần css cho bootstrap -->
-	
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">  <!-- đây là link fron chữ -->
 	
 	<link rel="stylesheet" type="text/css" href="cssabout/about.css">
 	<link rel="stylesheet" type="text/css" href="cssabout/csshai.css">
@@ -27,7 +27,7 @@
 
 		<!-- bắt đầu mune  -->
 		<nav class="navbar navbar-default navbar-fixed-top navbar-right" role="navigation">
-			<div class="container-fluid" style=" background-color: #494d63;">
+			<div class="container-fluid" >
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span>
@@ -46,20 +46,30 @@
 							<li ><a href="#"  class="text-danger">Blog</a></li>
 							<li><a href="#">Thời trang cho nam</a></li>
 							<li><a href="#">Thời trang cho nữ</a></li>
+							<div class="row">
+
+								<div class="col-lg-6">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Search for..." >
+										<span class="input-group-btn">
+											<button class="btn btn-secondary" type="button">Go!</button>
+										</span>
+									</div>
+								</div>
+
+							</div>
+
+							
+
 						</ul>
 					</div>
 				</div>
 			</div>
 		</nav>
 		
-		<div class="search-wrapper">
-			<div class="input-holder">
-				<input type="text" class="search-input" placeholder="Type to search" />
-				<button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
-			</div>
-			<span class="close" onclick="searchToggle(this, event);"></span>
-		</div>
+		
 		<!-- hết phần muenu  -->
+
 
 
 
@@ -70,13 +80,15 @@
 		<!-- hết phần background img -->
 
 
+
+
 		<!-- phần đăng nhập  -->
 		<section id="contact">
 			<div class="section-content">
-				<h1 class="section-header"> <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s">Đăng nhập ngay email của bạn</span></h1>
-				
+				<h1 class="section-header"> <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Email của bạn</span></h1>
+
 			</div>
-			
+
 			<div class="container">
 				<form>
 					<div class="col-md-6 form-line">
@@ -109,14 +121,14 @@
 		</section>
 		<!-- hết phần đăng nhập -->
 
-		
-		
+
+
 		<!-- đây là phần sản phẩm tieu biểu -->
 		<div class="container">
 			<div class="row">
 
 				<div align="center">
-					<h1 style="color: white;">Sản phẩm tiêu biểu</h1>
+					<h1 class="sptieubieu"> Sản phẩm tiêu biểu</h1>
 				</div>
 				<br/>
 
@@ -165,7 +177,7 @@
 					<a href="#"><img src="imgabout/sp9.jpg" class="img-responsive"></a>
 				</div>
 
-				
+
 			</div>
 		</div>
 		<!-- hết phần sản phẩm tiêu biểu -->

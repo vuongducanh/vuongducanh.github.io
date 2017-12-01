@@ -1,6 +1,4 @@
 
-
-
 @media screen and (min-width: 768px){
   .logoimg{
     width: 138px;
@@ -8,11 +6,16 @@
     top: -16px;
     right: -14px;
   }
- 
-  .search-wrapper{
-  
-  }
+  .col-lg-6 {
+    width: 78%;
 }
+.content-header{
+	
+	top: 0;
+	left: 30px;
+}
+}
+
 
 @media screen and (max-width: 768px){
   
@@ -21,7 +24,21 @@
     top: -18px;
     left: 13px;
   }
+ .container{
+ 	  
+ }
+ .content-header{
+ 	position: absolute;
+    top: 0;
+    left: 66px;
+ }
   
 }
 
+
+@media (min-width: 1200px){
+.col-lg-6 {
+    width: 40%;
+}
+}
 

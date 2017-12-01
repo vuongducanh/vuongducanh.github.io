@@ -11,6 +11,23 @@ body{
 }
 
 
+
+.sptieubieu{font-family: 'Indie Flower', cursive;}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #C9E4D6;
+    
+}
+.navbar{
+    background-color: #111111;
+    color: white;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: yellow;
+}
+
  div .banner{
     background-image:  url("../img/bana1.jpg") ;
     /*linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5))*/ 
@@ -161,4 +178,6 @@ textarea.form-control {
 
 /* hết phần css cho ảnh tiêu biểu*/
  
-
+.col-lg-6 {
+  margin-top: 8px;    /* -->đây là phần css cho thẻ tìm kiếm*/
+}
