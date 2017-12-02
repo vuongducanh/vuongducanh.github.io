@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+body{
+	background-color: #f88d40;
+}
+.text em{
+  
+}
+.noidung{
+	margin:auto;
+    width: 1000px;
+    height: 2000px;
+    background-color: white;
+}
+.noidung2{
+	margin:auto;
+	width: 920px;
+	position: relative;
+}
+
+h1 span a{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-decoration: none;
+	width: 700px;
+	height: 36px;
+}
+#text{
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+.banner img{
+	width: 920px;
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+
+}
+.nav a:hover{
+	background-color: red;
+}
+.nav{
+	background-color: #000;
+	height: 50px;
+	margin-top: -4px;
+}
