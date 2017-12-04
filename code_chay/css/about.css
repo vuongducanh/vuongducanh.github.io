@@ -1,4 +1,4 @@
-*{
+/**{
 	box-sizing: border-box;
 	 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
@@ -20,13 +20,24 @@ body{
 	width: 920px;
 	position: relative;
 }
-
-h1 span a{
-	font-family: 'Roboto Condensed', sans-serif;
-	text-decoration: none;
-	width: 700px;
-	height: 36px;
+.nav{
+font-family: sans-serif;
+  color: #333;
 }
+.nav nav ul {
+  background: #1F568B;
+  list-style-type: none;
+  text-align: center;
+}
+.nav nav ul li{
+	 color: #f1f1f1;
+  float: left;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+}
+
+
 #text{
 	position: absolute;
 	top: 20px;
@@ -35,17 +46,8 @@ h1 span a{
 .banner img{
 	width: 920px;
 }
-.nav a{
-	text-decoration: none;
-	color: white;
-	font-size: 18px;
+	
 
-}
-.nav a:hover{
-	background-color: red;
-}
-.nav{
-	background-color: #000;
-	height: 50px;
-	margin-top: -4px;
-}
+
+
+*/

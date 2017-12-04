@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+.wapper{
+    width: 1000px;
+    height: 30px;
+    background-color:  pink;
+    margin: auto;
+}
+.title{
+
+}
+.describe{
+	
+}
