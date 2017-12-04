@@ -26,6 +26,7 @@ body{
 }
 .navbar-default .navbar-nav>li>a {
     color: yellow;
+    margin-top: -22px;
 }
 
  div .banner{
@@ -36,7 +37,7 @@ body{
     background-size: 100%; 
     background-repeat: no-repeat;
 }
-}
+
 
 
 .tenmenu{
@@ -121,63 +122,14 @@ textarea.form-control {
   color: #fff;
 
 }
-
-
-/*đây là phần style cho cái anh những sản phẩm tiêu biểu*/
-.gallery-title
-{
-    font-size: 36px;
-    color: #42B32F;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 70px;
-}
-.gallery-title:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #5e5e5e;
-}
-.filter-button
-{
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #42B32F;
-    margin-bottom: 30px;
-
-}
-.filter-button:hover
-{
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #42B32F;
-
-}
-.btn-default:active .filter-button:active
-{
-    background-color: #42B32F;
-    color: white;
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  margin-top: -16px;
 }
 
-.port-image
-{
-    width: 100%;
-}
+  
+  
 
-.gallery_product
-{
-    margin-bottom: 30px;
-}
-
-/* hết phần css cho ảnh tiêu biểu*/
  
-.col-lg-6 {
-  margin-top: 8px;    /* -->đây là phần css cho thẻ tìm kiếm*/
-}

@@ -1,3 +1,5 @@
+
+/*  đây là css cho thẻ sản phẩm tiêu biểu  */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
 body{
     font-family: 'Quicksand', sans-serif;
@@ -11,6 +13,8 @@ h6.description{
 	color: #999;
 	border-bottom: 1px solid rgba(0, 0, 0,0.1);
 	padding-bottom: 5px;
+	font-size: 30px;
+	text-align: center;
 }
 .profile{
 	margin-top: 25px;
@@ -97,3 +101,4 @@ a:hover{
 i.red{
     color:#BC0213;
 }
+/* hết phần sản phẩm tiêu biểu	 */
