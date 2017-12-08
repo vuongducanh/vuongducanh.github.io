@@ -7,7 +7,18 @@ body{
 	margin: 0;
 	padding: 0;
   overflow-x:hidden;
-  
+  position: relative;
+}
+.img-fly{
+  position: absolute;
+ 
+  z-index: 999999999;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 1px solid red;
+  transition: all 1s ease;
 }
  div .banner{
     background-image:  url("../img/bana1.jpg") ;
@@ -111,16 +122,3 @@ textarea.form-control {
 /* het phan css  cho dăng nhập Email  */
 
 
-/* đây là css cho thẻ tìm kiếm */
-.custom-search input {
-	background: rgba(255, 255, 255, 1) url("https://image.flaticon.com/icons/svg/126/126474.svg") no-repeat scroll right center / 30px 18px;
-	padding-right: 20px;
-	transition: all 0.5s ease 0s;
-	width: 30px;
-	float:right;
-}
-.custom-search input:focus {
-	width: 100%;
-}
-
-/* hết css cho thẻ tìm kiếm */
