@@ -1,11 +1,5 @@
-
 @media screen and (min-width: 768px){
-  .logoimg{
-    width: 138px;
-    position: absolute;
-    top: -45px;
-    right: -14px;
-  }
+  
   .col-lg-6 {
     width: 78%;
 }
@@ -19,14 +13,9 @@
 
 @media screen and (max-width: 768px){
   
-  .logoimg{
-    position: absolute;
-    top: -18px;
-    left: 13px;
-  }
- .container{
- 	  
- }
+  
+ 
+ 
  .content-header{
    	position: absolute;
     top: 0;
@@ -35,9 +24,3 @@
   
 }
 
-
-@media (min-width: 1200px){
-.col-lg-6 {
-    width: 40%;
-}
-}

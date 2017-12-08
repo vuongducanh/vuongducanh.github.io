@@ -9,26 +9,6 @@ body{
   overflow-x:hidden;
   
 }
-
-
-
-.sptieubieu{font-family: 'Indie Flower', cursive;}
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    margin-right: -15px;
-    margin-left: -15px;
-    background-color: #C9E4D6;
-    
-}
-.navbar{
-    background-color: #111111;
-    color: white;
-
-}
-.navbar-default .navbar-nav>li>a {
-    color: yellow;
-    margin-top: -22px;
-}
-
  div .banner{
     background-image:  url("../img/bana1.jpg") ;
     /*linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5))*/ 
@@ -37,40 +17,36 @@ body{
     background-size: 100%; 
     background-repeat: no-repeat;
 }
-
-
-
-.tenmenu{
-  margin-top: 30px;
-  position: relative;
-
-}
- .tenmenu img {
-  float: right;
-  margin-right: 60px;
-}
-
-
-
+/* bắt đầu css cho menu */
 .navbar {
-  opacity: 0.5;
+ 
+  margin-bottom: 0px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
   
 }
-.navbar-nav li:hover{
-   background-color: #ACFCD9;
+.nav>li>a>img {
+ 
+  width: 30px;
+  margin-top: -8px;
+}
+.navbar-default {
+  background-color: white;
+}
+ span img {
+  vertical-align: middle;
+  width: 150px;
+}
+.rowinput{
+  margin-top: -48px;
+  margin-right: 513px;
 }
 
-.content-header{
-  font-family: 'Oleo Script', cursive;
-  color:#fcc500;
-  font-size: 45px;
-}
+/* hết css cho menu  */
 
-.section-content{
-  text-align: center; 
-  
-}
 
+/*  dy la phan css cho dang nhap Email */
 #contact{
   font-family: 'Teko', sans-serif;
   padding-top: 60px;
@@ -122,14 +98,29 @@ textarea.form-control {
   color: #fff;
 
 }
-.input-group {
-  position: relative;
-  display: table;
-  border-collapse: separate;
-  margin-top: -16px;
+
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
 }
 
-  
-  
+.section-content{
+  text-align: center; 
+}
+/* het phan css  cho dăng nhập Email  */
 
- 
+
+/* đây là css cho thẻ tìm kiếm */
+.custom-search input {
+	background: rgba(255, 255, 255, 1) url("https://image.flaticon.com/icons/svg/126/126474.svg") no-repeat scroll right center / 30px 18px;
+	padding-right: 20px;
+	transition: all 0.5s ease 0s;
+	width: 30px;
+	float:right;
+}
+.custom-search input:focus {
+	width: 100%;
+}
+
+/* hết css cho thẻ tìm kiếm */

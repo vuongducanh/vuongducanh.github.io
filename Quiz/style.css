@@ -1,0 +1,54 @@
+body{
+    background-color: #eeeeee;
+}
+p{
+    font-size: 30px;
+    
+}
+.grid{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;     /* top,right,bottom,left   */
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #cbcbcb;
+
+}
+.choilai{
+    background-color: #882121;
+    margin: auto;
+    width: 343px;
+    height: 500px;
+    font-size: 94px;
+    box-shadow: 18px 5px 20px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(224, 210, 210);
+     background-color: rgb(109, 36, 36);
+     border-radius: 30px;
+     height: 72px;
+}
+.buttons{
+    margin-top: 30px;
+}
+#btn0,#btn1,#btn2,#btn3{
+    background-color: rgb(20, 187, 209);
+    width: 258px;
+    height: 55px;
+    font-size: 30px;
+    color: #fff;
+    border: 1px solid #11bb33;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+#progress{
+    font-size: 40px;
+}
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+       background-color: red;
+}

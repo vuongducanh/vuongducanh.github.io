@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title> Demo </title>
+	<title> Thời trang .net  </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<!-- hết  phần thư viện font -->
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- hết  phần css cho bootstrap -->
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> <!-- đây là link fron chữ -->
+
 	
+
 
 
 	<link rel="stylesheet" type="text/css" href="cssabout/about.css">
@@ -22,51 +24,59 @@
 	<!-- hêt phần css  -->
 
 </head>
+
 <body>
 
-	
+
 	<div id="toantrang">
-
+			
 		<!-- bắt đầu mune  -->
-		<nav class="navbar navbar-default navbar-fixed-top navbar-right" role="navigation">
-			<div class="container-fluid" >
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>           
-				</div>    <!--  cái   thẻ class = "button-head "này à ở màn hình điên thoại thì nó hiện lên  -->
-
-
-				<div class="tenmenu">
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<a href="about.html" ><img src="img/logo.png" class="logoimg" ></a>
-						<ul class="nav navbar-nav ">
-							<li class="active"><a href="#">Trang chủ</a></li>
-							<li ><a href="#"  class="text-danger">Blog</a></li>
-							<li><a href="#">Thời trang cho nam</a></li>
-							<li><a href="#">Thời trang cho nữ</a></li>
-							<div class="row">
-
-								<div class="col-lg-6">
-									<div class="input-group">
-										<input type="text" class="form-control" placeholder="Search for..." >
-										<span class="input-group-btn">
-											<button class="btn btn-secondary" type="button">Go!</button>
-										</span>
-									</div>
-								</div>
-
-							</div>
+		<nav class="navbar navbar-default">
+				<div class="container-fluid">
+				  <!-- Brand and toggle get grouped for better mobile display -->
+				  <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					  <span class="sr-only">Toggle navigation</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+					
+				  </div>
+				  <!-- Collect the nav links, forms, and other content for toggling -->
+				  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-left">
+								<span class="logonav"><a href="#"><img src="img/logo.png" alt="logo"></a></span>
+							
 						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>
-		
-		
+					
+					<ul class="nav navbar-nav navbar-right" style="width:500px;">
+				       
+					  <li><a class="navbar-brand" href="#">Trang chủ</a></li>
+					  <li><a href="#">Blog</a></li>
+					  <li><a href="#">Đồ Nam</a></li>
+					  <li><a href="#"> Đồ nữ</a></li>
+					  <li class="logocart"><a href="#"><img src="img/giohang.png" alt="cart"></a></li>
+					
+					</ul>
+					
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bg-black">
+									<div class="rowinput">
+										<div class="col-lg-3 col-md-3 pull-right">
+											<div class="">
+												<div class="custom-search">
+													<input type="text" class="form-control" placeholder="search...">
+												</div>
+											</div>
+										</div>
+									</div>            	
+								</div>
+							</div>
+				  </div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			  </nav>
+
 		<!-- hết phần muenu  -->
 
 
@@ -74,57 +84,19 @@
 
 
 		<!-- phần background img -->
-		<div class="banner" >
-		</div>
+		<div class="banner">
+			</div>
 		<!-- hết phần background img -->
 
 
 
 
-		<!-- phần đăng nhập  -->
-		<section id="contact">
-			<div class="section-content">
-				<h1 class="section-header"> <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Email của bạn</span></h1>
-
-			</div>
-
-			<div class="container">
-				<form>
-					<div class="col-md-6 form-line">
-						<div class="form-group">
-							<label for="exampleInputUsername">Tên bạn</label>
-							<input type="text" class="form-control" id="" placeholder=" Enter Name">
-						</div>
-						<div class="form-group">
-							<label for="exampleInputEmail">Email</label>
-							<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
-						</div>	
-						<div class="form-group">
-							<label for="telephone">Số điện thoại</label>
-							<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="form-group">
-							<label for ="description" class="nhantin"> Nhắn tin</label>
-							<textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
-						</div>
-						<div>
-
-							<button type="button" class="btn btn-default submit">Gửi tin</button>
-						</div>
-
-					</div>
-				</form>
-			</div>
-		</section>
-		<!-- hết phần đăng nhập -->
+		
 
 
 
-         
 
-         <!-- bắt đầu phần hinh anh để thêm vào giỏ hàng -->
+		<!-- bắt đầu phần hinh anh để thêm vào giỏ hàng -->
 		<section class="team">
 			<div class="container">
 				<div class="row">
@@ -134,13 +106,13 @@
 							<div class="row pt-md">
 								<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
 									<div class="img-box">
-										<img src="imgabout/spthu.jpg"  class="img-responsive">
+										<img src="imgabout/spthu.jpg" class="img-responsive">
 										<ul class="text-center">
-										    <button> Thêm Giỏ hàng</button>
+											<button> Thêm Giỏ hàng</button>
 										</ul>
 									</div>
 									<h1>Mẫu mới</h1>
-									<h2 >chất liệu tốt</h2>
+									<h2>chất liệu tốt</h2>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 								</div>
 								<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
@@ -270,12 +242,61 @@
 				</div>
 			</div>
 		</section>
-		 <!-- phần hinh anh để thêm vào giỏ hàng  -->
+
+
+		<!-- phần hinh anh để thêm vào giỏ hàng  -->
+			<!-- phần đăng nhập  -->
+			<section id="contact">
+					<div class="section-content">
+						<h1 class="section-header">
+							<span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Email của bạn</span>
+						</h1>
+
+					</div>
+
+					<div class="container">
+						<form>
+							<div class="col-md-6 form-line">
+								<div class="form-group">
+									<label for="exampleInputUsername">Tên bạn</label>
+									<input type="text" class="form-control" id="" placeholder=" Enter Name">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputEmail">Email</label>
+									<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+								</div>
+								<div class="form-group">
+									<label for="telephone">Số điện thoại</label>
+									<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="description" class="nhantin"> Nhắn tin</label>
+									<textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+								</div>
+								<div>
+
+									<button type="button" class="btn btn-default submit">Gửi tin</button>
+								</div>
+
+							</div>
+						</form>
+					</div>
+				</section>
+				<!-- hết phần đăng nhập -->
 
 	</div>
+
+	
+
+
 	<script src="jquery-3.2.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
 	<script type="text/javascript" src="jsabout/about.js"></script>
 	<script type="text/javascript" src="jsabout/about2.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
