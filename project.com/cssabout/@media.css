@@ -8,13 +8,32 @@
 	top: 0;
 	left: 30px;
 }
+.text{
+  width:20%;
+  margin-left: 50px;
+}
+.text h2{
+  margin-top: 0;
+}
 }
 
 
 @media screen and (max-width: 768px){
   
   
- 
+ .text{
+  margin-left: 40px;
+
+ }
+ .text h2{
+   margin-top: 0;
+ }
+ .container{
+
+ }
+ div .banner{
+  height: 427px;
+ }
  
  .content-header{
    	position: absolute;

@@ -1,11 +1,9 @@
-/*  đây là css cho thẻ sản phẩm tiêu biểu  */
+/*  đây là css cho đò nam  */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
 body{
     font-family: 'Quicksand', sans-serif;
 }
-.team{
-    padding:75px 0;
-}
+
 h6.description{
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -100,4 +98,4 @@ a:hover{
 i.red{
     color:#BC0213;
 }
-/* hết phần sản phẩm tiêu biểu	 */
+/* hết phần đồ nam	 */
