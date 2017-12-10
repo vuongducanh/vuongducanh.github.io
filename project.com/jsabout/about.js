@@ -17,7 +17,7 @@ $(function () {
 
 // hết phần animation cho khối đăng nhập và nhắn tin
 
-
+// js cho them vao gio hang
 $(document).on('click', '.them', function (e) {
 	e.preventDefault();
 	var parent = $(this).parents('.img-box');
@@ -48,9 +48,11 @@ $(document).on('click', '.them', function (e) {
 	},1000)
 	},500);
 });
+// heet js them vao gio hang
 
 
 
+// js cho back-to-top
 if ($('#back-to-top').length) {
     var scrollTrigger = 100, // px
         backToTop = function () {
@@ -72,6 +74,8 @@ if ($('#back-to-top').length) {
         }, 700);
     });
 }
+// het js cho back-to-top
+
 
 
 
