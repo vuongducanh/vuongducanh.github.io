@@ -243,6 +243,8 @@ textarea.form-control {
     			-webkit-transform:scale(1.1); 
 -moz-transform:scale(1.1); 
 -o-transform:scale(1.1); 
+transform: scale(1.15) rotate(360deg);
+
 			}
 			#social {
 				-webkit-transform:scale(0.8);
@@ -286,7 +288,7 @@ textarea.form-control {
     padding: 7px 0;
     text-align: center;
 }
-
+ 
 
 
 /* hết css cho foter */

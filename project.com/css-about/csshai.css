@@ -1,4 +1,4 @@
-/*  đây là css cho đò nam  */
+/*  đây là css cho đò nam , nữ  */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
 body{
     font-family: 'Quicksand', sans-serif;
@@ -16,16 +16,8 @@ h6.description{
 .profile{
 	margin-top: 25px;
 }
-.profile h1{
-	font-weight: normal;
-	font-size: 20px;
-	margin:10px 0 0 0;
-}
-.profile h2{
-	font-size: 14px;
-	font-weight: lighter;
-	margin-top: 5px;
-}
+
+
 .profile .img-box{
 	opacity: 1;
 	display: block;
