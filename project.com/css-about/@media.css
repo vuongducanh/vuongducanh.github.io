@@ -17,8 +17,14 @@
 }
 }
 
+@media screen and (min-width: 630px ) and(max-width: 767px){
+      .team{
+        margin: auto;
+      }
+}
 
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px ){
   
   
  .text{
@@ -29,12 +35,7 @@
  .text h2{
    margin-top: 0;
  }
- .container{
 
- }
- div .banner{
-  height: 427px;
- }
  
  .content-header{
    	position: absolute;
