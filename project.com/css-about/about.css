@@ -289,6 +289,13 @@ transform: scale(1.15) rotate(360deg);
     text-align: center;
 }
  
-
-
 /* hết css cho foter */
+
+/* css cho thẻ chuyển trang */
+.pagination>li>a, .pagination>li>span 
+{
+   border-radius: 50% !important;
+   margin: 0 5px;
+   
+}
+/* hết css cho nút chuyển trang */
