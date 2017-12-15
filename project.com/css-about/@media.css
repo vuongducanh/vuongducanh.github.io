@@ -36,11 +36,5 @@
     top: 0;
     left: 66px;
  }
-  
-}
-@media screen and (max-width:320px) {
-  .col-lg-12{
-    margin-top: -120px;
-  }
 }
 

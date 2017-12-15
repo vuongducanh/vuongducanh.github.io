@@ -9,6 +9,7 @@ body{
   overflow-x:hidden;
   position: relative;
 }
+
 /* css cho img bay */
 .img-fly{
   position: absolute;
@@ -21,13 +22,7 @@ body{
   transition: all 1s ease;
 }
 /* hết css cho img bay */
- div .banner{
-   background-image:  url("../img/bana1.jpg") ;
-   height: 100vh; 
-    background-size: 100%; 
-    background-repeat: no-repeat;
-  
-}
+ 
 /* bắt đầu css cho menu */
 .navbar {
  
@@ -306,6 +301,10 @@ transform: scale(1.15) rotate(360deg);
   max-width: 100%;
   height: auto;
   width: 800px;
+}
+
+.banner-images{
+width: 100% !important;
 }
  
 

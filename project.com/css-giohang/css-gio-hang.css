@@ -46,11 +46,4 @@
     display:block;
     }
     }
-    div .banner{
-        background-image:  url("../img/banner-gio-hang.png") ;
-        /*linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5))*/ 
-        height: 100vh;
-        /*max-width: 100%;*/
-        background-size: 100%; 
-        background-repeat: no-repeat;
-    }
+   
