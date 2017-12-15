@@ -23,7 +23,6 @@ $(document).on('click', '.them', function (e) {
 	var parent = $(this).parents('.img-box');
 	var cart = $(document).find('#cart-shop');
 	var src = parent.find('img').attr('src');
-	
 	var partop = parent.offset().top;
 	var parleft = parent.offset().left;
 	
@@ -50,7 +49,14 @@ $(document).on('click', '.them', function (e) {
 });
 // heet js them vao gio hang
 
-
+// js xoa giỏ hàng
+$(function(){
+  $(".remove").click(function(){
+	   $('.tr-remove').remove();
+	 
+  });
+});
+// jeest xoa js gio hàng
 
 // js cho back-to-top
 if ($('#back-to-top').length) {
@@ -75,6 +81,31 @@ if ($('#back-to-top').length) {
     });
 }
 // het js cho back-to-top
+
+// slide cho anh
+jQuery(document).ready(function($) {
+	
+		   $('#myCarousel').carousel({
+				   interval: 5000
+		   });
+	
+		   $('#carousel-text').html($('#slide-content-0').html());
+	
+		   //Handles the carousel thumbnails
+		  $('[id^=carousel-selector-]').click( function(){
+			   var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+			   var id = parseInt(id);
+			   $('#myCarousel').carousel(id);
+		   });
+	
+	
+		   // When the carousel slides, auto update the text
+		   $('#myCarousel').on('slid.bs.carousel', function (e) {
+					var id = $('.item.active').data('slide-number');
+				   $('#carousel-text').html($('#slide-content-'+id).html());
+		   });
+   });
+// hết slide cho anh 
 
 
 

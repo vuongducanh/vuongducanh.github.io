@@ -6,3 +6,34 @@ div .banner{
     background-size: 100%; 
     background-repeat: no-repeat;
 }
+
+.col-md-3 .h1{
+    border: 1px solid ;
+}
+.click-h1 .btn{
+    display: block;
+}
+#img1,#img2,#img3{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+}
+.anh1{
+    transition: all 1s;   
+    border-radius: 50%;
+}
+.anh1:hover{
+   transform: scale(1.1);
+   box-shadow: 5px 5px 5px 5px red;    
+}
+.box{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+body{
+    background-color: rgb(121, 72, 72);
+}
+h1,h2,p{
+    color: white
+}

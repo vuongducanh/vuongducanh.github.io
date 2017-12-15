@@ -17,16 +17,12 @@
 }
 }
 
-@media screen and (min-width: 630px ) and(max-width: 767px){
-      .team{
-        margin: auto;
-      }
-}
 
 
 @media screen and (max-width: 768px ){
-  
-  
+ .dienthoai{
+  display: none;
+ } 
  .text{
   margin-left: 40px;
 
@@ -35,13 +31,16 @@
  .text h2{
    margin-top: 0;
  }
-
- 
- .content-header{
+  .content-header{
    	position: absolute;
     top: 0;
     left: 66px;
  }
   
+}
+@media screen and (max-width:320px) {
+  .col-lg-12{
+    margin-top: -120px;
+  }
 }
 
