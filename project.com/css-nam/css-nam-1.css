@@ -26,6 +26,6 @@
 body{
     background-color: rgb(121, 72, 72);
 }
-h1,h2,p{
+.tex{
     color: white
 }
