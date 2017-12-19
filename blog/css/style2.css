@@ -1,7 +1,0 @@
- .money::before{
- 	content: " Hoc phi ";
- }
-
- .money::after{
- 	content: "VND";
- }
