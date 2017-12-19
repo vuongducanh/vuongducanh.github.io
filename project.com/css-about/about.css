@@ -156,7 +156,7 @@ textarea.form-control {
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Gudea);
 .footer1 {
-  background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
+  background: #4e3232  url("../images/footer/footer-bg.png") repeat scroll left top;
 	padding-top: 40px;
 	padding-right: 0;
 	padding-bottom: 20px;
@@ -284,6 +284,9 @@ transform: scale(1.15) rotate(360deg);
     min-height: 30px;
     padding: 7px 0;
     text-align: center;
+}
+.fotter-sua{
+  color: #c11c1c;
 }
  
 /* hết css cho foter */
