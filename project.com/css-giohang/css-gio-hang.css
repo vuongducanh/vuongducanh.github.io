@@ -49,3 +49,12 @@
   .container{
     margin-top: 20px;
   }
+  /*css cho thông số sản phẩm*/
+
+  .thongso,.thongso2{
+    border: 1px dotted  ;
+  }
+  .anhimg{
+    width: 100%;
+  }
+  /* hết css cho thông số sản phẩm*/
