@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin-left:200px;
+	padding: 0;
+	
+}
+ #Email,#date,#ten,#password,#đăngnhap,#nhaplaimatkhau, #passwor{
+	width: 425px;
+	height: 40px;
+	font-size: 20px;
+	margin-top:2px;
+	border-radius: 10px;
+
+}
+input{
+	margin: 20px;
+}
+.year{
+	width: 124px;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 20px;
+	border: none;
+	background-color: pink;
+
+}
+
+
+.hang2 {
+	border: 1px solid;
+	width: 531px;
+	background-color: #e2d9da;
+	border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888;
+	
+}
+.remenber{
+	margin: 0;
+}
+
+
+#ab{
+	background-color: blue;
+}
+#đăngnhap{
+	background-color:#d1b8ba;
+	border-radius: 30px;
+	border: none;
+}
+
+.nam{
+	margin: 0px; 	 	
+}
+label {
+	margin-left:10px;
+}
+
+

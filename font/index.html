@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>log in</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	
+</head>
+<body>
+	<div id="conten">
+		<form action="ketqua.html" id="form-register">
+			<div class="hang2">
+				<h1> Đăng ký khóa học</h1>
+
+				<label for="ten">Họ và tên</label><br>
+				<input type="text" id="ten"  placeholder="Họ và tên"  name="ten" >
+				<span class="error"></span><br/>
+
+
+				<label for="Email">Email</label>
+				<input type="text"  id="Email"  placeholder="Email hoặc số điện thoại "   name="Email"><span class="error"></span><br/>
+
+				<!-- for phải đặt giống tên id đề khi ckick chuột vào chữ vẫn vieeat được -->
+
+				<label for="password">Mật khẩu </label><br/>
+				<input type="text" id="password"  placeholder="nhập mật khẩu từ 6 đến 32 kí tự" name="password"><span class="error"></span><br/>
+				
+				<label for="nhaplaimatkhau">xin mời nhập lại</label>
+				<input type="text" id="nhaplaimatkhau" placeholder="nhập lại mật khẩu "  name=""><br/>
+
+
+				<label for="date"> ngày sinh</label><br/>
+                <input type="date" id="date"  placeholder="ngày sinh"  name="sinh"><br/>
+				
+
+
+
+                <label for="password"> Quê quán</label>
+				<input type="text" id="password"  placeholder= "nơi ở hiện tại" name="song"><br/>
+
+
+
+				<label for="remenber"> Giới tinh:</label>
+				<input type="radio" id="remenber" value="nam"  name="remenber"><label for="remenber" class="nam"> Nam</label> 
+
+
+				<input type="radio" id="nu" value="nữ" name="remenber"><label for="nu" class="nam"> Nữ </label> <br/>
+
+
+
+
+ 	
+				<input type="submit"  id="đăngnhap" value="Đăng ký"  name="">
+			</form>
+		</div>
+	</div>
+
+	<script src="jquery-3.2.1.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

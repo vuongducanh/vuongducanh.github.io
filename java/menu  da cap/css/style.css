@@ -1,0 +1,285 @@
+* {
+	box-sizing: border-box;
+	}
+
+body {
+	margin: ;
+	padding: 0;
+
+
+}
+.box{
+	width: 1500px;
+	padding-left: 20px;
+	margin: auto;
+}
+
+.banner {
+	text-align:center;
+		}
+
+
+.box ul li {
+	list-style: none;
+	position: relative;
+    
+}
+.box ul li a {
+	text-decoration: none;
+}
+.box ul {
+	margin: 0;
+	padding: 0;
+	height:0;
+
+}
+
+.li1 {
+	float: left;
+	width: 100px;
+	margin-top: 25px;
+	margin: 30px;
+	line-height: 40px;
+	color: white;
+	
+    
+  
+    
+}
+.li1 a {
+	color: white;
+}
+.li2 a {
+	display: block;
+	display: none;
+	line-height: 40px;
+	border: 1px solid red;
+	background: #d6ef10;
+    width: 301px;
+
+}
+
+.box ul li a:hover {
+   	 color: red;
+}
+.box ul li:hover a {
+	display: block;
+
+}
+.subtitle {
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.java {
+	width: 100%;
+
+	
+}
+
+#anh img{
+	width: 100%;
+	
+}
+
+.inbox {
+	float:left;
+}
+.thep {
+	font-size: 40px;
+
+}
+.inbox2 {
+	margin-left: 600px;
+}
+.inbox2 a {
+	background-color: pink;
+	  box-shadow: 10px 10px 5px #888888;
+}
+.phan3 {
+	clear: both;
+	
+	
+}
+.phan31 {
+	float: right;
+}
+.phan32 {
+
+}
+.add1 {
+	color: #2f2f2f;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    padding: 0;
+    line-height: 1.4;
+}
+.phan33 img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	float: left;
+	padding: 10px;
+	vertical-align: middle;
+	opacity: 1;
+	transition: opacity 0.5s linear;
+	display: table-cell;
+    vertical-align: middle;
+    padding: 0px 20px;
+}
+.phan33:hover img {
+	opacity: 0.3;
+}
+.phan4 {
+	clear: both;
+	height: 150px;
+}
+.phan4 a {
+	color: #2f2f2f;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    padding: 0;
+    line-height: 1.4;
+    
+}
+.phan4  {
+	text-align: center;
+	
+}
+.phan4 img {
+	width: 300px;
+	height: 300px;
+	border: 1px solid;
+	border-radius: 30px;
+	margin: 10px;
+}
+.phan5  img {
+		width: 300px;
+		height: 300px;
+}
+.phan5 {
+	width: 73%;
+	height: 680px;
+	margin: auto;
+}
+.phan51 {
+	border: 1px solid;
+	float:right;
+	margin: 20px;
+	overflow: hidden;
+	border-radius: 20%;
+	
+}
+.phan51 img{
+	transition: 1s;
+}
+.phan51:hover img {
+	transform: scale(2);
+	opacity: 0.5;
+}
+.phan51 a {
+	height: 600px;
+}
+.phan6 {
+	clear: both;
+	height: 200px;
+}
+.phan6 a{
+	color: #2f2f2f;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    padding: 0;
+    line-height: 1.4;
+}
+.phan6  {
+	text-align: center;
+	
+}
+.phan80{
+	margin: auto;
+	max-width: 1200px;		
+}
+
+
+.container {
+ border:10px solid red;
+  position: relative;
+  float: left;
+  margin: 30px;
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  }
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: pink;
+  overflow: hidden;
+  width: 300px;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.phan90 {
+	clear: both;
+	height: 400px;
+	background-color: #091b27;
+	color: white;
+	width: 100%;
+}
+.phan91 {
+	float: left;
+	margin: 40px;
+}
+#chat {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+
+}
+#chat img {
+	width: 50px;
+	height: 50px;
+}
+.tren  {
+	background-color: #099264;
+	width: 1480px;
+	height: 120px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

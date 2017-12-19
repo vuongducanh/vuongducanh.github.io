@@ -1,0 +1,26 @@
+ #anh{
+  font-size: 200%;
+   
+}
+
+@keyframes hanh {
+    0%  {
+        left: 0px; 
+        top: px;
+        opacity: 2;
+    }
+  
+   
+   
+  100% {
+        left: 900px;
+        top: 0px;
+        opacity: 0;
+    }
+}
+
+#anh {
+    animation: hanh 4s ease infinite;
+    position: absolute;
+}
+
