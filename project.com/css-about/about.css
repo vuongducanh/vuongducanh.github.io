@@ -11,6 +11,7 @@ body{
 
 }
 
+
 /* css cho img bay */
 .img-fly{
   position: absolute;
@@ -30,7 +31,7 @@ body{
   margin-bottom: 0px;
   border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 10px 8px #888888;
+ 
   
 }
 .nav>li>a>img {
@@ -303,12 +304,14 @@ transform: scale(1.15) rotate(360deg);
   height: auto;
   width: 800px;
 }
-
 .banner-images{
 width: 100% !important;
 }
   
 /* hết css cho image các sản phẩn */
+
+
+
 
 /*css cho quuang cáo*/
 .float-ck { position: fixed; bottom: 0px; z-index: 9000}
@@ -316,8 +319,5 @@ width: 100% !important;
   #float_content_left {border: 1px solid #01AEF0;}
   #hide_float_left {text-align:left; font-size: 11px;}
   #hide_float_left a {background: #01AEF0; padding: 2px 4px; color: #FFF;}
-
-
-
 
 /*hết css quảng cáo*/
