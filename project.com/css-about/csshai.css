@@ -97,3 +97,36 @@ i.red{
     font-size: 20px;
 }
 /* hết phần đồ nam,nu	 */
+
+
+/*css cho cái tham khảo*/
+.conten{
+	border: 1px dotted;
+	color:#C9CBA3;
+	background-color: black;
+	margin-top: 20px;
+
+}
+.thei{
+	
+	position: relative;
+}
+.textp{
+	position: absolute;
+	top: 5px;
+	left: 43px;
+}
+
+/*hết css cho tham khảo*/
+
+/*css cho cáo anh*/
+.img01,.img03	{
+    margin-bottom: 30px;
+  }
+.img02{
+  	margin-bottom: 30px;
+}
+  .cacanh{
+  	margin-top: 30px;
+  }
+  /*hết css cho các anh*/
