@@ -25,9 +25,11 @@
  } 
  .text{
   margin-left: 40px;
-
  }
- 
+ .nha{
+  margin-bottom: 30px;
+ }
+  
  .text h2{
    margin-top: 0;
  }
@@ -37,4 +39,6 @@
     left: 66px;
  }
 }
+
+
 

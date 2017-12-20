@@ -124,7 +124,7 @@ function hide_float_left() {
 // js cho top nổi bật
 
 $(function(){
- $('.thaydoi1').show();
+   $('.thaydoi1').show();
    $('.thaydoi2').hide();
    $('.thaydoi3').hide();
    $('.thaydoi4').hide();
@@ -159,7 +159,7 @@ $('.active4').click(function(){
    $('.thaydoi5').hide();
 })
 $('.active5').click(function(){
-	$('.thaydoi1').hide();
+$('.thaydoi1').hide();
    $('.thaydoi2').hide();
    $('.thaydoi3').hide();
    $('.thaydoi4').hide();
