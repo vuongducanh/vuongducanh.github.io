@@ -121,5 +121,45 @@ function hide_float_left() {
 // hết js cho quảng cáo
 
 
+// js cho top nổi bật
+
+$('.active1').click(function(){
+   $('.thaydoi1').show();
+   $('.thaydoi2').hide();
+   $('.thaydoi3').hide();
+   $('.thaydoi4').hide();
+   $('.thaydoi5').hide();
+});
+$('.active2').click(function(){
+   $('.thaydoi1').hide();
+   $('.thaydoi2').show();
+   $('.thaydoi3').hide();
+   $('.thaydoi4').hide();
+   $('.thaydoi5').hide();
+});
+$('.active3').click(function(){
+	$('.thaydoi1').hide();
+   $('.thaydoi2').hide();
+   $('.thaydoi3').show();
+   $('.thaydoi4').hide();
+   $('.thaydoi5').hide();
+})
+$('.active4').click(function(){
+	$('.thaydoi1').hide();
+   $('.thaydoi2').hide();
+   $('.thaydoi3').hide();
+   $('.thaydoi4').show();
+   $('.thaydoi5').hide();
+})
+$('.active5').click(function(){
+	$('.thaydoi1').hide();
+   $('.thaydoi2').hide();
+   $('.thaydoi3').hide();
+   $('.thaydoi4').hide();
+   $('.thaydoi5').show();
+})
+// hết js cho top nooier bật
+
+
 
 

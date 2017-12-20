@@ -1,5 +1,5 @@
 *{
-	box-sizing: border-box;
+box-sizing: border-box;
   -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
 }
@@ -324,3 +324,42 @@ width: 100% !important;
   #hide_float_left a {background: #01AEF0; padding: 2px 4px; color: #FFF;}
 
 /*hết css quảng cáo*/
+/*css cho tin thời trang*/
+.hover-noi{
+  transition: all 0.1s  ;
+}
+.hover-noi:hover{
+  transform: translate(0,-5px);
+  box-shadow: 0 10px 10px 0 red;
+}
+/*hết css cho tin thời trang*/
+
+
+/*css cho top nổi bật*/
+.content_accordion{
+        margin: 20px;
+    }
+
+
+.tab-content{
+  margin-top: 30px;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+   border: none;
+   font-size: 30px;
+}
+#myTab{
+  
+    margin: auto;
+}
+.rep {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+/*hét css cho top nổi bẩt*/
