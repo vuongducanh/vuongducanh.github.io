@@ -123,8 +123,13 @@ function hide_float_left() {
 
 // js cho top nổi bật
 
-
-
+$(function(){
+ $('.thaydoi1').show();
+   $('.thaydoi2').hide();
+   $('.thaydoi3').hide();
+   $('.thaydoi4').hide();
+   $('.thaydoi5').hide();
+	
 $('.active1').click(function(){
    $('.thaydoi1').show();
    $('.thaydoi2').hide();
@@ -160,6 +165,7 @@ $('.active5').click(function(){
    $('.thaydoi4').hide();
    $('.thaydoi5').show();
 })
+});
 // hết js cho top nooier bật
 
 
