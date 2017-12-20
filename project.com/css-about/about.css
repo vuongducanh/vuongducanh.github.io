@@ -335,9 +335,25 @@ width: 100% !important;
 /*css cho top nổi bật*/
 .content_accordion{
         margin: 20px;
-   }
+}
 
+.line-through{
+  text-decoration: line-through;
+  position: absolute;
+ bottom: -10px;
+ left: 133px;
 
+}
+.product-price {
+    color: #34b79d;
+    font-size: 20px;
+    line-height: 23px;
+    display: block;
+    font-weight: 500;
+    margin: 0 10px 0 0;
+    margin-left: 25px;
+
+}
 
 
 
