@@ -1,4 +1,4 @@
-/*  đây là css cho đò nam , nữ  */
+/*  đây là css cho hót và bán chay , và top nổi bật  */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
 body{
     font-family: 'Quicksand', sans-serif;
@@ -96,7 +96,7 @@ i.red{
 .h1, h1 {
     font-size: 20px;
 }
-/* hết phần đồ nam,nu	 */
+/* hết đây là css cho hót và bán chay , và top nổi bật	 */
 
 
 /*css cho cái tham khảo*/

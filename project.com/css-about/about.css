@@ -260,13 +260,14 @@ width: 100% !important;
   #hide_float_left a {background: #01AEF0; padding: 2px 4px; color: #FFF;}
 
 /*hết css quảng cáo*/
+
 /*css cho tin thời trang*/
 .hover-noi{
   transition: all 0.1s  ;
 }
 .hover-noi:hover{
   transform: translate(0,-5px);
-  box-shadow: 0 10px 10px 0 red;
+  box-shadow: 0 5px 5px 0 pink;
 }
 /*hết css cho tin thời trang*/
 
@@ -321,3 +322,17 @@ width: 100% !important;
 }
 
 /*hết css cho danh mục*/
+
+
+/*css cho thương hiệu nổi bật*/
+.thuonghieu{
+  margin-bottom: 50px;
+}
+/*hết css cho thương hiệu nổi bật*/
+
+
+/*hót và bán chạy*/
+.hot-ban-chay{
+  margin-top: 50px;
+}
+/*hót và bán chay*/
