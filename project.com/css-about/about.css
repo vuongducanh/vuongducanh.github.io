@@ -301,6 +301,9 @@ width: 100% !important;
 .danhmuc{
   margin-top: 50px;
   background-color:#f8f8f8;
+ 
+}
+.chinh-position{
   position: relative;
 }
 .categories-caption{
@@ -311,8 +314,6 @@ width: 100% !important;
     position: absolute;
     bottom: -16px;
     left: 142px;
-
-    
 }
 .donamnu{
   color: white;
