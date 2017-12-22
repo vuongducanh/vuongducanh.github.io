@@ -252,14 +252,7 @@ width: 100% !important;
 
 
 
-/*css cho quuang cáo*/
-.float-ck { position: fixed; bottom: 0px; z-index: 9000}
-  * html .float-ck {position:absolute;bottom:auto;top:expression(eval (document.documentElement.scrollTop+document.docum entElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))) ;}
-  #float_content_left {border: 1px solid #01AEF0;}
-  #hide_float_left {text-align:left; font-size: 11px;}
-  #hide_float_left a {background: #01AEF0; padding: 2px 4px; color: #FFF;}
 
-/*hết css quảng cáo*/
 
 /*css cho tin thời trang*/
 .hover-noi{
@@ -302,19 +295,25 @@ width: 100% !important;
 .danhmuc{
   margin-top: 50px;
   background-color:#f8f8f8;
- 
 }
 .chinh-position{
   position: relative;
+  transition: all .2s linear;
+
 }
-.categories-caption{
+
+.chinh-position:hover{
+  transform: scale(1.1);
+}
+.categories-caption {
     width: 80px;
     background-color: #53818e;
     height: 28px;
     text-align: center;
     position: absolute;
     bottom: -16px;
-    left: 142px;
+    left: 50%;
+    margin-left: -40px;
 }
 .donamnu{
   color: white;
@@ -336,3 +335,13 @@ width: 100% !important;
   margin-top: 50px;
 }
 /*hót và bán chay*/
+
+/*css cho theo dõi nhận 10% giá*/
+.theodoi{
+  background-color: black;
+  color: white;
+}
+.taylor{
+  margin-top: 8px;
+}
+/*hết css cho thao doi nhận 10%*/

@@ -134,7 +134,7 @@ i.red{
   	margin-top: 30px;
   
  }.img01,.img02,.img03,.img04{
- 		transition: all .2s linear;
+ 	transition: all .2s linear;
 
  }
  .img01:hover,.img02:hover,.img03:hover,.img04:hover{

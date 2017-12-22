@@ -1,26 +1,28 @@
-/* Removes the default 20px margin and creates some padding space for the indicators and controls */
-.carousel {
-    margin-bottom: 0;
-	padding: 0 40px 30px 40px;
+body{
+	background-color: rgba(206, 202, 202, 0.55);
 }
-/* Reposition the controls slightly */
-.carousel-control {
-	left: -12px;
+table {
+    border-spacing: 0;
+    width: 90%;
+    border: 1px solid #ddd;
+    margin: auto;
 }
-.carousel-control.right {
-	right: -12px;
+th{
+    text-align: left;
+    padding: 4px;
+
 }
-/* Changes the position of the indicators */
-.carousel-indicators {
-	right: 50%;
-	top: auto;
-	bottom: 0px;
-	margin-right: -19px;
+td{
+	height: 100px;
 }
-/* Changes the colour of the indicators */
-.carousel-indicators li {
-	background: #c0c0c0;
+.tr:hover{
+  background-color: red;
 }
-.carousel-indicators .active {
-background: #333333;
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
 }

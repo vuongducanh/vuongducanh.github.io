@@ -40,7 +40,7 @@
 
 <div id="full-page">
 	
-	<!-- bắt đầu mune  -->
+	<!-- bắt đầu mune -->
 	<nav class="navbar navbar-default position-fixed">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -66,16 +66,16 @@
 				<ul class="nav navbar-nav navbar-right" style="width:500px;">
 
 					<li>
-						<a href="about.html">Trang chủ</a>
+						<a href="Index.html" class="active">Trang chủ</a>
 					</li>
 					<li>
-						<a href="Tintuc.html" class="a1">Tin tức</a>
+						<a href="News.html" class="a1">Tin tức</a>
 					</li>
 					<li>
-						<a href="nam.html" class="a2">Đồ Nam</a>
+						<a href="Men-Fashion.html" class="a2">Đồ Nam</a>
 					</li>
 					<li>
-						<a href="nu.html" class="a3"> Đồ nữ</a>
+						<a href="Women-Fashion.html" class="a3"> Đồ nữ</a>
 					</li>
 					<li class="logocart" class="a4">
 						<a href="gio-hang.html">
@@ -93,11 +93,6 @@
 	</nav>
 
 	<!-- hết phần muenu  -->
-
-
-
-
-
 
 	<!-- phần background img -->
 	<div class="banner tex">
@@ -176,9 +171,10 @@
     				<li class="active4"><a href="#c" data-toggle="tab" >Túi sách</a></li>
     				<li class="active5"><a href="#d" data-toggle="tab" >Phụ kiện khác</a></li>
     			</ul>
+
     			<div class="row">
 	    			<div id="myTabContent" class="col-md-12 tab-content">
-	    				<div class="row thaydoi1" >
+	    				<div class="row js-thaydoi1" >
 	    					<div class=" col-md-12 tab-pane fade in active " id="do-nam">
 	    						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
 	    							<div class="img-box">
@@ -240,7 +236,6 @@
 	    					</div>
 	    				</div>
 
-
 	    				<div class="row thaydoi2" >
 	    					<div class=" col-md-12 tab-pane fade in active " id="a">
 	    						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
@@ -250,7 +245,7 @@
 	    									<button class="them btn"> Thêm Giỏ hàng</button>
 	    								</ul>
 	    							</div>
-	    							<h1 style="text-align:center">Mẫu mới4</h1>
+	    							<h1 class="text-center">Mẫu mới4</h1>
 	    							<a href="nu.html">
 	    								<h2 style="text-align:center">Xem chi tiết </h2>
 	    							</a>
@@ -299,9 +294,6 @@
 	    							<p class="price product-price">102.000đ</p>
 	    							<p class="line-through">150.000đ</p>
 	    						</div>
-
-
-
 	    					</div>
 	    				</div>
 
@@ -536,7 +528,7 @@
     <!-- hót và bán chạy -->
     		<div class="container hot-ban-chay">
     			<div class="row">
-    				<h1 style="text-align: center;">Hót và bán chạy</h1><hr>
+    				<h1 style="text-align: center;">Hot và bán chạy</h1><hr>
     				<div class="col-md-12">
     					
     						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
@@ -567,7 +559,6 @@
     							</a>
     							<p style="text-align:center">100.000 VND</p>
     						</div>
-    				
     					
     						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile">
     							<div class="img-box">
@@ -628,10 +619,6 @@
  -->
 	<!-- hết youtobe và map -->
 
-
-	
-
-
 	<!-- phần đăng font nhập  -->
 	<section id="contact">
 		<div class="banner tex">
@@ -641,8 +628,39 @@
 		<img src="img/phone.gif"  class="dienthoai" title="0195728435" >
 	</section>
 	<!-- hết phần  font đăng nhập -->
+       
 
+       <!-- theo dõi để nhận 10% -->
+       	<div  class="container nhan10">
+       		  <div class="row theodoi">
+       		  	<div class="col-md-12  theodoi">
+       		  		<div class="col-md-8">
+       		  			<h1>Theo dõi chúng tôi để nhận 10% giảm giá</h1>
+       		  		</div>
+       		  		<div class="col-md-4 taylor">
+       		  			<ul class="nomargin">
 
+									<a href="#">
+										<i class="fa fa-facebook-square fa-3x social-fb" id="social"></i>
+									</a>
+									<a href="$">
+										<i class="fa fa-twitter-square fa-3x social-tw" id="social"></i>
+									</a>
+									<a href="#">
+										<i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i>
+									</a>
+									<a href="">
+										<i class="fa fa-envelope-square fa-3x social-em" id="social"></i>
+									</a>
+
+								</ul>
+       		  		</div>
+       		  	</div>
+       		  </div>
+       	</div>
+
+       <!-- hết theo dõi nhận 10% -->
+         
      <!-- phần tin thời trang -->
      	<div class="container">
      		<div class="row">
@@ -956,17 +974,7 @@
 }
 </style>
 <a href="tel:01683886583" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);" id="callnowbutton">&nbsp;</a>
-<!-- phần  quảng cáo -->
-    <div class="float-ck" style="left: 0px" >
-	  <div id="hide_float_left">
-		<a href="javascript:hide_float_left()">Tắt Quảng Cáo [X]</a></div>
-		<div id="float_content_left">
-			<!-- Start quang cao-->
-			<embed src="img-logo/quangcao.jpg" width="250" height="200" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" menu="false" wmode="transparent" allowScriptAccess="always"/>
-			<!-- End quang cao --> 
-		</div>
-	</div>
-	<!-- hết quảng cáo -->
+
 </body>
 
 </html>

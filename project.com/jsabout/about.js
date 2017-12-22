@@ -15,8 +15,6 @@ $(function () {
 	});
 });
 
-// hết phần animation cho khối đăng nhập và nhắn tin
-
 // js cho them vao gio hang
 $(document).on('click', '.them', function (e) {
 	e.preventDefault();
@@ -47,7 +45,6 @@ $(document).on('click', '.them', function (e) {
 	},1000)
 	},500);
 });
-// heet js them vao gio hang
 
 // js xoa giỏ hàng
 $(function(){
@@ -56,7 +53,6 @@ $(function(){
 	 
   });
 });
-// jeest xoa js gio hàng
 
 // js cho back-to-top
 if ($('#back-to-top').length) {
@@ -80,7 +76,6 @@ if ($('#back-to-top').length) {
         }, 700);
     });
 }
-// het js cho back-to-top
 
 // slide cho anh
 jQuery(document).ready(function($) {
@@ -105,24 +100,8 @@ jQuery(document).ready(function($) {
 				   $('#carousel-text').html($('#slide-content-'+id).html());
 		   });
    });
-// hết slide cho anh 
-
-
-
-// js cho quảng cáo
-function hide_float_left() {
-				var content = document.getElementById('float_content_left');
-				var hide = document.getElementById('hide_float_left');
-				if (content.style.display == "none")
-					{content.style.display = "block"; hide.innerHTML = '<a href="javascript:hide_float_left()">Tắt quảng cáo [X]</a>'; }
-				else { content.style.display = "none"; hide.innerHTML = '<a href="javascript:hide_float_left()">Xem quảng cáo...</a>';
-			}
-		}
-// hết js cho quảng cáo
-
 
 // js cho top nổi bật
-
 $(function(){
    $('.thaydoi1').show();
    $('.thaydoi2').hide();
@@ -166,7 +145,8 @@ $('.thaydoi1').hide();
    $('.thaydoi5').show();
 })
 });
-// hết js cho top nooier bật
+// cái này thì add class active
+// dùng luôn của bootstrap
 
 
 
