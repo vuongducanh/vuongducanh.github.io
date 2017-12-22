@@ -108,44 +108,11 @@ $(function(){
    $('.thaydoi3').hide();
    $('.thaydoi4').hide();
    $('.thaydoi5').hide();
-	
-$('.active1').click(function(){
-   $('.thaydoi1').show();
-   $('.thaydoi2').hide();
-   $('.thaydoi3').hide();
-   $('.thaydoi4').hide();
-   $('.thaydoi5').hide();
-});
-$('.active2').click(function(){
-   $('.thaydoi1').hide();
-   $('.thaydoi2').show();
-   $('.thaydoi3').hide();
-   $('.thaydoi4').hide();
-   $('.thaydoi5').hide();
-});
-$('.active3').click(function(){
-   $('.thaydoi1').hide();
-   $('.thaydoi2').hide();
-   $('.thaydoi3').show();
-   $('.thaydoi4').hide();
-   $('.thaydoi5').hide();
-})
-$('.active4').click(function(){
-	$('.thaydoi1').hide();
-   $('.thaydoi2').hide();
-   $('.thaydoi3').hide();
-   $('.thaydoi4').show();
-   $('.thaydoi5').hide();
-})
-$('.active5').click(function(){
-   $('.thaydoi1').hide();
-   $('.thaydoi2').hide();
-   $('.thaydoi3').hide();
-   $('.thaydoi4').hide();
-   $('.thaydoi5').show();
-})
-});
-
+   
+   $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+   });
+});	
 // cái này thì add class active
 // dùng luôn của bootstrap
 

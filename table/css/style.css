@@ -16,7 +16,7 @@ td{
 	height: 100px;
 }
 .tr:hover{
-  background-color: red;
+  background-color:#a0b4ba;
 }
 
 tr:nth-child(even) {
@@ -25,4 +25,13 @@ tr:nth-child(even) {
 table, th, td {
     border: 1px solid black;
     text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.icon{
+    width: 20px;
+    height: 20px;
 }
