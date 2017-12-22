@@ -138,13 +138,14 @@ $('.active4').click(function(){
    $('.thaydoi5').hide();
 })
 $('.active5').click(function(){
-$('.thaydoi1').hide();
+   $('.thaydoi1').hide();
    $('.thaydoi2').hide();
    $('.thaydoi3').hide();
    $('.thaydoi4').hide();
    $('.thaydoi5').show();
 })
 });
+
 // cái này thì add class active
 // dùng luôn của bootstrap
 
