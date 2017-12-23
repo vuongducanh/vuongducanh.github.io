@@ -29,8 +29,15 @@ color: red;
 text-decoration: none;
 margin-left: 56px;
 }
+.cart{
+	background-color: pink;
+}
 .money{
-margin-left: 103px;
+  background-color: red;
+  color: white;
+}
+.money:hover{
+	color:white;
 }
 .underlined{
 text-decoration:line-through;
