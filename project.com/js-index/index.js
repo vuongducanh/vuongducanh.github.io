@@ -102,19 +102,26 @@ jQuery(document).ready(function($) {
    });
 
 // js cho top nổi bật
-$(function(){
-   $('.thaydoi1').show();
-   $('.thaydoi2').hide();
-   $('.thaydoi3').hide();
-   $('.thaydoi4').hide();
-   $('.thaydoi5').hide();
-   
-   $(".nav-tabs a").click(function(){
-        $(this).tab('show');
-   });
-});	
-// cái này thì add class active
-// dùng luôn của bootstrap
+
+$(document).ready(function() { 
+	(function ($) { 
+		$('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
+		$('.tab ul.tabs li a').click(function (g) { 
+			var tab = $(this).closest('.tab'), 
+				index = $(this).closest('li').index();
+			
+			tab.find('ul.tabs > li').removeClass('current');
+			$(this).closest('li').addClass('current');
+			
+			tab.find('.tab_content').find('div.tabs_item').not('div.tabs_item:eq(' + index + ')').slideUp();
+			tab.find('.tab_content').find('div.tabs_item:eq(' + index + ')').slideDown();
+			
+			g.preventDefault();
+		} );
+	})(jQuery);
+
+});
+// hết js cho topp nổi bật
 
 
 
