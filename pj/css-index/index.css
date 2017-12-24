@@ -1,0 +1,361 @@
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+  overflow-x:hidden;
+  position: relative;
+
+}
+
+
+/* css cho img bay */
+.img-fly{
+  position: absolute;
+  z-index: 999999999;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 1px solid red;
+  transition: all 1s ease;
+}
+/* hết css cho img bay */
+
+/* bắt đầu css cho menu */
+.navbar {
+
+  margin-bottom: 0px;
+ 
+  padding: 10px;
+
+}
+.nav>li>a>img {
+
+  width: 30px;
+  margin-top: -8px;
+}
+.navbar-default {
+  background-color: white;
+}
+span img {
+  vertical-align: middle;
+  width: 150px;
+}
+.rowinput{
+  margin-top: -48px;
+  margin-right: 513px;
+}
+
+/* hết css cho menu  */
+
+
+
+/* css cho back_to_top */
+#back-to-top {
+  position: fixed;
+  bottom: 70px;
+  right: 40px;
+  z-index: 9999;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 30px;
+  background: #c9afaf;
+  color: #444;
+  cursor: pointer;
+  border: 0;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+}
+#back-to-top:hover {
+  background: #e9ebec;
+}
+#back-to-top.show {
+  opacity: 1;
+}
+
+/* hst css ho back-to-top */
+
+/*  css cho footer */
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Gudea);
+.footer1 {
+  background: black  url("../images/footer/footer-bg.png") repeat scroll left top;
+  padding-top: 40px;
+  padding-right: 0;
+  padding-bottom: 20px;
+	padding-left: 0;/*	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #003;*/
+}
+
+.title-widget {
+	color: #898989;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1;
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+	padding-left: 28px;
+}
+.title-widget::before {
+  background-color: #ea5644;
+  content: "";
+  height: 22px;
+  left: 0px;
+  position: absolute;
+  top: -2px;
+  width: 5px;
+}
+.widget_nav_menu ul {
+  list-style: outside none none;
+  padding-left: 0;
+}
+.widget_archive ul li {
+  background-color: rgba(0, 0, 0, 0.3);
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 3px;
+}
+.widget_nav_menu ul li {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  position: relative;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 7px;
+  padding-bottom: 7px;
+  width:95%;
+}
+.title-median {
+  color: #636363;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+}
+.footerp p {font-family: 'Gudea', sans-serif; }
+#social:hover {
+ -webkit-transform:scale(1.1); 
+ -moz-transform:scale(1.1); 
+ -o-transform:scale(1.1); 
+ transform: scale(1.15) rotate(360deg);
+}
+#social {
+  -webkit-transform:scale(0.8);
+  /* Browser Variations: */
+  -moz-transform:scale(0.8);
+  -o-transform:scale(0.8); 
+  -webkit-transition-duration: 0.5s; 
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}           
+/* 
+    Only Needed in Multi-Coloured Variation 
+    */
+    .social-fb:hover {
+      color: #3B5998;
+    }
+    .social-tw:hover {
+      color: #4099FF;
+    }
+    .social-gp:hover {
+      color: #d34836;
+    }
+    .social-em:hover {
+      color: #f39c12;
+    }
+    .nomargin { margin:0px; padding:0px;}
+    .footer-bottom {
+      background-color: #15224f;
+      min-height: 30px;
+      width: 100%;
+    }
+    .copyright {
+      color: #fff;
+      line-height: 30px;
+      min-height: 30px;
+      padding: 7px 0;
+      text-align: center;
+    }
+    .fotter-sua{
+      color: #c11c1c;
+    }
+
+    /* hết css cho foter */
+
+    /* css cho thẻ chuyển trang */
+    .pagination>li>a, .pagination>li>span 
+    {
+     border-radius: 50% !important;
+     margin: 0 5px;
+
+   }
+   /* hết css cho nút chuyển trang */
+
+   /* image của các sản phẩm */
+   .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+  }
+  .banner-images{
+    width: 100% !important;
+  }
+  /* hết css cho image các sản phẩn */
+
+  /*css cho tin thời trang*/
+  .hover-floating{
+    transition: all 0.1s  ;
+  }
+  .hover-floating:hover{
+    transform: translate(0,-5px);
+    box-shadow: 0 5px 5px 0 pink;
+  }
+  /*hết css cho tin thời trang*/
+
+
+  /*css cho top nổi bật*/
+  @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+  .tab {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #888;
+    -webkit-font-smoothing: antialiased;
+  }
+  .tabs {
+    display: table;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    left: 50%;
+    margin-left: -167px;
+  }
+  .tabs li {
+    float: left;
+    line-height: 38px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+  }
+  .tabs a {
+    background-color: #eff0f2;
+    border-bottom: 1px solid #fff;
+    color: #888;
+    font-weight: 500;
+    display: block;
+    letter-spacing: 0;
+    outline: none;
+    padding: 0 20px;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-bottom: 2px solid blue;
+  }
+  .tabs_item {
+    display: none;
+    padding: 30px 0;
+  }
+  .tabs_item h4 {
+    font-weight: bold;
+    color: #010d13;
+    font-size: 20px;
+  }
+  .tabs_item img {
+   
+    float: left;
+    margin-right: 30px;
+  }
+  .tabs_item:first-child {
+    display: block;
+  }
+
+  .current a {
+    color: #fff;
+    background:#181e1c;;
+  }
+
+  /*hét css cho top nổi bẩt*/
+
+
+  /*css cho danh mục*/
+  .category-index{
+    margin-top: 50px;
+    background-color:#f8f8f8;
+  }
+  .position-category{
+    position: relative;
+    transition: all .2s linear;
+  }
+  .position-category:hover{
+    transform: scale(1.1);
+  }
+  .categories-caption {
+    width: 80px;
+    background-color: #53818e;
+    height: 28px;
+    text-align: center;
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    margin-left: -40px;
+  }
+  .male-female-category{
+    color: white;
+  }
+
+  /*hết css cho danh mục*/
+
+
+  /*css cho thương hiệu nổi bật*/
+  .trademark{
+    margin-bottom: 50px;
+  }
+  /*hết css cho thương hiệu nổi bật*/
+
+
+  /*hót và bán chạy*/
+  .selling{
+    margin-top: 50px;
+  }
+  /*hót và bán chay*/
+
+  /*css cho theo dõi nhận 10% giá*/
+  .follow{
+    background-color: black;
+    color: white;
+  }
+  .icon-follow{
+    margin-top: 8px;
+  }
+  /*hết css cho thao doi nhận 10%*/
+
+
+  /*css cho điện thoại*/
+  @media screen and (max-width:650px){#callnowbutton {display:block; height:80px; position:fixed; width:100%; left:0; bottom:-20px; border-top:2px solid rgba(51,187,51,1); background:url(http://callnowbutton.com/phone/callbutton01.png) center 10px no-repeat #009900; text-decoration:none; box-shadow:0 0 5px #888; -webkit-box-shadow:0 0 5px #888; -moz-box-shadow:0 0 5px #888; z-index:9999;}}
+/*hết css cho điện thoại*/
