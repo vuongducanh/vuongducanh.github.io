@@ -1,8 +1,6 @@
 /*  đây là css cho hót và bán chay , và top nổi bật  */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
-body{
-    font-family: 'Quicksand', sans-serif;
-}
+
 
 h6.description{
 	font-weight: bold;
@@ -105,10 +103,8 @@ i.red{
 	color:#C9CBA3;
 	background-color: black;
 	margin-top: 20px;
-
 }
-.thei{
-	
+.icon{
 	position: relative;
 }
 .textp{
@@ -127,10 +123,10 @@ i.red{
   	margin-bottom: 30px;
   	
 }
-.chung{
+.image-product-introduction{
 	overflow: hidden;
 }
- .cacanh{
+ .product-introduction{
   	margin-top: 30px;
   
  }.img01,.img02,.img03,.img04{

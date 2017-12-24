@@ -29,7 +29,7 @@ body{
 .navbar {
 
   margin-bottom: 0px;
-  border: 1px solid;
+ 
   padding: 10px;
 
 }
@@ -83,10 +83,6 @@ span img {
 /* hst css ho back-to-top */
 
 /*  css cho footer */
-
-
-
-
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Gudea);
 .footer1 {
@@ -98,8 +94,6 @@ span img {
 	border-top-style: solid;
 	border-top-color: #003;*/
 }
-
-
 
 .title-widget {
 	color: #898989;
@@ -115,7 +109,6 @@ span img {
 	margin-left: 0;
 	padding-left: 28px;
 }
-
 .title-widget::before {
   background-color: #ea5644;
   content: "";
@@ -125,14 +118,10 @@ span img {
   top: -2px;
   width: 5px;
 }
-
-
-
 .widget_nav_menu ul {
   list-style: outside none none;
   padding-left: 0;
 }
-
 .widget_archive ul li {
   background-color: rgba(0, 0, 0, 0.3);
   content: "";
@@ -142,8 +131,6 @@ span img {
   top: 7px;
   width: 3px;
 }
-
-
 .widget_nav_menu ul li {
   font-size: 13px;
   font-weight: 700;
@@ -155,9 +142,6 @@ span img {
   padding-bottom: 7px;
   width:95%;
 }
-
-
-
 .title-median {
   color: #636363;
   font-size: 20px;
@@ -166,16 +150,12 @@ span img {
   text-transform: uppercase;
   font-family: 'Fjalla One', sans-serif;
 }
-
 .footerp p {font-family: 'Gudea', sans-serif; }
-
-
 #social:hover {
  -webkit-transform:scale(1.1); 
  -moz-transform:scale(1.1); 
  -o-transform:scale(1.1); 
  transform: scale(1.15) rotate(360deg);
-
 }
 #social {
   -webkit-transform:scale(0.8);
@@ -202,11 +182,6 @@ span img {
       color: #f39c12;
     }
     .nomargin { margin:0px; padding:0px;}
-
-
-
-
-
     .footer-bottom {
       background-color: #15224f;
       min-height: 30px;
@@ -244,19 +219,13 @@ span img {
   .banner-images{
     width: 100% !important;
   }
-  
   /* hết css cho image các sản phẩn */
 
-
-
-
-
-
   /*css cho tin thời trang*/
-  .hover-noi{
+  .hover-floating{
     transition: all 0.1s  ;
   }
-  .hover-noi:hover{
+  .hover-floating:hover{
     transform: translate(0,-5px);
     box-shadow: 0 5px 5px 0 pink;
   }
@@ -264,10 +233,8 @@ span img {
 
 
   /*css cho top nổi bật*/
-
   @import url(https://fonts.googleapis.com/css?family=Roboto:300);
   .tab {
-
     position: relative;
     overflow: hidden;
     background: #fff;
@@ -279,13 +246,14 @@ span img {
     color: #888;
     -webkit-font-smoothing: antialiased;
   }
-
   .tabs {
     display: table;
     position: relative;
     overflow: hidden;
     margin: 0;
     width: 100%;
+    left: 50%;
+    margin-left: -167px;
   }
   .tabs li {
     float: left;
@@ -309,18 +277,17 @@ span img {
     transition: all 0.2s ease-in-out;
     border-bottom: 2px solid blue;
   }
-
   .tabs_item {
     display: none;
     padding: 30px 0;
   }
   .tabs_item h4 {
     font-weight: bold;
-    color: blue;
+    color: #010d13;
     font-size: 20px;
   }
   .tabs_item img {
-    width: 200px;
+   
     float: left;
     margin-right: 30px;
   }
@@ -330,24 +297,22 @@ span img {
 
   .current a {
     color: #fff;
-    background: blue;
+    background:#181e1c;;
   }
 
   /*hét css cho top nổi bẩt*/
 
 
   /*css cho danh mục*/
-  .danhmuc{
+  .category-index{
     margin-top: 50px;
     background-color:#f8f8f8;
   }
-  .chinh-position{
+  .position-category{
     position: relative;
     transition: all .2s linear;
-
   }
-
-  .chinh-position:hover{
+  .position-category:hover{
     transform: scale(1.1);
   }
   .categories-caption {
@@ -360,33 +325,32 @@ span img {
     left: 50%;
     margin-left: -40px;
   }
-  .donamnu{
+  .male-female-category{
     color: white;
-
   }
 
   /*hết css cho danh mục*/
 
 
   /*css cho thương hiệu nổi bật*/
-  .thuonghieu{
+  .trademark{
     margin-bottom: 50px;
   }
   /*hết css cho thương hiệu nổi bật*/
 
 
   /*hót và bán chạy*/
-  .hot-ban-chay{
+  .selling{
     margin-top: 50px;
   }
   /*hót và bán chay*/
 
   /*css cho theo dõi nhận 10% giá*/
-  .theodoi{
+  .follow{
     background-color: black;
     color: white;
   }
-  .taylor{
+  .icon-follow{
     margin-top: 8px;
   }
   /*hết css cho thao doi nhận 10%*/
