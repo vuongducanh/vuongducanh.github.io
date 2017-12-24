@@ -28,3 +28,12 @@ $(function(){
         $('#img3').attr('src',thoitrang[11].src);
 });
 });
+
+
+$(document).ready( function() {
+    $('#myCarousel').carousel({
+        interval:   4000
+    });
+    
+   
+});

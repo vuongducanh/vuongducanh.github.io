@@ -85,14 +85,12 @@ body{
 /*  css cho footer */
 
 
-/************************************************************
-*************************Footer******************************
-*************************************************************/
+
 
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Gudea);
 .footer1 {
-  background: #4e3232  url("../images/footer/footer-bg.png") repeat scroll left top;
+  background: black  url("../images/footer/footer-bg.png") repeat scroll left top;
 	padding-top: 40px;
 	padding-right: 0;
 	padding-bottom: 20px;

@@ -1,5 +1,4 @@
 
-
 .click-h1 .btn{
     display: block;
 }
@@ -36,3 +35,35 @@
     -webkit-transition:box-shadow 0.5s;
 
 }
+/*css cho slide*/
+
+
+#myCarousel .nav a {
+    border-radius:0px;
+}
+.slide01{
+    margin-top: 20px;
+}
+
+.text02{
+   text-indent: 30px;
+    letter-spacing: 3px;
+}
+/*hết css cho slide*/
+
+/*phần danh mục lọc sản phẩm*/
+.filter-products{
+    background-color:#c4a651;
+}
+.trademark{
+    color: white;
+
+}
+.filter-products02{
+    margin-left: -13px;
+}
+
+
+/* hết phần sanh mục lọc sản phẩn*/
+
+
