@@ -103,7 +103,7 @@
 
 
 	<!-- bắt đầu phần sản phẩm cho nu -->
-	<section class="team wow fadeInUp " id="quanao">
+	<!-- <section class="team wow fadeInUp " id="quanao">
 		<div class="container">
 			<div class="row">
 
@@ -248,7 +248,73 @@
 
 			</div>
 		</div>
-	</section>
+	</section> -->
+
+	<div class="container slide01">
+		<div  class="row">
+
+			<div class="col-md-12 ">
+				<div>
+					<a href="index.html" class="next-page">Trang chủ > </a><span class="next-page">Thời trang nữ</span>
+				</div>
+				<div class="col-md-4 filter-products">
+
+					<h1 class="filter-products02">Lọc sản phẩm</h1>
+					<h4 class="trademark">Thương hiệu</h4>
+					<input type="checkbox" name="vehicle1" value="Bike" id="adidas"><label for="adidas">Adidas</label><br>
+					<input type="checkbox" name="vehicle" value="Car" id="gucci"><label for="gucci">Gucci</label><br><hr>
+					<h4 class="trademark">Giá Sản phẩm</h4>
+					<div data-role="page">
+						<div data-role="main" class="ui-content">
+							<form method="post" action="/action_page_post.php">
+								<div data-role="rangeslider">
+									<input type="range" name="price-min" id="price-min" value="200" min="0" max="1000000" onchange="range.value=value">
+									<output id="range">50 </output>
+								</div>
+							</form>
+						</div>
+					</div>
+					<button type="button" class="btn btn-success btn-filter" data-target="pagado">lọc giá</button><br><hr>
+					<h4 class="trademark">Màu sắc</h4>
+					<button class="color products1"></button> 
+					<button class="color products2"></button> 
+					<button class="color products3"></button> 
+					<button class="color products4"></button> 
+					<button class="color products5"></button> <br><hr>
+				</div>
+				<div class="col-xs-8 text01"> 
+					<div class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="https://bizweb.dktcdn.net/100/262/981/files/1499921101001-8893229-631f14c3-fd30-447f-b8a3-aed19945d1e0.jpg?v=1508424688570" class="img-responsive">
+
+							</div><!-- End Item -->
+
+							<div class="item">
+								<img src="https://dealplus.vn/wp-content/uploads/2017/03/1488882390838_1178387.jpg" class="img-responsive">
+
+							</div><!-- End Item -->
+
+							<div class="item">
+								<img src="https://media.static-adayroi.com/sys_master/h67/hf7/13847497965598.jpg" class="img-responsive">
+
+							</div>
+							<div class="item">
+								<img src="https://media.static-adayroi.com/sys_master/images/h60/hb2/13311206916126.jpg" class="img-responsive">
+
+							</div>
+
+						</div>	
+						<div class="text02">
+							<p >Mua sắm thời trang là một nhu cầu lớn của tất cả mọi người vì vẻ ngoài luôn là một yếu tố quan trọng để tạo ấn tượng với người đối diện. Ngày nay, mua sắm thời trang online đã trở thành một xu hướng mới của người tiêu dùng Việt. Các trang web bán hàng thời trang online phát triển nhanh cả về số lượng lẫn chất lượng. Những bạn trẻ yêu thời trang có thể thỏa sức mua sắm thời trang hàng hiệu online giá rẻ với số lượng lớn mẫu mã đẹp, vải cao cấp từ nhiều thương hiệu uy tín, cũng như cập nhật nhanh các phong cách đang nổi để bắt kịp với mọi xu hướng thời trang Hàn Quốc và thời trang Việt Nam mới nhất.</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
 	<!--het phần đồ nữ -->
 
 	
@@ -266,15 +332,54 @@
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile tran">
 					<img id="img1" src="img/do-nam4.jpg" alt="" class=" anh1 img-respnsive">
-					<button class="box btn">Thêm giỏ hàng</button>
+					<div  data-toggle="buttons">
+						<label class="btn btn-lg btn-block btn-success text-success active">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked>
+							<i class="fa fa-check-circle-o animated fadeIn"></i>
+							<br />
+							đã thêm
+						</label>
+						<label class="btn btn-lg btn-block btn-default text-default">
+							<input type="radio" name="options" id="option2" autocomplete="off">
+							<i class="fa fa-circle-o "></i>
+							<br />
+							Thêm giỏ hàng
+						</label>   
+					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile tran">
 					<img id="img2" src="img/do-nam4.jpg" alt="" class=" anh1 img-respnsive">
-					<button class=" box btn">Thêm giỏ hàng</button>
+					<div  data-toggle="buttons">
+						<label class="btn btn-lg btn-block btn-success text-success active">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked>
+							<i class="fa fa-check-circle-o animated fadeIn"></i>
+							<br />
+							đã thêm
+						</label>
+						<label class="btn btn-lg btn-block btn-default text-default">
+							<input type="radio" name="options" id="option2" autocomplete="off">
+							<i class="fa fa-circle-o "></i>
+							<br />
+							Thêm giỏ hàng
+						</label>   
+					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 profile tran">
 					<img id="img3" src="img/do-nam4.jpg" alt="" class=" anh1 img-respnsive">
-					<button class=" box btn">Thêm giỏ hàng</button>
+					<div  data-toggle="buttons">
+						<label class="btn btn-lg btn-block btn-success text-success active">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked>
+							<i class="fa fa-check-circle-o animated fadeIn"></i>
+							<br />
+							đã thêm
+						</label>
+						<label class="btn btn-lg btn-block btn-default text-default">
+							<input type="radio" name="options" id="option2" autocomplete="off">
+							<i class="fa fa-circle-o "></i>
+							<br />
+							Thêm giỏ hàng
+						</label>   
+					</div>
 				</div>
 				
 				
@@ -493,19 +598,15 @@
 							<h1 class="title-widget">Liên hệ </h1>
 
 							<div class="footerp">
-
-							
 								<p>
-									<b>Email :</b>
+									<b class="fotter-sua">Email :</b>
 									<a href="mailto:info@webenlance.com">anhvuong730@gmail.com</a>
 								</p>
-								
-								
 								<p>
-									<b>Phone Numbers : </b>7042827160, </p>
-								<p> 011-27568832, 9868387223</p>
+									<b class="fotter-sua">Phone Numbers : <a href="tel:7042827160">7042827160 </a>
+								</p>
+								<p class="fotter-sua"> <a href="tel:011-27568832">011-27568832</a></p>
 							</div>
-
 							<div class="social-icons">
 
 								<ul class="nomargin">

@@ -351,7 +351,7 @@ span img {
     color: white;
   }
   .icon-follow{
-    margin-top: 8px;
+    margin-top: 20px;
   }
   /*hết css cho thao doi nhận 10%*/
 
@@ -359,3 +359,43 @@ span img {
   /*css cho điện thoại*/
   @media screen and (max-width:650px){#callnowbutton {display:block; height:80px; position:fixed; width:100%; left:0; bottom:-20px; border-top:2px solid rgba(51,187,51,1); background:url(http://callnowbutton.com/phone/callbutton01.png) center 10px no-repeat #009900; text-decoration:none; box-shadow:0 0 5px #888; -webkit-box-shadow:0 0 5px #888; -moz-box-shadow:0 0 5px #888; z-index:9999;}}
 /*hết css cho điện thoại*/
+
+
+
+/*css cho nút thêm vào giỏ hàng*/
+.btn.active {                
+  display: none;    
+}
+
+.btn span:nth-of-type(1)  {             
+  display: none;
+}
+.btn span:last-child  {             
+  display: block;   
+}
+
+.btn.active  span:nth-of-type(1)  {             
+  display: block;   
+}
+.btn.active span:last-child  {              
+  display: none;      
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    height: 57px;
+    margin-top: -11px;
+}
+.btn-block+.btn-block {
+    margin-top: -11px;
+}
+
+
+.text-center:hover{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+footer{
+  color: white;
+}
+/*css cho nứt thêm vòa giỏ hàng*/

@@ -1,19 +1,3 @@
-$(function () {
-	$(window).on('scroll', function () {
-		var a = $('#contact')[0].getBoundingClientRect().top;   //lấy thông số đối tượng đấy trái, trên, rộng và chiều cao.
-
-		var b = $(window).innerHeight();     //lấy chiều cao của cửa sổ hiện tại;
-
-		if (a < b - 100) {
-			$('#contact').css({
-				"opacity": "1",
-				"transition": "all 1s ease",
-				"transform": "translateX(0)"
-			})
-		}
-
-	});
-});
 
 // js cho them vao gio hang
 $(document).on('click', '.them', function (e) {
@@ -46,13 +30,7 @@ $(document).on('click', '.them', function (e) {
 	},500);
 });
 
-// js xoa giỏ hàng
-$(function(){
-  $(".remove").click(function(){
-	   $('.tr-remove').remove();
-	 
-  });
-});
+
 
 // js cho back-to-top
 if ($('#back-to-top').length) {
@@ -125,4 +103,7 @@ $(document).ready(function() {
 
 
 
-
+// js cho appento thêm vao vào giỏ hàng
+$('.tabs2-js-index').click(function(){
+   $("div .apeento").appendTo('.buttons-cart');
+});

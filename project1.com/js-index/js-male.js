@@ -1,9 +1,9 @@
 $(function(){
     var thoitrang = [
-	{ src:'img-logo/son-nu1.jpg'},{  src:'img-logo/son-nu2.jpg'},{  src :'img-logo/son-nu3.jpg'},
-	{  src:'img-logo/giay-nu1.jpg'},{src:'img-logo/giay-nu2.jpg'},{src:'img-logo/giay-nu3.jpg'},
+	{ src:'http://bizweb.dktcdn.net/100/077/361/products/elensilia-legance-leg-massage-gel1.jpg?v=1463631897447'},{  src:'http://congtythaoduocvietnam.com/wp-content/uploads/2017/05/aloe-lotion-600x700.png'},{  src :'https://mwell.com.vn/media/catalog/product/cache/2/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/r/e/repavar_atopic_facial_cream.jpg'},
+	{  src:'http://giaycaohon.com/Uploads/Product/Lib/HN953%20%C4%90en-07.jpg?watermark=logo_watermark'},{src:'http://giaychonam.com/Uploads/Product/Lib/gi%C3%A0y%20nam%20t%C4%83ng%20cao%20TT52%20%C4%90en-09.jpg?watermark=logo_watermark'},{src:'http://giaychonam.com/Uploads/Product/lib/gi%C3%A0y%20nam%20cao%20HN956%20%C4%90en-11.jpg'},
 	{  src:'img-logo/nuoc-hoa-nu1.jpg'},{src:'img-logo/nuoc-hoa-nu2.jpg'},{src:'img-logo/nuoc-hoa-nu3.jpg'},
-	{  src:'img-logo/kinh-nu1.gif'},{src:'img-logo/kinh-nu2.jpg'},{src:'img-logo/kinh-nu3.jpg'}
+	{  src:'http://quangoptic.com/upload/sanpham/raybanrb3025w0879mom-14658540355.jpg'},{src:'http://duynguyenshop.com/sites/default/files/bai-viet/2-thoi-trang/10-cach-an-mac-cho-nam-nguoi-gay/cach-an-mac-cho-nam-nguoi-gay-03.jpg'},{src:'http://1001meo.com/wp-content/uploads/2015/12/5-meo-cuc-huu-ich-chon-do-dep-cho-nam-8122015-02.jpg'}
        
     ];
     $('#son').click(function(){
@@ -35,5 +35,4 @@ $(document).ready( function() {
         interval:   4000
     });
     
-   
 });
