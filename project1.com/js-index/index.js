@@ -102,5 +102,5 @@ $(document).ready(function() {
 // hết js cho topp nổi bật
 
 // js cho appento thêm vao vào giỏ hàng
-$('.money-products-js').append('<div data-toggle="buttons"><label class="btn btn-lg btn-block btn-success text-success active"> <input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "></i> <br /> Thêm giỏ hàng </label> </div>')
-//$('.money-products-js').append( '<button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="images/img_1.png">Thêm giỏ hàng</button>')
+//$('.money-products-js').append('<div data-toggle="buttons"><label class="btn btn-lg btn-block btn-success text-success active"> <input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "></i> <br /> Thêm giỏ hàng </label> </div>')
+$('.money-products-js').append( '<button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="images/img_1.png">Thêm giỏ hàng</button>')
