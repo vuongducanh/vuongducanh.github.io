@@ -10,11 +10,11 @@
 }
 .anh1{
     transition: all 1s;   
-    border-radius: 50%;
+   overflow: hidden;
 }
 .anh1:hover{
  transform: scale(1.1);
- box-shadow: 5px 5px 5px 5px red;    
+ box-shadow: 0px 3px 3px 0px #725b1d24;    
 }
 .box{
     margin-top: 30px;
@@ -98,6 +98,10 @@
   margin-left: -10px;
   display: block;
 }
+.category-a1{
+  display: block;
+}
+
 /* hết phần danh mục lọc sản phẩn*/
 
 /*css út thêm vào giở hàng*/

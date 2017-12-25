@@ -99,6 +99,7 @@ i.red{
 	color:#C9CBA3;
 	background-color: black;
 	margin-top: 20px;
+	padding: 16px;
 }
 .icon{
 	position: relative;
@@ -117,20 +118,16 @@ i.red{
   }
 .img02{
   	margin-bottom: 30px;
-  	
 }
 .image-product-introduction{
 	overflow: hidden;
 }
  .product-introduction{
   	margin-top: 30px;
-  
  }.img01,.img02,.img03,.img04{
  	transition: all .2s linear;
-
  }
  .img01:hover,.img02:hover,.img03:hover,.img04:hover{
  	transform: scale(1.1);
-
  }
   /*hết css cho các anh*/
