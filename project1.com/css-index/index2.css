@@ -124,10 +124,19 @@ i.red{
 }
  .product-introduction{
   	margin-top: 30px;
- }.img01,.img02,.img03,.img04{
- 	transition: all .2s linear;
  }
- .img01:hover,.img02:hover,.img03:hover,.img04:hover{
+.img01{
+	overflow: hidden;
+
+}
+img{
+transition: all 1s ease;
+}
+  .img01:hover	img{
  	transform: scale(1.1);
+ 	transition: all 1s ease;
+ 	
  }
+ 	
+ 
   /*hết css cho các anh*/

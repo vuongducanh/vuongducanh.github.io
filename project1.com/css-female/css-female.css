@@ -1,7 +1,4 @@
 
-.col-md-3 .h1{
-    border: 1px solid ;
-}
 .click-h1 .btn{
     display: block;
 }
@@ -13,12 +10,9 @@
 }
 .anh1{
     transition: all 1s;   
-    border-radius: 50%;
+   overflow: hidden;
 }
-.anh1:hover{
-   transform: scale(1.1);
-   box-shadow: 0px 5px 5px 0px red;    
-}
+
 .box{
     margin-top: 30px;
     margin-left: 70px;
@@ -36,11 +30,8 @@
     width: 100%;
     box-shadow: 0px 2px 1px white inset, 0px -2px 8px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
     -webkit-transition:box-shadow 0.5s;
-
 }
 /*css cho slide*/
-
-
 #myCarousel .nav a {
     border-radius:0px;
 }
@@ -58,7 +49,7 @@
 
 /*phần danh mục lọc sản phẩm*/
 .filter-products{
-    background-color:#c4a651;
+    background-color: black;
      margin-top: 30px;
 }
 .trademark{
@@ -70,13 +61,22 @@
    
 }
 .color{
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   display: inline-block;
   background-color: white;
-  padding: 30px;
+  padding: 15px;
   text-align: center;
+}
+.btn-success {
+    color: #fff;
+    background-color: black;
+    border:1px solid white ;
+}
+.btn-success:hover{
+  background-color: #612b2b;
+
 }
 .products1{
     background-color: red;
@@ -93,6 +93,18 @@
 .products5{
   background-color: #131bda;
 }
+.salient-features{
+  color: white;
+
+}
+.category-a{
+  margin-left: -10px;
+  display: block;
+}
+.category-a1{
+  display: block;
+}
+
 /* hết phần danh mục lọc sản phẩn*/
 
 /*css út thêm vào giở hàng*/
