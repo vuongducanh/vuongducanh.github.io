@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) { 
+/*@media screen and (max-width: 600px) { 
     table#cart tbody td .form-control { 
     width:20%; 
     display: inline !important;
@@ -49,10 +49,31 @@
   .container{
     margin-top: 20px;
   }
-  /*css cho thông số sản phẩm*/
+  /*cs*/s cho thông số sản phẩm*/
 
   .thongso,.thongso2{
     border: 1px dotted  ;
   }
  
   /* hết css cho thông số sản phẩm*/
+
+
+  /* css cho cart*/
+  .glyphicon {
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 30px;
+}
+.badge-notify{
+    background:red;
+    position:relative;
+    top: -20px;
+    right: 10px;
+  }
