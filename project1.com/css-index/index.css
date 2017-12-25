@@ -197,6 +197,10 @@ span img {
     .fotter-sua{
       color: white;
     }
+    .fotter-repair{
+      color: black;
+      font-size: 20px;
+    }
 
     /* hết css cho foter */
 
@@ -220,16 +224,6 @@ span img {
     width: 100% !important;
   }
   /* hết css cho image các sản phẩn */
-
-  /*css cho tin thời trang*/
-  .hover-floating{
-    transition: all 0.1s  ;
-  }
-  .hover-floating:hover{
-    transform: translate(0,-5px);
-    box-shadow: 0 5px 5px 0 pink;
-  }
-  /*hết css cho tin thời trang*/
 
 
   /*css cho top nổi bật*/
