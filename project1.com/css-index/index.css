@@ -11,30 +11,13 @@ body{
 
 }
 
-
-/* css cho img bay */
-.img-fly{
-  position: absolute;
-  z-index: 999999999;
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 100%;
-  border: 1px solid red;
-  transition: all 1s ease;
-}
-/* hết css cho img bay */
-
 /* bắt đầu css cho menu */
 .navbar {
-
   margin-bottom: 0px;
- 
   padding: 10px;
 
 }
 .nav>li>a>img {
-
   width: 30px;
   margin-top: -8px;
 }
@@ -51,7 +34,6 @@ span img {
 }
 
 /* hết css cho menu  */
-
 
 
 /* css cho back_to_top */
@@ -83,18 +65,13 @@ span img {
 /* hst css ho back-to-top */
 
 /*  css cho footer */
-@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
-@import url(http://fonts.googleapis.com/css?family=Gudea);
 .footer1 {
   background: black  url("../images/footer/footer-bg.png") repeat scroll left top;
   padding-top: 40px;
   padding-right: 0;
   padding-bottom: 20px;
-	padding-left: 0;/*	border-top-width: 4px;
-	border-top-style: solid;
-	border-top-color: #003;*/
+	padding-left: 0;
 }
-
 .title-widget {
 	color: white;
 	font-size: 19px;
@@ -159,16 +136,14 @@ span img {
 }
 #social {
   -webkit-transform:scale(0.8);
-  /* Browser Variations: */
+ 
   -moz-transform:scale(0.8);
   -o-transform:scale(0.8); 
   -webkit-transition-duration: 0.5s; 
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
 }           
-/* 
-    Only Needed in Multi-Coloured Variation 
-    */
+
     .social-fb:hover {
       color:  white;
     }
@@ -202,16 +177,7 @@ span img {
       font-size: 20px;
     }
 
-    /* hết css cho foter */
-
-    /* css cho thẻ chuyển trang */
-    .pagination>li>a, .pagination>li>span 
-    {
-     border-radius: 50% !important;
-     margin: 0 5px;
-
-   }
-   /* hết css cho nút chuyển trang */
+/* hết css cho foter */
 
    /* image của các sản phẩm */
    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
@@ -226,8 +192,8 @@ span img {
   /* hết css cho image các sản phẩn */
 
 
-  /*css cho top nổi bật*/
-  @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+  /*css cho top nổi bật hôm nay */
+  
   .tab {
     position: relative;
     overflow: hidden;
@@ -381,6 +347,12 @@ span img {
 }
 .btn-success:hover{
   background-color: black;
+}
+.btn-danger {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+    width:100%;
 }
 
 footer{

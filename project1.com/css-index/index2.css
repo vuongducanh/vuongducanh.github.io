@@ -1,7 +1,5 @@
-/*  đây là css cho hót và bán chay , và top nổi bật  */
+  /*đây là css cho hót và bán chay */
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
-
-
 h6.description{
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -11,25 +9,11 @@ h6.description{
 	font-size: 30px;
 	text-align: center;
 }
-.profile{
-	margin-top: 25px;
-}
-
 
 .profile .img-box{
 	opacity: 1;
 	display: block;
 	position: relative;
-}
-.profile .img-box:after{
-	content:"";
-	opacity: 0;
-	background-color: rgba(0, 0, 0, 0.75);
-	position: absolute;
-	right: 0;
-	left: 0;
-	top: 0;
-	bottom: 0;
 }
 .img-box ul{
 	position: absolute;
@@ -42,11 +26,7 @@ h6.description{
 	margin:0px;
 	opacity: 0;
 }
-.profile .img-box:after, .img-box ul, .img-box ul li{
-	-webkit-transition: all 0.5s ease-in-out 0s;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    transition: all 0.5s ease-in-out 0s;
-}
+
 .img-box ul i{
 	font-size: 20px;
 	letter-spacing: 10px;
@@ -88,12 +68,9 @@ a:hover{
 i.red{
     color:#BC0213;
 }
+/* hết đây là css cho hót và bán chay */
 
-
-/* hết đây là css cho hót và bán chay , và top nổi bật	 */
-
-
-/*css cho cái tham khảo*/
+/*css cho cái icon đầu trang tham khảo*/
 .conten{
 	border: 1px dotted;
 	color:#C9CBA3;
@@ -110,9 +87,9 @@ i.red{
 	left: 43px;
 }
 
-/*hết css cho tham khảo*/
+/*hết css cho icon đầu  trang tham khảo*/
 
-/*css cho cáo anh*/
+/*css cho các anh*/
 .img01,.img03	{
     margin-bottom: 30px;
   }
@@ -127,16 +104,94 @@ i.red{
  }
 .img01{
 	overflow: hidden;
-
 }
-img{
-transition: all 1s ease;
-}
-  .img01:hover	img{
- 	transform: scale(1.1);
- 	transition: all 1s ease;
- 	
+ .img01{
+ 	position: relative;
+ 	width: 100%;
+ 	height: 50%;
  }
+ .img01::before{
+ 	content: '';
+ 	width: 90%;
+ 	position: absolute;
+ 	height: 86%;
+ 	border-top: 1px solid black;
+ 	border-bottom: 1px solid black;
+ 	top: 7%;
+ 	left: 5%;
+ 	transform: scaleX(0);
+ 	transition: 0.5s;
+ }
+ .img01::after{
+ 	content: '';
+ 	width: 90%;
+ 	position: absolute;
+ 	height: 86%;
+ 	border-left : 1px solid black;
+ 	border-right: 1px solid black;
+ 	top: 7%;
+ 	left: 5%;
+ 	transform: scaleY(0);
+ 	transition: 0.5s;
+ }
+ .img01:hover::before{
+ 	border-top: 1px solid black;
+ 	border-bottom:1px solid black;
+ 	transform: scaleX(1.1);
+
+ }
+ .img01:hover::after{
+ 	border-left: 1px solid black;
+ 	border-right:1px solid black;
+ 	transform: scaleY(1.1);
+ }
+
+ 
+
+ .img02{
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .img02::before{
+ 	content: '';
+ 	width: 90%;
+ 	position: absolute;
+ 	height: 90%;
+ 	border-top: 1px solid black;
+ 	border-bottom: 1px solid black;
+ 	top: 5%;
+    left: 5%;
+ 	transform: scaleX(0);
+ 	transition: 0.5s;
+ }
+ .img02::after{
+ 	content: '';
+ 	width: 90%;
+ 	position: absolute;
+ 	height: 90%;
+ 	border-left : 1px solid black;
+ 	border-right: 1px solid black;
+ 	top: 5%;
+    left: 5%;
+ 	transform: scaleY(0);
+ 	transition: 0.5s;
+ }
+ .img02:hover::before{
+ 	border-top: 1px solid black;
+ 	border-bottom:1px solid black;
+ 	transform: scaleX(1.1);
+
+ }
+ .img02:hover::after{
+ 	border-left: 1px solid black;
+ 	border-right:1px solid black;
+ 	transform: scaleY(1.1);
+ }
+
+
+
+
  	
  
-  /*hết css cho các anh*/
+  /*hết css cho các anh
