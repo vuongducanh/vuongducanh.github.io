@@ -1,75 +1,4 @@
-  /*đây là css cho hót và bán chay */
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
-h6.description{
-	font-weight: bold;
-	letter-spacing: 2px;
-	color: #999;
-	border-bottom: 1px solid rgba(0, 0, 0,0.1);
-	padding-bottom: 5px;
-	font-size: 30px;
-	text-align: center;
-}
-
-.profile .img-box{
-	opacity: 1;
-	display: block;
-	position: relative;
-}
-.img-box ul{
-	position: absolute;
-	z-index: 2;
-	bottom: 50px;
-	text-align: center;
-	width: 100%;
-	padding-left: 0px;
-	height: 0px;
-	margin:0px;
-	opacity: 0;
-}
-
-.img-box ul i{
-	font-size: 20px;
-	letter-spacing: 10px;
-}
-.img-box ul li{
-	width: 30px;
-    height: 30px;
-    text-align: center;
-    border: 1px solid #88C425;
-    margin: 2px;
-    padding: 5px;
-	display: inline-block;
-}
-.img-box a{
-	color:#fff;
-}
-.img-box:hover:after{
-	opacity: 1;
-}
-.img-box:hover ul{
-	opacity: 1;
-}
-.img-box ul a{
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	-moz-transition: all 0.3s ease-in-out 0s;
-	transition: all 0.3s ease-in-out 0s;
-}
-.img-box a:hover li{
-	border-color: #fff;
-	color: #88C425;
-}
-a{
-    color:#88C425;
-}
-a:hover{
-    text-decoration:none;
-    color:#519548;
-}
-i.red{
-    color:#BC0213;
-}
-/* hết đây là css cho hót và bán chay */
-
+  
 /*css cho cái icon đầu trang tham khảo*/
 .conten{
 	border: 1px dotted;
@@ -89,7 +18,7 @@ i.red{
 
 /*hết css cho icon đầu  trang tham khảo*/
 
-/*css cho các anh*/
+/*css cho các anhr duoi icon*/
 .img01,.img03	{
     margin-bottom: 30px;
   }
@@ -187,11 +116,5 @@ i.red{
  	border-left: 1px solid black;
  	border-right:1px solid black;
  	transform: scaleY(1.1);
- }
-
-
-
-
- 	
- 
+ } 
   /*hết css cho các anh

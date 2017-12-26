@@ -1,22 +1,55 @@
 .news{
 	margin-top: 50px;
 }
-.news-involve{
-	/*border: 1px solid;*/
-}
-.the-cach-duoi{
-	margin-bottom: 30px;
-}
-.img-responsive{
-	margin-bottom: 30px;
-}
-.thong-tin-shop{
-	margin-bottom: 50px;
-}
 .thongtin{
 	background-color: #d8d2d2
 }
 .shop{
 	background-color: #e7f2ee;
 }
+.registration
+{
+	border: 1px solid;
 
+}
+.shop{
+	margin-bottom: 30px;
+	height: 133px;
+}
+
+.list-posts{
+	font-size: 25px;
+}
+.list-list{
+	display: block;
+	color: black;
+	margin-bottom: -16px;
+}
+.special-special{
+color:#56cfe1;
+}
+.next-page{
+	display: inline;
+}
+
+.image-news{
+	width: 82%;
+	
+}
+.post-time{
+	font-size: 13px;
+	margin-top: 25px;
+}
+.main-news2{
+	margin-bottom: 10px;
+	    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    height: 58px;
+    overflow: hidden;
+}
+.main-news2:hover a{
+	text-decoration: none;
+	color: #56cfe1;
+}

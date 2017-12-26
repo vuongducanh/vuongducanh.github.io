@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="css-index/index2.css">
 	<link rel="stylesheet" type="text/css" href="css-news/css-news.css">
 	<link rel="stylesheet" type="text/css" href="css-index/@media.css">
+	<link rel="stylesheet" type="text/css" href="css-cart/css-cart.css">
 	<!-- hêt phần css  -->
 	<!-- đâu là phần animation -->
 	<link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
@@ -59,9 +60,11 @@
 							<a href="women-fashion.html" class="a3"> Đồ nữ</a>
 						</li>
 						<li class="logocart" class="a4">
-							<a href="cart.html">
-								<img src="img/giohang.png" alt="cart" id="cart-shop">
-								<span id="count-item" value='0'>0</span>
+							<a href="">
+								
+								<span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
+								<!-- <span id="count-item" value='0'>0</span> -->
+								<!-- <img src="img/giohang.png" alt="cart" id="cart-shop"> -->
 							</a>
 						</li>
 					</ul>
@@ -88,77 +91,116 @@
 		<div class="container news">
 			<div class="row">
 				<div class="col-xs-12">
-					<div class="col-md-8">
-						<a href="index.html" class="next-page">Trang chủ > </a><span class="next-page">Tin tức</span>
-						<h1 class="the-cach-duoi " style="font-size: 30px;">Tin Tức Cập Nhật Hôm Nay</h1>
+
+					<div class="col-md-3">
+						<a href="index.html" class="next-page ">Trang chủ > </a><span class="next-page special-special">Tin tức</span>
+						<h1 class="list-posts">Danh mục bài viết</h1><hr>
+						<h4>Tinh năng nổi bật</h4>
+						<a href="#" class="list-list">Shop</a><hr>
+						<a href="#" class="list-list">Nam</a><hr>
+						<a href="#" class="list-list">Nữ</a><hr>
+						<a href="#" class="special-special list-list">Tin tức</a><hr>
+						<a href="#" class="list-list">liên hệ</a><hr>
+						<h1 class="list-posts list-list">Bài viết khác</h1><hr>
 						<div class="row">
-							<div class="col-xs-4">
-								<img src="https://68.media.tumblr.com/857161bc427b866f29dd89efcfe08786/tumblr_inline_om2uixEUgj1ugd7rr_540.jpg" class="img-responsive">
-							</div>
-							<div class="col-xs-8">
-								 <a href="" class="the-cach-duoi">Mốt Thủy Thủ</a>
-									<p> Đăng bởi <b>Sáng Tạo Trẻ<b> bình luận (11)</p>
-									<p>1. Mốt trang phục thủy thủ Nếu SNSD khơi dậy làn sóng trang phục hải quân thì T-ara lại lăng xê mốt thủy thủ và biến nó thành một cơn sốt trong lòng các tín đồ thời trang thế giới. Xu hướng diện đồng bộ một...
-									</p>
-								 <a href="#">Xem chi tiết</a>
+							<div class="col-xs-12">
+								<div class="col-xs-6">
+									<img src="https://bizweb.dktcdn.net/thumb/small/100/262/981/articles/levis.jpg?v=1507644384597" class="img-responsive image-news" >
+								</div>
+								<div class="col-md-6">
+									<div class="text-news">
+										<a href="#">Bạn sẽ bất ngờ khi biết nguyên liệu để làm ra chiếc quần jeans có giá 1,1 triệu này của...</a>
+										<p class="post-time">27/12/2017</p>
+									</div>
+
+								</div>
+
+								<div class="col-xs-6">
+									<img src="https://bizweb.dktcdn.net/thumb/small/100/262/981/articles/parri.jpg?v=1507644247067" class="img-responsive image-news">
+								</div>
+								<div class="col-md-6">
+									<div class="text-news">
+										<a href="#">Nếu nghĩ street style tại Paris Fashion Week chỉ là cuộc chiến váy áo thì bạn nhầm to rồi</a>
+										<p class="post-time">27/12/2017</p>      
+									</div>
+
+								</div>
+
+								<div class="col-xs-6">
+									<img src="https://bizweb.dktcdn.net/thumb/small/100/262/981/articles/tumblr-n14hmsqre11rb2h7co3-1280.jpg?v=1507644153213" class="img-responsive image-news">
+								</div>
+								<div class="col-md-6">
+									<div class="text-news">
+										<a href="#">Military chic - Sắc màu lính đáng được săn lùng nhất mùa mốt Thu Đông 2017</a>
+										<p class="post-time">27/12/2017</p> 
+									</div>
+
+								</div>
+
+								<div class="col-xs-6">
+									<img src="https://bizweb.dktcdn.net/thumb/small/100/262/981/articles/q-2.jpg?v=1507644067297" class="img-responsive image-news">
+								</div>
+								<div class="col-md-6">
+									<div class="text-news">
+										<a href="#">Charles & Keith khai trương đồng loạt thêm 3 cửa hàng mới tại hệ thống TTTM </a>
+										<p class="post-time">27/12/2017</p>  
+
+									</div>
+
+								</div>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-xs-4">
-								<img src="https://68.media.tumblr.com/30387315bedc362fee26b44e56a6d49e/tumblr_inline_om2uq5USCc1ugd7rr_540.jpg" class="img-responsive">
-							</div>
-							<div class="col-xs-8">
-								 <a href="" class="the-cach-duoi">Urban Chic Thời Thượng</a>
-									<p> Đăng bởi <b>Sáng Tạo Trẻ<b> bình luận (11)</p>
-									<p>2. Urban chic thời thượng với MV "What should i do" Một trong những xu hướng tiếp theo mà T-ara khởi xướng thành công chính là phong cách Urban chic thời thượng, với áo khoác lông sang chảnh, bomber jacket thể thao cá tính và mũ...
-									</p>
-								 <a href="#">Xem chi tiết</a>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-xs-4">
-								<img src="https://img.websosanh.vn/v2/users/wss/images/ma0m2k2w520yu.jpg" class="img-responsive">
-							</div>
-							<div class="col-xs-8">
-								 <a href="" class="the-cach-duoi">Cơn Sốt Áo Thun Của T-Ara</a>                                             
-									<p> Đăng bởi <b>Sáng Tạo Trẻ<b> bình luận (11)</p>
-									<p>3. Cơn sốt áo thun thể thao over-sized Khi mốt retro qua đi, T-ara bắt đầu đổi mới phong cách và nhanh chóng tạo nên xu hướng mới đó chính là style: Sporty chic - cá tính và sành điệu với các item thuộc về thể...
-									</p>
-								 <a href="#">Xem chi tiết</a>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-xs-4">
-								<img src="https://68.media.tumblr.com/92e6a76e991c264b0e584680aa056f52/tumblr_inline_omhiuwv9Vs1uh3lo5_540.jpg" class="img-responsive">
-							</div>
-							<div class="col-xs-8">
-								 <a href="" class="the-cach-duoi">Urban Chic Thời Thượng</a>
-									<p> Đăng bởi <b>Sáng Tạo Trẻ<b> bình luận (11)</p>
-									<p>4. Urban chic thời thượng với MV "What should i do" Một trong những xu hướng tiếp theo mà T-ara khởi xướng thành công chính là phong cách Urban chic thời thượng, với áo khoác lông sang chảnh, bomber jacket thể thao cá tính và mũ...
-									</p>
-									<a href="#">Xem chi tiết</a>
-							</div>
-						</div>									
 					</div>
 
-					<div class="col-md-4 news-involve">
-					   <h1 class="the-cach-duoi">Bài viết liên quan</h1>
-                       <div>
-                       	 <a href="#">Mốt Sơ mi nam</a>
-                       	 <p>Mốt trang phục thủy thủ Nếu SNSD khơi dậy làn sóng trang... 22/12/2017</p>
-                       </div>
-                       <div>
-                       	 <a href="#">Hót áo bông nam</a>
-                       	 <p>Mốt trang phục thủy thủ Nếu SNSD khơi dậy làn sóng trang... 22/12/2017</p>
-                       </div>
-                       <div>
-                       	 <a href="#">Mốt Sơ mi nam</a>
-                       	 <p>Mốt trang phục thủy thủ Nếu SNSD khơi dậy làn sóng trang... 22/12/2017</p>
-                       </div>
-                       <div>
-                       	 <a href="#">Mốt Sơ mi nam</a>
-                       	 <p>Mốt trang phục thủy thủ Nếu SNSD khơi dậy làn sóng trang... 22/12/2017</p>
-                       </div>
+
+					<div class="col-md-9">
+						<h1>Tin tức chính</h1>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-4">
+									<img src="https://bizweb.dktcdn.net/100/262/981/articles/levis.jpg?v=1507644384597" alt="tin tức" class="img-responsive" >
+									<a href="#" class="main-news2">Bạn sẽ bất ngờ khi biết nguyên liệu để làm ra chiếc quần jeans có giá 1,1 triệu này của H and M</a>
+									<p class="post-time">10/10/2017 - Nguyễn Chánh Bảo Trung</p>
+									<p class="paragrap" >Nếu đã là một tín đồ trung thành của H&M chắc chắn bạn sẽ biết thương hiệu n...</p> 
+
+								</div>
+								<div class="col-md-4">
+									<img src="https://bizweb.dktcdn.net/100/262/981/articles/parri.jpg?v=1507644247067" alt="tin túc"  class="img-responsive" >
+									<a href="#" class="main-news2">Bạn sẽ bất ngờ khi biết nguyên liệu để làm ra chiếc quần jeans có giá 1,1 triệu này của H and M</a>
+									<p class="post-time">10/10/2017 - Nguyễn Chánh Bảo Trung</p>
+									<p class="paragrap">Nếu đã là một tín đồ trung thành của H&M chắc chắn bạn sẽ biết thương hiệu n...</p> 
+								</div>
+								<div class="col-md-4">
+									<img src="https://bizweb.dktcdn.net/100/262/981/articles/tumblr-n14hmsqre11rb2h7co3-1280.jpg?v=1507644153213" alt="tin tức"  class="img-responsive" >
+									<a href="#" class="main-news2">Bạn sẽ bất ngờ khi biết nguyên liệu để làm ra chiếc quần jeans có giá 1,1 triệu này của H and M</a>
+									<p class="post-time">10/10/2017 - Nguyễn Chánh Bảo Trung</p>
+									<p class="paragrap">Nếu đã là một tín đồ trung thành của H&M chắc chắn bạn sẽ biết thương hiệu n...</p> 
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-4">
+									<img src="https://bizweb.dktcdn.net/100/262/981/articles/q-2.jpg?v=1507644067297" alt="tin tức" class="img-responsive" >
+									<a href="#" class="main-news2">Bạn sẽ bất ngờ khi biết nguyên liệu để làm ra chiếc quần jeans có giá 1,1 triệu này của H and M</a>
+									<p class="post-time">10/10/2017 - Nguyễn Chánh Bảo Trung</p>
+									<p class="paragrap" >Nếu đã là một tín đồ trung thành của H&M chắc chắn bạn sẽ biết thương hiệu n...</p> 
+
+								</div>
+								<div class="col-md-4">
+									<img src="https://bizweb.dktcdn.net/100/262/981/articles/collage2.jpg?v=1507643987577" alt="tin túc"  class="img-responsive" >
+									<a href="#" class="main-news2">Bạn sẽ bất ngờ khi biết nguyên liệu để làm ra chiếc quần jeans có giá 1,1 triệu này của H and M</a>
+									<p class="post-time">10/10/2017 - Nguyễn Chánh Bảo Trung</p>
+									<p class="paragrap">Nếu đã là một tín đồ trung thành của H&M chắc chắn bạn sẽ biết thương hiệu n...</p> 
+								</div>
+								<div class="col-md-4">
+									<img src="https://bizweb.dktcdn.net/100/262/981/articles/untitled-1.jpg?v=1507300328720" alt="tin tức"  class="img-responsive" >
+									<a href="#" class="main-news2">Bạn sẽ bất ngờ khi biết nguyên liệu để làm ra chiếc quần jeans có giá 1,1 triệu này của H and M</a>
+									<p class="post-time">10/10/2017 - Nguyễn Chánh Bảo Trung</p>
+									<p class="paragrap">Nếu đã là một tín đồ trung thành của H&M chắc chắn bạn sẽ biết thương hiệu n...</p> 
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -185,7 +227,7 @@
 		  				</div>
 		  			</div>
 		  			<div class="col-md-4 shop">
-		  				<i class="fa fa-comment-o" style="font-size: 153px;" aria-hidden='true'></i>
+		  				<i class="fa fb fa-comment-o"  aria-hidden='true'></i>
 		  				<a href="">HỖ TRỢ 24/7</a>
 		  			</div>
 		  		</div>
@@ -194,8 +236,9 @@
 		<!-- hết thông tin shop -->
 
 		<!-- phần font đăng nhập  -->
-		<section id="contact">
-			<div class="container">
+		
+			<div class="container registration">
+
 				<form>
 					<div class="col-md-6 form-line">
 						<div class="form-group">
@@ -222,40 +265,11 @@
 					</div>
 				</form>
 			</div>
-			<img src="img/phone.gif" title="0195728435" class="dienthoai">
-		</section>
+		
+		
 		<!-- hết phần  font đăng nhập -->
 
-		<!-- nút chuyển trang -->
-		<div class="container">
-			<ul class="pagination">
-				<li class="disabled">
-					<a href="#">«</a>
-				</li>
-				<li class="active">
-					<a href="about.html">1
-						<span class="sr-only">(current)</span>
-					</a>
-				</li>
-				<li>
-					<a href="nu.html">2</a>
-				</li>
-				<li>
-					<a href="nam.html">3</a>
-				</li>
-				<li>
-					<a href="nuhtml">4</a>
-				</li>
-				<li>
-					<a href="gio-hang.html">5</a>
-				</li>
-				<li>
-					<a href="dangtin.html">»</a>
-				</li>
-			</ul>
-		</div>
-		<!-- hết nút chuyển trang -->
-
+		
 
 	
 	<!--  đây là phần footer -->
@@ -431,12 +445,10 @@
 		</div>
 	</div>
 </div>
-<script src="js/jquery-3.2.1.js"></script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
 <script type="text/javascript" src="js-index/index.js"></script>
-
-
 <a href="tel:01683886583" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);" id="callnowbutton">&nbsp;</a>
 </body>
 </html>
