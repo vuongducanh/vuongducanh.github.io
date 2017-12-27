@@ -26,11 +26,9 @@ if ($('#back-to-top').length) {
 
 // slide cho anh
 jQuery(document).ready(function($) {
-	
 		   $('#myCarousel').carousel({
 				   interval: 5000
 		   });
-	
 		   $('#carousel-text').html($('#slide-content-0').html());
 	
 		   //Handles the carousel thumbnails
@@ -51,8 +49,8 @@ jQuery(document).ready(function($) {
 // js cho top nổi bật
 
 $(document).ready(function() { 
-	(function ($) { 
-		$('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
+	(function () { 
+		$('.tab ul.tabs').addClass('active').find('> li:eq()').addClass('current');
 		$('.tab ul.tabs li a').click(function (g) { 
 			var tab = $(this).closest('.tab'), 
 				index = $(this).closest('li').index();
@@ -91,19 +89,21 @@ $(function () {
     }
 
     $('.my-cart-btn').myCart({
-      currencySymbol: '$',
-      classCartIcon: 'my-cart-icon',
-      classCartBadge: 'my-cart-badge',
-      classProductQuantity: 'my-product-quantity',
-      classProductRemove: 'my-product-remove',
-      classCheckoutCart: 'my-cart-checkout',
+      // currencySymbol: '$',
+      // classCartIcon: 'my-cart-icon',
+      // classCartBadge: 'my-cart-badge',
+      // classProductQuantity: 'my-product-quantity',
+      // classProductRemove: 'my-product-remove',
+      // classCheckoutCart: 'my-cart-checkout',
+
       affixCartIcon: true,
       showCheckoutModal: true,
       numberOfDecimals: 2,
       cartItems: [
         {id: 1, name: 'product 1', summary: 'summary 1', price: 10, quantity: 1, image: 'img/do-nam1.jpg'},
         {id: 2, name: 'product 2', summary: 'summary 2', price: 20, quantity: 2, image: 'img/do-nam2.jpg'},
-        {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 1, image: 'img/do-nam3.jpg'}
+        {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 1, image: 'img/do-nam3.jpg'},
+        {id: 4, name: 'product 4', summary: 'summary 4', price: 30, quantity: 1, image: 'img/do-nu4.jpg'}
       ],
       clickOnAddToCart: function($addTocart){
         goToCartIcon($addTocart);
@@ -114,17 +114,12 @@ $(function () {
       clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
        
       },
-      checkoutCart: function(products, totalPrice, totalQuantity) {
-        var checkoutString = "Total Price: " + totalPrice + "\nTotal Quantity: " + totalQuantity;
-        checkoutString += "\n\n id \t name \t summary \t price \t quantity \t image path";
-        $.each(products, function(){
-          checkoutString += ("\n " + this.id + " \t " + this.name + " \t " + this.summary + " \t " + this.price + " \t " + this.quantity + " \t " + this.image);
-        });
-        alert(checkoutString)
-      },
+     
       getDiscountPrice: function(products, totalPrice, totalQuantity) {
        
         return totalPrice * 0.5;
       }
     });
   });
+// js ccho slide các thương hiệu
+

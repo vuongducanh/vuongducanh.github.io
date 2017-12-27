@@ -46,6 +46,12 @@ color: red;
 .img01{
 	overflow: hidden;
 }
+.img01{
+	border-top-left-radius: 15px; border-top-right-radius: 120px 30px; border-bottom-left-radius: 120px 30px; border-bottom-right-radius: 15px; -webkit-transition: all 0.7s ease; transition: all 0.7s ease;
+}
+.img01:hover{
+border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; border-bottom-left-radius: 15px; border-top-right-radius: 15px;
+}
  .img01{
  	position: relative;
  	width: 100%;
@@ -130,3 +136,5 @@ color: red;
  	transform: scaleY(1.1);
  } 
   /*hết css cho các anh
+
+

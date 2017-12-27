@@ -172,7 +172,10 @@ span img {
       text-align: center;
     }
     .fotter-sua{
-      color: white;
+      color: #ababab;
+    }
+      .fotter-sua:hover{
+      color: #ababab;
     }
     .fotter-repair{
       color: black;
