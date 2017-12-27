@@ -15,6 +15,18 @@
 	top: 5px;
 	left: 43px;
 }
+.phone-icon{
+	color: red;
+	text-decoration: none;
+}
+.phone-icon:active{
+	color: red;
+	
+}
+.phone-icon:hover{
+text-decoration: none;
+color: red;
+}
 
 /*hết css cho icon đầu  trang tham khảo*/
 

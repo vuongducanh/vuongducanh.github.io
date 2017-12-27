@@ -32,7 +32,9 @@ span img {
   margin-top: -48px;
   margin-right: 513px;
 }
-
+.banner{
+  margin-top: 85px;
+}
 /* hết css cho menu  */
 
 
@@ -305,9 +307,11 @@ span img {
   .selling{
     margin-top: 50px;
   }
-/*.hover001{
-    position: relative;
 
+.img-box {
+       position: relative;
+    height: 297.5px;
+    overflow: hidden;
 }
 .hover001{
     position: absolute;
@@ -321,7 +325,7 @@ span img {
     opacity: 1;
     transition: all 0.5s ease;
     
-  }*/
+  }
   /*hót và bán chay*/
 
   /*css cho theo dõi nhận 10% giá*/
