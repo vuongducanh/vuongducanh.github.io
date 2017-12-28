@@ -15,20 +15,18 @@ body{
 	background-repeat: repeat-y;
 	background-size: 2000px 800px;
 
-
 }
 .wrap{
 	position: relative;
 	margin: auto;
 	max-width: 1321px;
-	max-height: 700px;
-	
-	    
+	max-height: 700px;   
 }
 .content{
-	position: relative;	
-
-}
+	position: relative;
+	margin: auto;
+	max-width: 1321px;
+	max-height: 700px;   	}
 .grid{
 	float: left;
 	padding: 10px;
@@ -52,7 +50,8 @@ body{
 }
 .card:hover .font {
 	transform: rotateY(180deg);
-}*/
+}
+*/
 .card .font, .card .back {
 	transition: all 0.5s;
 	backface-visibility: hidden;
@@ -60,7 +59,6 @@ body{
 
 .flip .font, .flip .back{
 	transition: all 0.5s;
-
 }
 .flip .font{
 	transform: rotateY(180deg);
