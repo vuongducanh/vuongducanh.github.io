@@ -10,7 +10,9 @@ body{
   position: relative;
 
 }
-
+img:hover{
+  cursor: pointer;
+}
 /* bắt đầu css cho menu */
 .navbar {
   margin-bottom: 0px;
@@ -265,10 +267,9 @@ span img {
     background:#181e1c;;
   }
 .tab-product{
-  font-size: 20px;
+  font-size: 28px;
 }
   /*hét css cho top nổi bẩt*/
-
 
   /*css cho danh mục*/
   .category-index{
@@ -302,6 +303,24 @@ span img {
   /*css cho thương hiệu nổi bật*/
   .trademark{
     margin-bottom: 50px;
+  }
+  .outstanding-brand-center{
+    display: flex;
+    align-items: center;
+    width: 44%;
+    margin: auto;
+  }
+  .dash1{
+    background-color: black;
+    width:70px;
+    height: 2px;
+    /*margin-right: 5%;*/
+  }
+  .dash2{
+    background-color: black;
+    width:70px;
+    height: 2px;
+    /*margin-left: 5%;*/
   }
   /*hết css cho thương hiệu nổi bật*/
 
@@ -339,14 +358,15 @@ span img {
   .icon-follow{
     margin-top: 20px;
   }
+  .follow-us{
+    margin-top: 50px;
+  }
   /*hết css cho thao doi nhận 10%*/
 
 
   /*css cho điện thoại*/
   @media screen and (max-width:650px){#callnowbutton {display:block; height:80px; position:fixed; width:100%; left:0; bottom:-20px; border-top:2px solid rgba(51,187,51,1); background:url(http://callnowbutton.com/phone/callbutton01.png) center 10px no-repeat black; text-decoration:none; box-shadow:0 0 5px #888; -webkit-box-shadow:0 0 5px #888; -moz-box-shadow:0 0 5px #888; z-index:9999;}}
 /*hết css cho điện thoại*/
-
-
 
 /*css cho nút thêm vào giỏ hàng*/
 .btn.active {                
@@ -384,13 +404,23 @@ span img {
     display: block;
     width: 100%;
     height: 57px;
-    margin-top: 30px;
 }
 .btn-block+.btn-block {
-    margin-top: 30px;
+  margin-bottom: 10px;
+}
+.hover-image-men-fashion-css:hover{
+-webkit-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
+-moz-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
+box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
 }
 
+/*.money-products{
+  color: red;
+}*/
 footer{
   color: white;
 }
-/*css cho nứt thêm vòa giỏ hàng*/
+#contact{
+  position: fixed; top: 890px;
+}
+/*css cho nứt thêm vòa giỏ hàng
