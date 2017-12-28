@@ -1,9 +1,10 @@
-var cards = ['f1', 'f2', 'f3', 'f4', 'f5'];
-var current=null;
+  $(document).ready(function () {
+  	var cards = ['f1', 'f2', 'f3', 'f4', 'f5'];
+  	var current=null;
 
 
-function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
+  	function shuffle(array) {
+  		var currentIndex = array.length, temporaryValue, randomIndex;
 
     // While there remain elements to shuffle...
     while (0 !== currentIndex) {
@@ -16,24 +17,30 @@ function shuffle(array) {
         temporaryValue = array[currentIndex];
         array[currentIndex] = array[randomIndex];
         array[randomIndex] = temporaryValue;
-  }
+    }
 
-  return array;
+    return array;
 }
 
 
 $(function(){
-	cards=cards.concat(cards);
-	 cards=shuffle(cards);
-	 var html='';
-	 for(var i = 0 ;i<cards.length;i++){
-	 	html+= '<div class="wrap" > <div class="content"> <div class="grid"> <div class="card" data-name="'+cards[i]+'"> <div class="font" > <img src="img/anhsau1.jpg"> </div> <div class="back" > <img src="img/'+cards[i]+'.jpg"> </div> </div> </div> </div> </div>';
-	 };
-	 $('.wrap').html(html);
-});
+	// nhan dôi mảng
+	cards=cards.concat(cards); 	
+		// dảo vị trí các con bài
+		cards=shuffle(cards);
+		var html='';
+		for(var i = 0 ;i<cards.length;i++){
+			html+= '<div class="content"> <div class="grid"> <div class="card" data-name="'+cards[i]+'"> <div class="font" > <img src="img/anhsau1.jpg"> </div> <div class="back" > <img src="img/'+cards[i]+'.jpg"> </div> </div> </div> </div> ';
+		};
+		$('.content').html(html);
 
-$('.card').on('click',function(){
-	$(this).addClass('flip');
+		$('.card').on('click',function(){
+			$(this).addClass('flip');
+			
+		});
+	});
+
+})
+
+// console.log("dthdg");
 	// $(this).css('pointer-events','none');
-});
-
