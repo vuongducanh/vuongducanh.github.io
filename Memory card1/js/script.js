@@ -1,5 +1,5 @@
   $(document).ready(function () {
-  	var cards = ['f1', 'f2', 'f3', 'f4', 'f5'];
+  	var cards = ['a1', 'a2', 'a3', 'a4', 'a5','a6','a7','a8','a9','a10'];
   	var current=null;
 
 

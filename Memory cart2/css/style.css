@@ -3,9 +3,9 @@
 }
 
 img{
-  width: 250px;
-  height: 400px;
-  margin: -3px;
+  width: 153px;
+  height: 232px;
+  
   
 }
 body{
@@ -45,13 +45,7 @@ body{
 	box-shadow: 0px 0px 12px 2px rgba(236, 229, 226, 0.75);
 }
 
-/*.card:hover .back {
-	transform: rotateY(0deg);
-}
-.card:hover .font {
-	transform: rotateY(180deg);
-}
-*/
+
 .card .font, .card .back {
 	transition: all 0.5s;
 	backface-visibility: hidden;

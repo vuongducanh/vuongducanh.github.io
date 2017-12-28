@@ -1,5 +1,5 @@
 
-  	var cards = ['f1', 'f2', 'f3', 'f4', 'f5'];
+  	var cards = ['a1', 'a2', 'a3', 'a4', 'a5','a6','a7','a8','a9'];
   	var current=null;
 
   	function shuffle(array) {
@@ -32,7 +32,7 @@
     $('.content').html(html);
     $('.card').on('click',function(){
       $(this).addClass('flip');
-      $(this).css('pointer-events','none');
+      // $(this).css('pointer-events','none');
     });
 
   });
@@ -57,7 +57,7 @@
              $(card).toggleClass('flip');
               current=null;      //gán về null để bắt đầu lực chọn khác
           },500);
-          $('.card').css('pointer-events', 'auto');
+          // $('.card').css('pointer-events', 'auto');
         }else{
           console.log('giong nhau');
           setTimeout(function(){
