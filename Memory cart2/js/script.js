@@ -1,7 +1,6 @@
-  $(document).ready(function () {
+
   	var cards = ['f1', 'f2', 'f3', 'f4', 'f5'];
   	var current=null;
-
 
   	function shuffle(array) {
   		var currentIndex = array.length, temporaryValue, randomIndex;
@@ -17,30 +16,58 @@
         temporaryValue = array[currentIndex];
         array[currentIndex] = array[randomIndex];
         array[randomIndex] = temporaryValue;
+      }
+
+      return array;
+    }
+ $(function(){
+  // nhan dôi mảng
+  cards=cards.concat(cards);  
+    // dảo vị trí các con bài
+    cards=shuffle(cards);
+    var html='';
+    for(var i = 0 ;i<cards.length;i++){
+      html+= '<div class="content"> <div class="grid"> <div class="card" data-name="'+cards[i]+'" onclick="flip(this)"> <div class="font" > <img src="img/anhsau1.jpg"> </div> <div class="back" > <img src="img/'+cards[i]+'.jpg"> </div> </div> </div> </div> ';
+    };
+    $('.content').html(html);
+    $('.card').on('click',function(){
+      $(this).addClass('flip');
+      $(this).css('pointer-events','none');
+    });
+
+  });
+
+
+
+
+
+
+    
+// day la ham kiem tra dung sai
+    function flip(card){
+      $(card).toggleClass('flip');
+      
+      if(!current){
+        current=$(card);
+      }else{
+        if (current.attr('data-name') != $(card).attr('data-name')){
+          console.log('khac nnhau');
+          setTimeout(function(){
+             current.toggleClass('flip');
+             $(card).toggleClass('flip');
+              current=null;      //gán về null để bắt đầu lực chọn khác
+          },500);
+          $('.card').css('pointer-events', 'auto');
+        }else{
+          console.log('giong nhau');
+          setTimeout(function(){
+            $(card).css('opacity','0');
+            current.css('opacity','0');
+            current=null;
+          },500);
+          
+        }
+      }
     }
 
-    return array;
-}
-
-
-$(function(){
-	// nhan dôi mảng
-	cards=cards.concat(cards); 	
-		// dảo vị trí các con bài
-		cards=shuffle(cards);
-		var html='';
-		for(var i = 0 ;i<cards.length;i++){
-			html+= '<div class="content"> <div class="grid"> <div class="card" data-name="'+cards[i]+'"> <div class="font" > <img src="img/anhsau1.jpg"> </div> <div class="back" > <img src="img/'+cards[i]+'.jpg"> </div> </div> </div> </div> ';
-		};
-		$('.content').html(html);
-
-		$('.card').on('click',function(){
-			$(this).addClass('flip');
-			
-		});
-	});
-
-})
-
-// console.log("dthdg");
-	// $(this).css('pointer-events','none');
+   
