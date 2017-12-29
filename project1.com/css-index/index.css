@@ -29,6 +29,7 @@ img:hover{
 span img {
   vertical-align: middle;
   width: 150px;
+  margin-left: 4%;
 }
 .rowinput{
   margin-top: -48px;
@@ -210,7 +211,7 @@ span img {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     font-weight: 300;
-    color: #888;
+  
     -webkit-font-smoothing: antialiased;
   }
   .tabs {
@@ -219,7 +220,7 @@ span img {
     overflow: hidden;
     margin: 0;
     width: 100%;
-    left: 50%;
+    left: 47%;
     margin-left: -167px;
   }
   .tabs li {
@@ -303,6 +304,9 @@ span img {
   /*css cho thương hiệu nổi bật*/
   .trademark{
     margin-bottom: 50px;
+  }
+  .brand{
+    margin-bottom: 30px;
   }
   /*hết css cho thương hiệu nổi bật*/
 
