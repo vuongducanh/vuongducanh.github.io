@@ -89,21 +89,22 @@ $(function () {
     }
 
     $('.my-cart-btn').myCart({
-      currencySymbol: '$',
+      
       classCartIcon: 'my-cart-icon',
       classCartBadge: 'my-cart-badge',
       classProductQuantity: 'my-product-quantity',
       classProductRemove: 'my-product-remove',
       classCheckoutCart: 'my-cart-checkout',
+      currencySymbol: 'Đ',
 
       affixCartIcon: true,
       showCheckoutModal: true,
       numberOfDecimals: 2,
       cartItems: [
-        {id: 1, name: 'product 1', summary: 'summary 1', price: 10, quantity: 1, image: 'img/do-nam1.jpg'},
-        {id: 2, name: 'product 2', summary: 'summary 2', price: 20, quantity: 2, image: 'img/do-nam2.jpg'},
-        {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 1, image: 'img/do-nam3.jpg'},
-        {id: 4, name: 'product 4', summary: 'summary 4', price: 30, quantity: 1, image: 'img/do-nu4.jpg'}
+        {id: 1, name: 'product 1', summary: 'summary 1', price: 10, quantity: 1, image: 'img/hot-and-semi-run1.jpg'},
+        {id: 2, name: 'product 2', summary: 'summary 2', price: 20, quantity: 2, image: 'img/hot-and-semi-run2.jpg'},
+        {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 1, image: 'img/hot-and-semi-run3.jpg'},
+        {id: 4, name: 'product 4', summary: 'summary 4', price: 30, quantity: 1, image: 'img/hot-and-semi-run4.jpg'}
       ],
       clickOnAddToCart: function($addTocart){
         goToCartIcon($addTocart);
