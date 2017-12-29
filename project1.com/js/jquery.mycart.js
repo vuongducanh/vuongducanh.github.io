@@ -93,10 +93,6 @@
       });
       setAllProducts(products);
     }
-
-    /*
-    PUBLIC
-    */
     var getAllProducts = function(){
       try {
         var products = JSON.parse(localStorage.products);

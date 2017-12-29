@@ -89,12 +89,12 @@ $(function () {
     }
 
     $('.my-cart-btn').myCart({
-      // currencySymbol: '$',
-      // classCartIcon: 'my-cart-icon',
-      // classCartBadge: 'my-cart-badge',
-      // classProductQuantity: 'my-product-quantity',
-      // classProductRemove: 'my-product-remove',
-      // classCheckoutCart: 'my-cart-checkout',
+      currencySymbol: '$',
+      classCartIcon: 'my-cart-icon',
+      classCartBadge: 'my-cart-badge',
+      classProductQuantity: 'my-product-quantity',
+      classProductRemove: 'my-product-remove',
+      classCheckoutCart: 'my-cart-checkout',
 
       affixCartIcon: true,
       showCheckoutModal: true,

@@ -304,24 +304,7 @@ span img {
   .trademark{
     margin-bottom: 50px;
   }
-  .outstanding-brand-center{
-    display: flex;
-    align-items: center;
-    width: 44%;
-    margin: auto;
-  }
-  .dash1{
-    background-color: black;
-    width:70px;
-    height: 2px;
-    /*margin-right: 5%;*/
-  }
-  .dash2{
-    background-color: black;
-    width:70px;
-    height: 2px;
-    /*margin-left: 5%;*/
-  }
+  
   /*hết css cho thương hiệu nổi bật*/
 
 
