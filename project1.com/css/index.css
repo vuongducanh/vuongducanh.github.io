@@ -411,3 +411,349 @@ footer{
   position: fixed; top: 890px;
 }
 /*css cho nứt thêm vòa giỏ hàng
+
+
+
+/*cái copy sang của trang index2 */
+
+  
+/*css cho cái icon đầu trang tham khảo*/
+.conten{
+  border: 1px dotted;
+  color:#C9CBA3;
+  background-color: black;
+  margin-top: 20px;
+  padding: 16px;
+}
+.icon{
+  position: relative;
+}
+.textp{
+  position: absolute;
+  top: 5px;
+  left: 43px;
+}
+.phone-icon{
+  color: red;
+  text-decoration: none;
+}
+.phone-icon:active{
+  color: red;
+  
+}
+.phone-icon:hover{
+text-decoration: none;
+color: pink;
+}
+
+/*hết css cho icon đầu  trang tham khảo*/
+
+/*css cho các anhr duoi icon*/
+.img01,.img03 {
+    margin-bottom: 30px;
+  }
+.img02{
+    margin-bottom: 30px;
+}
+.image-product-introduction{
+  overflow: hidden;
+}
+ .product-introduction{
+    margin-top: 30px;
+ }
+.img01{
+  overflow: hidden;
+}
+.img01{
+  border-top-left-radius: 15px; border-top-right-radius: 120px 30px; border-bottom-left-radius: 120px 30px; border-bottom-right-radius: 15px; -webkit-transition: all 0.7s ease; transition: all 0.7s ease;
+}
+.img01:hover{
+border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; border-bottom-left-radius: 15px; border-top-right-radius: 15px;
+}
+ .img01{
+  position: relative;
+  width: 100%;
+  height: 50%;
+ }
+ .img01::before{
+  content: '';
+  width: 90%;
+  position: absolute;
+  height: 86%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  top: 7%;
+  left: 5%;
+  transform: scaleX(0);
+  transition: 0.5s;
+ }
+ .img01::after{
+  content: '';
+  width: 90%;
+  position: absolute;
+  height: 86%;
+  border-left : 1px solid black;
+  border-right: 1px solid black;
+  top: 7%;
+  left: 5%;
+  transform: scaleY(0);
+  transition: 0.5s;
+ }
+ .img01:hover::before{
+  border-top: 1px solid black;
+  border-bottom:1px solid black;
+  transform: scaleX(1.1);
+
+ }
+ .img01:hover::after{
+  border-left: 1px solid black;
+  border-right:1px solid black;
+  transform: scaleY(1.1);
+ }
+ .img02{
+  position: relative;
+  width: 100%;
+  height: 100%;
+ }
+ .img02::before{
+  content: '';
+  width: 90%;
+  position: absolute;
+  height: 90%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  top: 5%;
+    left: 5%;
+  transform: scaleX(0);
+  transition: 0.5s;
+ }
+ .img02::after{
+  content: '';
+  width: 90%;
+  position: absolute;
+  height: 90%;
+  border-left : 1px solid black;
+  border-right: 1px solid black;
+  top: 5%;
+    left: 5%;
+  transform: scaleY(0);
+  transition: 0.5s;
+ }
+ .img02:hover::before{
+  border-top: 1px solid black;
+  border-bottom:1px solid black;
+  transform: scaleX(1.1);
+
+ }
+ .img02:hover::after{
+  border-left: 1px solid black;
+  border-right:1px solid black;
+  transform: scaleY(1.1);
+ } 
+  /*hết css cho các anh
+
+/*hết csss cho copy index2*/
+
+
+/*css cho @media*/
+@media screen and (min-width: 768px){
+  
+  .col-lg-6 {
+    width: 78%;
+}
+.content-header{
+  
+  top: 0;
+  left: 30px;
+}
+.text{
+  width:20%;
+  margin-left: 50px;
+}
+.text h2{
+  margin-top: 0;
+}
+}
+@media screen and (max-width: 768px ){
+ .dienthoai{
+  display: none;
+ } 
+ .text{
+  margin-left: 40px;
+ }
+ .margin-category{
+  margin-bottom: 30px;
+ }
+  
+ .text h2{
+   margin-top: 0;
+ }
+  .content-header{
+    position: absolute;
+    top: 0;
+    left: 66px;
+ }
+ 
+}
+@media screen and (max-width: 991px ){
+.text01 {
+    margin-top: 30px;
+    width: 100%;
+}
+}
+
+/*hết css cho @media*/
+
+
+
+/*css cho male và famale*/
+/*css cho slide*/
+#myCarousel .nav a {
+    border-radius:0px;
+}
+.slide01{
+    margin-top: 20px;
+}
+.text01{
+    margin-top: 30px;
+}
+.text02{
+   text-indent: 30px;
+    letter-spacing: 3px;
+}
+/*hết css cho slide*/
+
+/*phần danh mục lọc sản phẩm*/
+.filter-products{
+    background-color: black;
+     margin-top: 30px;
+}
+.trademark{
+    color: white;
+
+}
+.filter-products02{
+    margin-left: -13px;
+   
+}
+.color{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+}
+.btn-success {
+    color: #fff;
+    background-color: black;
+    border:1px solid white ;
+}
+.btn-success:hover{
+  background-color: #612b2b;
+
+}
+.products1{
+    background-color: red;
+}
+.products2{
+    background-color: orange;
+}
+.products3{
+    background-color: green;
+}
+.products4{
+  background-color: #33441f;
+}
+.products5{
+  background-color: #131bda;
+}
+.salient-features{
+  color: white;
+
+}
+.category-a{
+  margin-left: -10px;
+  display: block;
+}
+.category-a1{
+  display: block;
+}
+.special-special{
+  color:#56cfe1;
+}
+/* hết phần danh mục lọc sản phẩn*/
+
+/*css út thêm vào giở hàng*/
+.btn.active {                
+  display: none;    
+}
+
+.btn span:nth-of-type(1)  {             
+  display: none;
+}
+.btn span:last-child  {             
+  display: block;   
+}
+
+.btn.active  span:nth-of-type(1)  {             
+  display: block;   
+}
+.btn.active span:last-child  {              
+  display: none;      
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    height: 57px;
+    margin-bottom: 30px;
+    
+}
+.btn-block+.btn-block {
+   margin-bottom: 30px;
+}
+.money-products{
+  color: red;
+}
+/*hết css cho thêm vào giở hàng*/
+
+
+.font-login{
+  border: 1px solid;
+  margin-bottom: 30px;
+}
+.add-cart{
+  margin-bottom: 30px;
+}
+.hover-image-men-fashion-css{
+  margin-bottom: 30px;
+}
+.hover-image-men-fashion-css:hover{
+-webkit-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
+-moz-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
+box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
+}
+
+/*hết css cho male*/
+
+  /* css cho cart*/
+  .glyphicon {
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 30px;
+}
+.badge-notify{
+    background:red;
+    position:relative;
+    top: -20px;
+    right: 10px;
+  /*hết css cho cart*/
+    
