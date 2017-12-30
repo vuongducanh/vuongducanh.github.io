@@ -76,7 +76,7 @@ span img {
   padding-top: 40px;
   padding-right: 0;
   padding-bottom: 20px;
-	padding-left: 0;
+  padding-left: 0;
 }
 .title-widget {
 	color: white;
@@ -142,7 +142,7 @@ span img {
 }
 #social {
   -webkit-transform:scale(0.8);
- 
+
   -moz-transform:scale(0.8);
   -o-transform:scale(0.8); 
   -webkit-transition-duration: 0.5s; 
@@ -150,209 +150,209 @@ span img {
   -o-transition-duration: 0.5s;
 }           
 
-    .social-fb:hover {
-      color:  white;
-    }
-    .social-tw:hover {
-      color: white;
-    }
-    .social-gp:hover {
-      color: white;
-    }
-    .social-em:hover {
-      color: white;
-    }
-    .nomargin { margin:0px; padding:0px;}
-    .footer-bottom {
-      background-color: black;
-      min-height: 30px;
-      width: 100%;
-    }
-    .copyright {
-      color: #fff;
-      line-height: 30px;
-      min-height: 30px;
-      padding: 7px 0;
-      text-align: center;
-    }
-    .fotter-sua{
-      color: #ababab;
-    }
-      .fotter-sua:hover{
-      color: #ababab;
-    }
-    .fotter-repair{
-      color: black;
-      font-size: 20px;
-    }
+.social-fb:hover {
+  color:  white;
+}
+.social-tw:hover {
+  color: white;
+}
+.social-gp:hover {
+  color: white;
+}
+.social-em:hover {
+  color: white;
+}
+.nomargin { margin:0px; padding:0px;}
+.footer-bottom {
+  background-color: black;
+  min-height: 30px;
+  width: 100%;
+}
+.copyright {
+  color: #fff;
+  line-height: 30px;
+  min-height: 30px;
+  padding: 7px 0;
+  text-align: center;
+}
+.fotter-sua{
+  color: #ababab;
+}
+.fotter-sua:hover{
+  color: #ababab;
+}
+.fotter-repair{
+  color: black;
+  font-size: 20px;
+}
 
 /* hết css cho foter */
 
-   /* image của các sản phẩm */
-   .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    width: 800px;
-  }
-  .banner-images{
-    width: 100% !important;
-  }
-  /* hết css cho image các sản phẩn */
+/* image của các sản phẩm */
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 800px;
+}
+.banner-images{
+  width: 100% !important;
+}
+/* hết css cho image các sản phẩn */
 
 
-  /*css cho top nổi bật hôm nay */
+/*css cho top nổi bật hôm nay */
+
+.tab {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
   
-  .tab {
-    position: relative;
-    overflow: hidden;
-    background: #fff;
-    width: 100%;
-    margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-    font-weight: 300;
-  
-    -webkit-font-smoothing: antialiased;
-  }
-  .tabs {
-    display: table;
-    position: relative;
-    overflow: hidden;
-    margin: 0;
-    width: 100%;
-    left: 47%;
-    margin-left: -167px;
-  }
-  .tabs li {
-    float: left;
-    line-height: 38px;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-  }
-  .tabs a {
-    background-color: #eff0f2;
-    border-bottom: 1px solid #fff;
-    color: black;
-    font-weight: 500;
-    display: block;
-    letter-spacing: 0;
-    outline: none;
-    padding: 0 20px;
-    text-decoration: none;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    border-bottom: 2px solid black;
-  }
-  .tabs_item {
-    display: none;
-    padding: 30px 0;
-  }
-  .tabs_item h4 {
-    font-weight: bold;
-    color: #010d13;
-    font-size: 20px;
-  }
-  .tabs_item img {
-   
-    float: left;
-    margin-right: 30px;
-  }
-  .tabs_item:first-child {
-    display: block;
-  }
+  -webkit-font-smoothing: antialiased;
+}
+.tabs {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+  left: 47%;
+  margin-left: -167px;
+}
+.tabs li {
+  float: left;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+.tabs a {
+  background-color: #eff0f2;
+  border-bottom: 1px solid #fff;
+  color: black;
+  font-weight: 500;
+  display: block;
+  letter-spacing: 0;
+  outline: none;
+  padding: 0 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid black;
+}
+.tabs_item {
+  display: none;
+  padding: 30px 0;
+}
+.tabs_item h4 {
+  font-weight: bold;
+  color: #010d13;
+  font-size: 20px;
+}
+.tabs_item img {
 
-  .current a {
-    color: #fff;
-    background:#181e1c;;
-  }
+  float: left;
+  margin-right: 30px;
+}
+.tabs_item:first-child {
+  display: block;
+}
+
+.current a {
+  color: #fff;
+  background:#181e1c;;
+}
 .tab-product{
   font-size: 28px;
 }
-  /*hét css cho top nổi bẩt*/
+/*hét css cho top nổi bẩt*/
 
-  /*css cho danh mục*/
-  .category-index{
-    margin-top: 50px;
-    background-color:#f8f8f8;
-  }
-  .position-category{
-    position: relative;
-    transition: all .2s linear;
-  }
-  .position-category:hover{
-    transform: scale(1.1);
-  }
-  .categories-caption {
-    width: 80px;
-    background-color: black;
-    height: 28px;
-    text-align: center;
-    position: absolute;
-    bottom: -16px;
-    left: 50%;
-    margin-left: -40px;
-  }
-  .male-female-category{
-    color: white;
-  }
+/*css cho danh mục*/
+.category-index{
+  margin-top: 50px;
+  background-color:#f8f8f8;
+}
+.position-category{
+  position: relative;
+  transition: all .2s linear;
+}
+.position-category:hover{
+  transform: scale(1.1);
+}
+.categories-caption {
+  width: 80px;
+  background-color: black;
+  height: 28px;
+  text-align: center;
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  margin-left: -40px;
+}
+.male-female-category{
+  color: white;
+}
 
-  /*hết css cho danh mục*/
-
-
-  /*css cho thương hiệu nổi bật*/
-  .trademark{
-    margin-bottom: 50px;
-  }
-  .brand{
-    margin-bottom: 30px;
-  }
-  /*hết css cho thương hiệu nổi bật*/
+/*hết css cho danh mục*/
 
 
-  /*hót và bán chạy*/
-  .selling{
-    margin-top: 50px;
-  }
+/*css cho thương hiệu nổi bật*/
+.trademark{
+  margin-bottom: 50px;
+}
+.brand{
+  margin-bottom: 30px;
+}
+/*hết css cho thương hiệu nổi bật*/
+
+
+/*hót và bán chạy*/
+.selling{
+  margin-top: 50px;
+}
 
 .img-box {
-       position: relative;
-    height: 297.5px;
-    overflow: hidden;
+ position: relative;
+ height: 297.5px;
+ overflow: hidden;
 }
 .hover001{
-    position: absolute;
+  position: absolute;
 }
 .hover002{
-    position: absolute;
-    opacity: 0; 
-    transition: all 0.5s ease;
-  }
-  .hover002:hover{
-    opacity: 1;
-    transition: all 0.5s ease;
-    
-  }
-  /*hót và bán chay*/
+  position: absolute;
+  opacity: 0; 
+  transition: all 0.5s ease;
+}
+.hover002:hover{
+  opacity: 1;
+  transition: all 0.5s ease;
 
-  /*css cho theo dõi nhận 10% giá*/
-  .follow{
-    background-color: black;
-    color: white;
-  }
-  .icon-follow{
-    margin-top: 20px;
-  }
-  .follow-us{
-    margin-top: 50px;
-  }
-  /*hết css cho thao doi nhận 10%*/
+}
+/*hót và bán chay*/
+
+/*css cho theo dõi nhận 10% giá*/
+.follow{
+  background-color: black;
+  color: white;
+}
+.icon-follow{
+  margin-top: 20px;
+}
+.follow-us{
+  margin-top: 50px;
+}
+/*hết css cho thao doi nhận 10%*/
 
 
-  /*css cho điện thoại*/
-  @media screen and (max-width:650px){#callnowbutton {display:block; height:80px; position:fixed; width:100%; left:0; bottom:-20px; border-top:2px solid rgba(51,187,51,1); background:url(http://callnowbutton.com/phone/callbutton01.png) center 10px no-repeat black; text-decoration:none; box-shadow:0 0 5px #888; -webkit-box-shadow:0 0 5px #888; -moz-box-shadow:0 0 5px #888; z-index:9999;}}
+/*css cho điện thoại*/
+@media screen and (max-width:650px){#callnowbutton {display:block; height:80px; position:fixed; width:100%; left:0; bottom:-20px; border-top:2px solid rgba(51,187,51,1); background:url(http://callnowbutton.com/phone/callbutton01.png) center 10px no-repeat black; text-decoration:none; box-shadow:0 0 5px #888; -webkit-box-shadow:0 0 5px #888; -moz-box-shadow:0 0 5px #888; z-index:9999;}}
 /*hết css cho điện thoại*/
 
 /*css cho nút thêm vào giỏ hàng*/
@@ -374,49 +374,49 @@ span img {
   display: none;      
 }
 .btn-success {
-    color: #fff;
-    background-color: black;
-    border-color: black;
+  color: #fff;
+  background-color: black;
+  border-color: black;
 }
 .btn-success:hover{
   background-color: black;
 }
 .btn-danger {
-    color: #fff;
-    background-color: black;
-    border-color: black;
-    width:100%;
+  color: #fff;
+  background-color: black;
+  border-color: black;
+  width:100%;
 }
 .btn-block {
-    display: block;
-    width: 100%;
-    height: 57px;
+  display: block;
+  width: 100%;
+  height: 57px;
 }
 .btn-block+.btn-block {
   margin-bottom: 10px;
 }
 .hover-image-men-fashion-css:hover{
--webkit-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
--moz-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
+  -webkit-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
+  -moz-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
+  box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
 }
 
 /*.money-products{
   color: red;
-}*/
-footer{
-  color: white;
-}
-#contact{
-  position: fixed; top: 890px;
-}
+  }*/
+  footer{
+    color: white;
+  }
+  #contact{
+    position: fixed; top: 890px;
+  }
 /*css cho nứt thêm vòa giỏ hàng
 
 
 
 /*cái copy sang của trang index2 */
 
-  
+
 /*css cho cái icon đầu trang tham khảo*/
 .conten{
   border: 1px dotted;
@@ -442,25 +442,25 @@ footer{
   
 }
 .phone-icon:hover{
-text-decoration: none;
-color: pink;
+  text-decoration: none;
+  color: pink;
 }
 
 /*hết css cho icon đầu  trang tham khảo*/
 
 /*css cho các anhr duoi icon*/
 .img01,.img03 {
-    margin-bottom: 30px;
-  }
+  margin-bottom: 30px;
+}
 .img02{
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .image-product-introduction{
   overflow: hidden;
 }
- .product-introduction{
-    margin-top: 30px;
- }
+.product-introduction{
+  margin-top: 30px;
+}
 .img01{
   overflow: hidden;
 }
@@ -468,14 +468,14 @@ color: pink;
   border-top-left-radius: 15px; border-top-right-radius: 120px 30px; border-bottom-left-radius: 120px 30px; border-bottom-right-radius: 15px; -webkit-transition: all 0.7s ease; transition: all 0.7s ease;
 }
 .img01:hover{
-border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; border-bottom-left-radius: 15px; border-top-right-radius: 15px;
+  border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; border-bottom-left-radius: 15px; border-top-right-radius: 15px;
 }
- .img01{
+.img01{
   position: relative;
   width: 100%;
   height: 50%;
- }
- .img01::before{
+}
+.img01::before{
   content: '';
   width: 90%;
   position: absolute;
@@ -486,8 +486,8 @@ border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; bord
   left: 5%;
   transform: scaleX(0);
   transition: 0.5s;
- }
- .img01::after{
+}
+.img01::after{
   content: '';
   width: 90%;
   position: absolute;
@@ -498,24 +498,24 @@ border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; bord
   left: 5%;
   transform: scaleY(0);
   transition: 0.5s;
- }
- .img01:hover::before{
+}
+.img01:hover::before{
   border-top: 1px solid black;
   border-bottom:1px solid black;
   transform: scaleX(1.1);
 
- }
- .img01:hover::after{
+}
+.img01:hover::after{
   border-left: 1px solid black;
   border-right:1px solid black;
   transform: scaleY(1.1);
- }
- .img02{
+}
+.img02{
   position: relative;
   width: 100%;
   height: 100%;
- }
- .img02::before{
+}
+.img02::before{
   content: '';
   width: 90%;
   position: absolute;
@@ -523,11 +523,11 @@ border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; bord
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   top: 5%;
-    left: 5%;
+  left: 5%;
   transform: scaleX(0);
   transition: 0.5s;
- }
- .img02::after{
+}
+.img02::after{
   content: '';
   width: 90%;
   position: absolute;
@@ -535,71 +535,71 @@ border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; bord
   border-left : 1px solid black;
   border-right: 1px solid black;
   top: 5%;
-    left: 5%;
+  left: 5%;
   transform: scaleY(0);
   transition: 0.5s;
- }
- .img02:hover::before{
+}
+.img02:hover::before{
   border-top: 1px solid black;
   border-bottom:1px solid black;
   transform: scaleX(1.1);
 
- }
- .img02:hover::after{
+}
+.img02:hover::after{
   border-left: 1px solid black;
   border-right:1px solid black;
   transform: scaleY(1.1);
- } 
+} 
   /*hết css cho các anh
 
-/*hết csss cho copy index2*/
+  /*hết csss cho copy index2*/
 
 
-/*css cho @media*/
-@media screen and (min-width: 768px){
+  /*css cho @media*/
+  @media screen and (min-width: 768px){
+
+    .col-lg-6 {
+      width: 78%;
+    }
+    .content-header{
+
+      top: 0;
+      left: 30px;
+    }
+    .text{
+      width:20%;
+      margin-left: 50px;
+    }
+    .text h2{
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width: 768px ){
+   .dienthoai{
+    display: none;
+  } 
+  .text{
+    margin-left: 40px;
+  }
+  .margin-category{
+    margin-bottom: 30px;
+  }
   
-  .col-lg-6 {
-    width: 78%;
-}
-.content-header{
-  
-  top: 0;
-  left: 30px;
-}
-.text{
-  width:20%;
-  margin-left: 50px;
-}
-.text h2{
-  margin-top: 0;
-}
-}
-@media screen and (max-width: 768px ){
- .dienthoai{
-  display: none;
- } 
- .text{
-  margin-left: 40px;
- }
- .margin-category{
-  margin-bottom: 30px;
- }
-  
- .text h2{
+  .text h2{
    margin-top: 0;
  }
-  .content-header{
-    position: absolute;
-    top: 0;
-    left: 66px;
- }
- 
+ .content-header{
+  position: absolute;
+  top: 0;
+  left: 66px;
+}
+
 }
 @media screen and (max-width: 991px ){
-.text01 {
+  .text01 {
     margin-top: 30px;
     width: 100%;
-}
+  }
 }
 
 /*hết css cho @media*/
@@ -609,32 +609,32 @@ border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; bord
 /*css cho male và famale*/
 /*css cho slide*/
 #myCarousel .nav a {
-    border-radius:0px;
+  border-radius:0px;
 }
 .slide01{
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .text01{
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .text02{
-   text-indent: 30px;
-    letter-spacing: 3px;
+ text-indent: 30px;
+ letter-spacing: 3px;
 }
 /*hết css cho slide*/
 
 /*phần danh mục lọc sản phẩm*/
 .filter-products{
-    background-color: black;
-     margin-top: 30px;
+  background-color: black;
+  margin-top: 30px;
 }
 .trademark{
-    color: white;
+  color: white;
 
 }
 .filter-products02{
-    margin-left: -13px;
-   
+  margin-left: -13px;
+
 }
 .color{
   width: 20px;
@@ -646,22 +646,22 @@ border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; bord
   text-align: center;
 }
 .btn-success {
-    color: #fff;
-    background-color: black;
-    border:1px solid white ;
+  color: #fff;
+  background-color: black;
+  border:1px solid white ;
 }
 .btn-success:hover{
   background-color: #612b2b;
 
 }
 .products1{
-    background-color: red;
+  background-color: red;
 }
 .products2{
-    background-color: orange;
+  background-color: orange;
 }
 .products3{
-    background-color: green;
+  background-color: green;
 }
 .products4{
   background-color: #33441f;
@@ -704,14 +704,14 @@ border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; bord
   display: none;      
 }
 .btn-block {
-    display: block;
-    width: 100%;
-    height: 57px;
-    margin-bottom: 30px;
-    
+  display: block;
+  width: 100%;
+  height: 57px;
+  margin-bottom: 30px;
+
 }
 .btn-block+.btn-block {
-   margin-bottom: 30px;
+ margin-bottom: 30px;
 }
 .money-products{
   color: red;
@@ -730,30 +730,30 @@ border-top-left-radius: 30px 120px; border-bottom-right-radius: 30px 120px; bord
   margin-bottom: 30px;
 }
 .hover-image-men-fashion-css:hover{
--webkit-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
--moz-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
+  -webkit-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
+  -moz-box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
+  box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
 }
 
 /*hết css cho male*/
 
-  /* css cho cart*/
-  .glyphicon {
-    position: relative;
-    top: -10px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 30px;
+/* css cho cart*/
+.glyphicon {
+  position: relative;
+  top: -10px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 30px;
 }
 .badge-notify{
-    background:red;
-    position:relative;
-    top: -20px;
-    right: 10px;
+  background:red;
+  position:relative;
+  top: -20px;
+  right: 10px;
   /*hết css cho cart*/
-    
+
