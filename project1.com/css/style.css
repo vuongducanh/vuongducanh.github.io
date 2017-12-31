@@ -85,7 +85,6 @@ span img {
 	line-height: 1;
 	position: relative;
 	text-transform: uppercase;
-	font-family: 'Fjalla One', sans-serif;
 	margin-top: 0;
 	margin-right: 0;
 	margin-bottom: 25px;
@@ -131,9 +130,9 @@ span img {
   line-height: 20px;
   margin: 0 0 15px;
   text-transform: uppercase;
-  font-family: 'Fjalla One', sans-serif;
+ 
 }
-.footerp p {font-family: 'Gudea', sans-serif; }
+
 #social:hover {
  -webkit-transform:scale(1.1); 
  -moz-transform:scale(1.1); 
@@ -209,7 +208,7 @@ span img {
   background: #fff;
   width: 100%;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+ 
   line-height: 1.5;
   font-weight: 300;
   
@@ -309,6 +308,9 @@ span img {
 .brand{
   margin-bottom: 30px;
   color: black;
+}
+.col-xs-6{
+  margin-bottom: 15px;
 }
 /*hết css cho thương hiệu nổi bật*/
 
@@ -411,7 +413,7 @@ span img {
   #contact{
     position: fixed; top: 890px;
   }
-/*css cho nứt thêm vòa giỏ hàng
+/*hết css cho mút thêm vào giở hàng
 
 
 
@@ -743,7 +745,7 @@ span img {
   position: relative;
   top: -10px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+ 
   font-style: normal;
   font-weight: 400;
   line-height: 1;
