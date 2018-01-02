@@ -128,15 +128,6 @@ var clicks=4;
     clicks += 1;
     document.getElementById("clicks").innerHTML = clicks;
 };
-addAjaxButton.onClick(function() {
-  var counter = 0;
-  ajax(function(addition) {
-    counter += addition;
-    ajax(function(moreAdd) {
-      counter += moreAdd;
-      alert('Total is ' + counter);
-    });
-  });
-});
+
 // js ccho slide các thương hiệu
 
