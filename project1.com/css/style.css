@@ -2,6 +2,7 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -9,7 +10,12 @@ body{
 	padding: 0;
   overflow-x:hidden;
   position: relative;
+ 
 
+}
+/*css cho text*/
+.distance-text{
+    word-spacing: 4px;
 }
 img:hover{
   cursor: pointer;
@@ -39,6 +45,14 @@ span img {
 .banner{
   margin-top: 85px;
 }
+.navbar-right{
+ margin-top: 7px;
+    font-size: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
 /* hết css cho menu  */
 
 
@@ -161,7 +175,7 @@ span img {
 .social-em:hover {
   color: white;
 }
-.nomargin { margin:0px; padding:0px;}
+.nomargin {  padding:0px;}
 .footer-bottom {
   background-color: black;
   min-height: 30px;
@@ -268,7 +282,7 @@ span img {
   background:#181e1c;;
 }
 .tab-product{
-  font-size: 28px;
+  font-size: 22px;
 }
 /*hét css cho top nổi bẩt*/
 
@@ -404,9 +418,7 @@ span img {
   box-shadow: 0px 7px 13px 1px rgba(235,218,235,1);
 }
 
-/*.money-products{
-  color: red;
-  }*/
+
   footer{
     color: white;
   }
@@ -420,7 +432,7 @@ span img {
 /*cái copy sang của trang index2 */
 
 
-/*css cho cái icon đầu trang tham khảo*/
+/*css cho cái icon đầu trang */
 .conten{
   border: 1px dotted;
   color:#C9CBA3;
@@ -449,9 +461,9 @@ span img {
   color: pink;
 }
 
-/*hết css cho icon đầu  trang tham khảo*/
+/*hết css cho icon đầu  trang */
 
-/*css cho các anhr duoi icon*/
+/*css cho các anh duoi icon*/
 .img01,.img03 {
   margin-bottom: 30px;
 }
@@ -621,8 +633,8 @@ span img {
   margin-top: 30px;
 }
 .text02{
- text-indent: 30px;
- letter-spacing: 3px;
+ font-size: 20px;
+
 }
 /*hết css cho slide*/
 
@@ -718,6 +730,7 @@ span img {
 }
 .money-products{
   color: red;
+  font-size: 20px;
 }
 /*hết css cho thêm vào giở hàng*/
 

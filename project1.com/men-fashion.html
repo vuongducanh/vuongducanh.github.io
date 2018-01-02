@@ -44,7 +44,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					
-					<ul class="nav navbar-nav navbar-right" style="width:500px;">
+					<ul class="nav navbar-nav navbar-right" >
 
 						<li>
 							<a href="index.html" class="active">Trang chủ</a>
@@ -60,9 +60,8 @@
 						</li>
 						<li class="logocart" class="a4">
 							<a href="#">
-								<span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
-								<!-- <img src="img/giohang.png" alt="cart" id="cart-shop">
-								<span id="count-item" value='0'>0</span> -->
+								<span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge" id="clicks"></span></span>
+								
 							</a>
 						</li>
 
@@ -148,7 +147,7 @@
 									<img src="" class="img-responsive">	
 								</div>
 							</div>	
-							<div class="text02">
+							<div class="text02 distance-text">
 								<p >Mua sắm thời trang là một nhu cầu lớn của tất cả mọi người vì vẻ ngoài luôn là một yếu tố quan trọng để tạo ấn tượng với người đối diện. Ngày nay, mua sắm thời trang online đã trở thành một xu hướng mới của người tiêu dùng Việt. Các trang web bán hàng thời trang online phát triển nhanh cả về số lượng lẫn chất lượng. Những bạn trẻ yêu thời trang có thể thỏa sức mua sắm thời trang hàng hiệu online giá rẻ với số lượng lớn mẫu mã đẹp, vải cao cấp từ nhiều thương hiệu uy tín, cũng như cập nhật nhanh các phong cách đang nổi để bắt kịp với mọi xu hướng thời trang Hàn Quốc và thời trang Việt Nam mới nhất.</p>
 							</div>
 
@@ -165,7 +164,7 @@
 											<h4 class="text-center">Áo thể thao nam</h4>
 											<h4 class="text-center money-products">200.000đ</h4>
 											<div data-toggle="buttons"><label class="btn btn-lg btn-block btn-success text-success active"> 
-												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "></i> <br /> Thêm giỏ hàng </label> 
+												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default" onClick="onClick()"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "  ></i> <br /> Thêm giỏ hàng </label> 
 											</div>
 										</div>
 										<div class="col-md-4 hover-image-men-fashion-css">
@@ -176,7 +175,7 @@
 											<h4 class="text-center">Áo thể thao nam</h4>
 											<h4 class="text-center money-products">250.000đ</h4>
 											<div data-toggle="buttons"><label class="btn btn-lg btn-block btn-success text-success active"> 
-												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "></i> <br /> Thêm giỏ hàng </label> 
+												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default" onClick="onClick()"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "  ></i> <br /> Thêm giỏ hàng </label> 
 											</div>
 										</div>
 										<div class="col-md-4 hover-image-men-fashion-css">
@@ -187,7 +186,7 @@
 											<h4 class="text-center">Áo thể thao nam</h4>
 											<h4 class="text-center money-products ">260.000đ</h4>
 											<div data-toggle="buttons"><label class="btn btn-lg btn-block btn-success text-success active"> 
-												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "></i> <br /> Thêm giỏ hàng </label> 
+												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default" onClick="onClick()"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "  ></i> <br /> Thêm giỏ hàng </label> 
 											</div>
 										</div>
 									</div>
@@ -203,7 +202,7 @@
 											<h4 class="text-center">Áo thể thao nam</h4>
 											<h4 class="text-center money-products">200.000đ</h4>
 											<div data-toggle="buttons"><label class="btn btn-lg btn-block btn-success text-success active"> 
-												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "></i> <br /> Thêm giỏ hàng </label> 
+												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default" onClick="onClick()"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "  ></i> <br /> Thêm giỏ hàng </label> 
 											</div>
 										</div>
 										<div class="col-md-4 hover-image-men-fashion-css">
@@ -214,7 +213,7 @@
 											<h4 class="text-center">Áo thể thao nam</h4>
 											<h4 class="text-center money-products">260.000đ</h4>
 											<div data-toggle="buttons"><label class="btn btn-lg btn-block btn-success text-success active"> 
-												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "></i> <br /> Thêm giỏ hàng </label> 
+												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default" onClick="onClick()"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "  ></i> <br /> Thêm giỏ hàng </label> 
 											</div>
 										</div>
 										<div class="col-md-4 hover-image-men-fashion-css">
@@ -225,7 +224,7 @@
 											<h4 class="text-center">Áo thể thao nam</h4>
 											<h4 class="text-center money-products">260.000đ</h4>
 											<div data-toggle="buttons"><label class="btn btn-lg btn-block btn-success text-success active"> 
-												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "></i> <br /> Thêm giỏ hàng </label> 
+												<input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default" onClick="onClick()"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "  ></i> <br /> Thêm giỏ hàng </label> 
 											</div>
 										</div>
 									</div>
@@ -445,12 +444,11 @@
 
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	 <script type='text/javascript' src="js/jquery.mycart.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
-	
-	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type='text/javascript' src="js/jquery.mycart.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+ 
 	<a href="tel:01683886583" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);" id="callnowbutton">&nbsp;</a>
 	
 </body>

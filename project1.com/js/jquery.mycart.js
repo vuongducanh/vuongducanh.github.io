@@ -218,12 +218,13 @@
         '</div>' +
         '<div class="modal-footer">' +
         '<button type="button" class="btn btn-default" data-dismiss="modal">Mua tiếp</button>' +
-        '<button type="button" class="btn btn-primary ' + classCheckoutCart + '">Thanh toán</button>' +
+        '<a href="index.html"><button type="button" class="btn btn-primary ' + classCheckoutCart + '" >Thanh toán</button></a>' +
         '</div>' +
         '</div>' +
         '</div>' +
         '</div>'
       );
+
     }
 
     var drawTable = function(){
@@ -237,9 +238,9 @@
           '<tr title="' + this.summary + '" data-id="' + this.id + '" data-price="' + this.price + '">' +
           '<td class="text-center" style="width: 30px;"><img width="30px" height="30px" src="' + this.image + '"/></td>' +
           '<td>' + this.name + '</td>' +
-          '<td title="Unit Price">' + options.currencySymbol + MathHelper.getRoundedNumber(this.price) + '</td>' +
+          '<td title="Unit Price">'  + MathHelper.getRoundedNumber(this.price)+ options.currencySymbol + '</td>' +
           '<td title="Quantity"><input type="number" min="1" style="width: 70px;" class="' + classProductQuantity + '" value="' + this.quantity + '"/></td>' +
-          '<td title="Total" class="' + classProductTotal + '">' + options.currencySymbol  + MathHelper.getRoundedNumber(total) + '</td>' +
+          '<td title="Total" class="' + classProductTotal + '">'   + MathHelper.getRoundedNumber(total)+ options.currencySymbol + '</td>' +
           '<td title="Remove from Cart" class="text-center" style="width: 30px;"><a href="javascript:void(0);" class="btn btn-xs btn-danger ' + classProductRemove + '">X</a></td>' +
           '</tr>'
         );
@@ -248,7 +249,7 @@
       $cartTable.append(products.length ?
         '<tr>' +
         '<td></td>' +
-        '<td><strong>Total</strong></td>' +
+        '<td><strong>Tổng</strong></td>' +
         '<td></td>' +
         '<td></td>' +
         '<td><strong id="' + idGrandTotal + '"></strong></td>' +
@@ -258,19 +259,7 @@
       );
 
       var discountPrice = options.getDiscountPrice(products, ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
-      if(products.length && discountPrice !== null) {
-        $cartTable.append(
-          '<tr style="color: red">' +
-          '<td></td>' +
-          '<td><strong>Total (including discount)</strong></td>' +
-          '<td></td>' +
-          '<td></td>' +
-          '<td><strong id="' + idDiscountPrice + '"></strong></td>' +
-          '<td></td>' +
-          '</tr>'
-        );
-      }
-
+    
       showGrandTotal();
       showDiscountPrice();
     }
@@ -285,10 +274,10 @@
       });
     }
     var showGrandTotal = function(){
-      $("#" + idGrandTotal).text(options.currencySymbol + MathHelper.getRoundedNumber(ProductManager.getTotalPrice()));
+      $("#" + idGrandTotal).text( MathHelper.getRoundedNumber(ProductManager.getTotalPrice())+ options.currencySymbol );
     }
     var showDiscountPrice = function(){
-      $("#" + idDiscountPrice).text(options.currencySymbol + MathHelper.getRoundedNumber(options.getDiscountPrice(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity())));
+      $("#" + idDiscountPrice).text(  MathHelper.getRoundedNumber(options.getDiscountPrice(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity()))+options.currencySymbol);
     }
 
     /*
@@ -311,7 +300,7 @@
       var id = $(this).closest("tr").data("id");
       var quantity = $(this).val();
 
-      $(this).parent("td").next("." + classProductTotal).text(options.currencySymbol + MathHelper.getRoundedNumber(price * quantity));
+      $(this).parent("td").next("." + classProductTotal).text( MathHelper.getRoundedNumber(price * quantity)+options.currencySymbol);
       ProductManager.updatePoduct(id, quantity);
 
       $cartBadge.text(ProductManager.getTotalQuantity());

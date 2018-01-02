@@ -71,9 +71,9 @@ $(document).ready(function() {
 
 // js cho appento thêm vao vào giỏ hàng
 
-  $('.money-products-js').append('<del>&nbsp;&nbsp;150000đ</del>').append('<div data-toggle="buttons"><label class="btn btn-lg btn-block btn-success text-success active"> <input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "></i> <br /> Thêm giỏ hàng </label> </div>')
+  // $('.money-products-js').append('<del>&nbsp;&nbsp;150000đ</del>').append('<div data-toggle="buttons"><label class="btn btn-lg btn-block btn-success text-success active"> <input type="radio" name="options" id="option1" autocomplete="off" checked> <i class="fa fa-check-circle-o animated fadeIn"></i> <br /> đã thêm </label> <label class="btn btn-lg btn-block btn-default text-default"> <input type="radio" name="options" id="option2" autocomplete="off"> <i class="fa fa-circle-o "></i> <br /> Thêm giỏ hàng </label> </div>')
 //$(" .alternate-details").append('<button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="img/giaynam1.jpg">Thêm giỏ hàng</button>')
-
+ 
 $(function () {
     var goToCartIcon = function($addTocartBtn){
       var $cartIcon = $(".my-cart-icon");
@@ -95,16 +95,16 @@ $(function () {
       classProductQuantity: 'my-product-quantity',
       classProductRemove: 'my-product-remove',
       classCheckoutCart: 'my-cart-checkout',
-      currencySymbol: 'Đ',
+      currencySymbol: '₫',
 
       affixCartIcon: true,
       showCheckoutModal: true,
       numberOfDecimals: 2,
       cartItems: [
-        {id: 1, name: 'product 1', summary: 'summary 1', price: 10, quantity: 1, image: 'img/hot-and-semi-run1.jpg'},
-        {id: 2, name: 'product 2', summary: 'summary 2', price: 20, quantity: 2, image: 'img/hot-and-semi-run2.jpg'},
-        {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 1, image: 'img/hot-and-semi-run3.jpg'},
-        {id: 4, name: 'product 4', summary: 'summary 4', price: 30, quantity: 1, image: 'img/hot-and-semi-run4.jpg'}
+        {id: 1, name: 'sản phẩm 1',  price: 100, quantity: 1, image: 'img/hot-and-semi-run1.jpg'},
+        {id: 2, name: 'sản phẩm 2',  price: 200, quantity: 1, image: 'img/hot-and-semi-run2.jpg'},
+        {id: 3, name: 'sản phẩm 3',  price: 300, quantity: 1, image: 'img/hot-and-semi-run3.jpg'},
+        {id: 4, name: 'sản phẩm 4',  price: 300, quantity: 1, image: 'img/hot-and-semi-run4.jpg'}
       ],
       clickOnAddToCart: function($addTocart){
         goToCartIcon($addTocart);
@@ -122,5 +122,21 @@ $(function () {
       }
     });
   });
+
+var clicks=4;
+    function onClick() {
+    clicks += 1;
+    document.getElementById("clicks").innerHTML = clicks;
+};
+addAjaxButton.onClick(function() {
+  var counter = 0;
+  ajax(function(addition) {
+    counter += addition;
+    ajax(function(moreAdd) {
+      counter += moreAdd;
+      alert('Total is ' + counter);
+    });
+  });
+});
 // js ccho slide các thương hiệu
 
