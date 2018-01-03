@@ -36,17 +36,13 @@ color:#56cfe1;
 	margin-top: 25px;
 }
 .main-news2{
-	margin-bottom: 10px;
-	    font-size: 14px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-weight: 600;
+	color: black;
+	font-size: 20px;
     height: 58px;
     overflow: hidden;
 }
-.main-news2:hover a{
+ a:hover{
 	text-decoration: none;
-	color: #56cfe1;
 }
 
 .font-login{
