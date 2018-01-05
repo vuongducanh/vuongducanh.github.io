@@ -13,7 +13,7 @@
 
     var _options = null;
     var DEFAULT_OPTIONS = {
-      currencySymbol: 'Đ',
+      currencySymbol: 'k',
       classCartIcon: 'my-cart-icon',
       classCartBadge: 'my-cart-badge',
       classProductQuantity: 'my-product-quantity',
@@ -161,7 +161,7 @@
       var total = 0;
       $.each(products, function(index, value){
         total += value.quantity * value.price;
-        total = MathHelper.getRoundedNumber(total) * 1;
+        total = (total) * 1;
       });
       return total;
     }
@@ -238,9 +238,9 @@
           '<tr title="' + this.summary + '" data-id="' + this.id + '" data-price="' + this.price + '">' +
           '<td class="text-center" style="width: 30px;"><img width="30px" height="30px" src="' + this.image + '"/></td>' +
           '<td>' + this.name + '</td>' +
-          '<td title="Unit Price">'  + MathHelper.getRoundedNumber(this.price)+ options.currencySymbol + '</td>' +
+          '<td title="Unit Price">'  + (this.price)+ options.currencySymbol + '</td>' +
           '<td title="Quantity"><input type="number" min="1" style="width: 70px;" class="' + classProductQuantity + '" value="' + this.quantity + '"/></td>' +
-          '<td title="Total" class="' + classProductTotal + '">'   + MathHelper.getRoundedNumber(total)+ options.currencySymbol + '</td>' +
+          '<td title="Total" class="' + classProductTotal + '">'   + (total)+ options.currencySymbol + '</td>' +
           '<td title="Remove from Cart" class="text-center" style="width: 30px;"><a href="javascript:void(0);" class="btn btn-xs btn-danger ' + classProductRemove + '">X</a></td>' +
           '</tr>'
         );
@@ -274,10 +274,10 @@
       });
     }
     var showGrandTotal = function(){
-      $("#" + idGrandTotal).text( MathHelper.getRoundedNumber(ProductManager.getTotalPrice())+ options.currencySymbol );
+      $("#" + idGrandTotal).text( (ProductManager.getTotalPrice())+ options.currencySymbol );
     }
     var showDiscountPrice = function(){
-      $("#" + idDiscountPrice).text(  MathHelper.getRoundedNumber(options.getDiscountPrice(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity()))+options.currencySymbol);
+      $("#" + idDiscountPrice).text((options.getDiscountPrice(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity()))+options.currencySymbol);
     }
 
     /*
@@ -300,7 +300,7 @@
       var id = $(this).closest("tr").data("id");
       var quantity = $(this).val();
 
-      $(this).parent("td").next("." + classProductTotal).text( MathHelper.getRoundedNumber(price * quantity)+options.currencySymbol);
+      $(this).parent("td").next("." + classProductTotal).text( (price * quantity)+options.currencySymbol);
       ProductManager.updatePoduct(id, quantity);
 
       $cartBadge.text(ProductManager.getTotalQuantity());
