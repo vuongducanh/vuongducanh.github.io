@@ -14,11 +14,12 @@
 }
 .shop{
 	margin-bottom: 30px;
-	height: 133px;
+	
+	height: 139px;
 }
 
 .list-posts{
-	font-size: 25px;
+	font-size: 36px;
 }
 .list-list{
 	display: block;
@@ -40,6 +41,8 @@ color:#56cfe1;
 	font-size: 20px;
     height: 58px;
     overflow: hidden;
+        font-weight: 600;
+
 }
  a:hover{
 	text-decoration: none;
@@ -56,4 +59,10 @@ color:#56cfe1;
 	font-size: 13px;
 	 float: right; 
 	 margin-top: 15px;
+}
+.fb{
+	font-size: 100px;
+}
+.next-page-index{
+	margin-left: 33px;
 }
