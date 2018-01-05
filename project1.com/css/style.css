@@ -203,9 +203,7 @@ span img {
 .fotter-sua{
   color: #ababab;
 }
-.fotter-sua:hover{
-  color: #ababab;
-}
+
 .fotter-repair{
   color: black;
   font-size: 20px;
@@ -676,9 +674,8 @@ text-decoration:none; box-shadow:0 0 5px #888;
   color: white;
 
 }
-.filter-products02{
-  margin-left: -13px;
-
+.fotter-sua:hover{
+  color: #ababab;
 }
 .color{
   width: 20px;
@@ -717,15 +714,18 @@ text-decoration:none; box-shadow:0 0 5px #888;
   color: white;
 
 }
-.category-a{
-  margin-left: -10px;
+.category-a,.category-a1{
   display: block;
+  margin-bottom: 7px;
 }
-.category-a1{
-  display: block;
-}
+.category-a:hover,.category-a1:hover{
+  color: red;
+  }
 .special-special{
   color:#56cfe1;
+}
+.category-a1{
+  margin-left: 10px;
 }
 /* hết phần danh mục lọc sản phẩn*/
 
