@@ -113,3 +113,36 @@ th{
 td, th {
     padding: 8px;
 }
+.container2{
+    margin-top: 200px;
+    width: 800px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 700px;
+    margin-right: auto;
+   .h1login{
+      margin-left: 150px;
+      
+   }
+    .login{
+        .input1,.input2{
+            display: block;
+            margin-top: 30px;
+            margin-left: 50px;
+            width: 300px;
+            height: 50px;
+            border-radius: 10px;
+        }
+        .button{
+            display: block;
+            margin-top: 30px;
+            margin-left: 50px;
+            width: 300px;
+            height: 50px;
+            background-color: #4a77d4;
+        }
+        width: 400px;
+        height: 300px;
+        border: 2px solid black;
+    }
+}
