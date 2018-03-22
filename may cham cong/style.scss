@@ -12,25 +12,25 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-.nav{
-    width: 100%;
-    height: 80px;
-    border: 2px solid black;
-    .border{
-        width: 77px;
-        height: 77px;
-        border-radius: 50%;
-        border: 2px solid black;
-        float: right;
-        margin-right: 162px;
-    }
-    .maganer{
-        float: right;
-        margin-right: -182px;
-        margin-top: 26px;
-        font-size: 24px;
-    }
-}
+// .nav{
+//     width: 100%;
+//     height: 80px;
+//     border: 2px solid black;
+//     .border{
+//         width: 77px;
+//         height: 77px;
+//         border-radius: 50%;
+//         border: 2px solid black;
+//         float: right;
+//         margin-right: 162px;
+//     }
+//     .maganer{
+//         float: right;
+//         margin-right: -182px;
+//         margin-top: 26px;
+//         font-size: 24px;
+//     }
+// }
 // hết css cho nav
 .student{
     text-align: center;
@@ -38,6 +38,7 @@ body{
 .iconstudent{
     font-size: 30px;
     word-spacing:-20px;
+    margin-top: 10px;
 }
 .conten{
     border: 2px solid black;
@@ -75,18 +76,26 @@ body{
     }
 }
 .map{
-  
+    position: relative;
     .iconmap{
         font-size: 20px;
         word-spacing:-10px;
         margin-top: 30px;
+    }
+    .map2{
+        position: absolute;
+        top: 62px;
+        left: 26px;
+        font-size: 22px;
     }
 }
 .search{
   margin-top: 30px;
   float: right;  
   margin-right: 100px;
- 
+  .input{
+      margin-left: 5px;
+  }
 }
 .brick2{
     width: 400px;
@@ -95,8 +104,6 @@ body{
     margin: auto;
     margin-top: 115px;
 }
-
-
 table, th, td {
     border: 1px solid black;
 }
