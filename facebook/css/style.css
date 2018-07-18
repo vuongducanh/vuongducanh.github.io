@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    min-height: 42px;
+    position: relative;
+    z-index: 1;
+}
+
+.float_ohe{
+    display: inline;
+}
+
+.loggedout_menubar_container{
+    height: 88px;
+    min-width: 980px;
+}
+
+.loggedout_menubar {
+    margin: 0 auto;
+    padding-top: 13px;
+    width: 980px;
+    zoom: 1;
+}
+.img-logo {
+    width: 168px;
+    height: 34px;
+}
+.logo-fb {
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.menu_login_container {
+    float: right;
+    font-family: inherit;
+}
+
+.menu_login_container .html7magic label {
+    color: #fff;
+    font-weight: normal;
+    padding-left: 1px;
+    font-size: 12px;
+}
+
+.inputtext {
+    margin: 0;
+    width: 170px;
+    border: 1px solid #bdc7d8;
+    padding: 3px;
+}
+.uiButtonConfirm{
+    background-color: #4267b2;
+    border-color: #29487d;
+}
+
+.html7magic {
+    padding-bottom: 4px !important;
+}
+
+.menu_login_container table tr td {
+    padding: 0 0 0 14px;
+}
+
+.menu_login_container .login_form_label_field {
+    padding-top: 4px;
+}
+
+.menu_login_container .login_form_label_field a {
+    color: #9cb4d8;
+    font-weight: normal;
+    font-size: 12px;
+    text-decoration: none;
+}
+.menu_login_container .login_form_label_field a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    padding: 3px 6px;
+    background-color: #4267b2;
+    border-radius: 2px;
+    color: #fff;
+    border: 1px solid #3c5075f2;
+}
+
+.login:hover {
+    background-color: #4267b2;
+    border-color: #29487d;
+}
