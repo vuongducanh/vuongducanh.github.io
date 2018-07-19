@@ -53,9 +53,9 @@
 
 .inputtext {
     margin: 0;
-    width: 170px;
-    border: 1px solid #bdc7d8;
-    padding: 3px;
+    width: 160px;
+    border: 1px solid #0c111b;
+    padding: 1px;
 }
 .uiButtonConfirm{
     background-color: #4267b2;
@@ -68,10 +68,6 @@
 
 .menu_login_container table tr td {
     padding: 0 0 0 14px;
-}
-
-.menu_login_container .login_form_label_field {
-    padding-top: 4px;
 }
 
 .menu_login_container .login_form_label_field a {
