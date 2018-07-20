@@ -92,3 +92,174 @@
     background-color: #4267b2;
     border-color: #29487d;
 }
+
+.content {
+    min-height: 612px;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    width: auto;
+    background: linear-gradient(white, #D3D8E8);
+}
+
+.gradientContent {
+    margin: 0 auto;
+    width: 980px;
+}
+.lfloat-ohe {
+    float: left;
+}
+.iyy {
+    margin-right: 15px;
+    width: 565px;
+}
+
+.header-title {
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+.right {
+    float: right;
+    max-width: 400px;
+    width: 100%;
+}
+.float_rg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header-login {
+    color: #333;
+    font-weight: 600;
+    font-family: inherit;
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+.away-free {
+    color: #1d2129;
+    font-size: 19px;
+    font-weight: normal;
+    font-family: inherit;
+}
+.last-name {
+    width: 195px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    margin: 0;
+    position: relative;
+    border: 1px solid #bdc7d8;
+}
+.username {
+    margin-bottom: 10px;
+}
+.number_phone {
+    width: 393px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    margin: 0;
+    position: relative;
+    border: 1px solid #bdc7d8;
+}
+
+.birth-day__day {
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.why-birth-day {
+    font-size: 11px;
+    max-width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    vertical-align: middle;
+    outline: none;
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 8px;
+}
+select {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #bdc7d8;
+}
+.why-birth-day:hover {
+    text-decoration: underline;
+}
+
+.male {
+    margin-top: 10px;
+}
+.text-lable {
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+    cursor: default;
+}
+.description {
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    margin-top: 10px;
+}
+
+.description a {
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.registration{
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    font-size: 19px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #311c1c;
+}
+.registration:hover {
+    background: linear-gradient(#79bc64, #578843);
+}
+
+.cread-page {
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.famous-people {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
