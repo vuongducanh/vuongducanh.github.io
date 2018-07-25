@@ -4,5 +4,15 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="aff-website-2018" />
+    <orderEntry type="module" module-name="build-aff" />
+    <orderEntry type="module" module-name="test" />
+    <orderEntry type="module" module-name="xdebug" />
+    <orderEntry type="module" module-name="build_nav" />
+    <orderEntry type="module" module-name="dbs-nav-2018" />
+    <orderEntry type="module" module-name="build_nav" />
+    <orderEntry type="module" module-name="build_nav" />
+    <orderEntry type="module" module-name="build-aff" />
+    <orderEntry type="module" module-name="build_nav" />
   </component>
 </module>

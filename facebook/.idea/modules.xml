@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://D:/project/aff-website-2018/.idea/aff-website-2018.iml" filepath="D:/project/aff-website-2018/.idea/aff-website-2018.iml" />
+      <module fileurl="file://D:/project/build-aff/.idea/build-aff.iml" filepath="D:/project/build-aff/.idea/build-aff.iml" />
+      <module fileurl="file://D:/project/build_nav/.idea/build_nav.iml" filepath="D:/project/build_nav/.idea/build_nav.iml" />
+      <module fileurl="file://D:/project/dbs-nav-2018/.idea/dbs-nav-2018.iml" filepath="D:/project/dbs-nav-2018/.idea/dbs-nav-2018.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/facebook.iml" filepath="$PROJECT_DIR$/.idea/facebook.iml" />
+      <module fileurl="file://D:/project/test/.idea/test.iml" filepath="D:/project/test/.idea/test.iml" />
+      <module fileurl="file://D:/project/xdebug/.idea/xdebug.iml" filepath="D:/project/xdebug/.idea/xdebug.iml" />
     </modules>
   </component>
 </project>
