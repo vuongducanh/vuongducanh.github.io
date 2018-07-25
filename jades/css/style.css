@@ -1,0 +1,11 @@
+.slider {
+    margin: 0 auto;
+}
+.slider img{
+    width: 100%;
+}
+
+.slick-dots li button:before {
+    content: '.';
+    font-size: 100px;
+}
