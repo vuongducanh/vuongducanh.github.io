@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+}
+
+.comtainer {
+  margin: 0 5px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: yellow;
+}
+
+.item {
+  padding: 10px;
+  transition: box-shadow .3s;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px green;
+}
+
+img:hover {
+  box-shadow: 0 0 20px red;
+  cursor: pointer;
+  background-color: aqua;
+}
+
+@media only screen and (max-width: 992px) {
+  .comtainer {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .comtainer {
+    grid-template-columns: 100%;
+  }
+}
