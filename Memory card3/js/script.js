@@ -1,85 +1,97 @@
 
-  	var cards = ['a1', 'a2', 'a3', 'a4', 'a5','a6','a7','a8','a9'];
-  	var current=null;
-    var count=0;
-    var time=30;
-      function shuffle(array) {
-      var currentIndex = array.length, temporaryValue, randomIndex;
+let cards = ['a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9'];
+let hasFlippedCard = false;
+let count = 0;
+let time = 30;
 
-    // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
+let firstCard, secondCard;
 
-        // Pick a remaining element...
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
 
-        // And swap it with the current element.
-        temporaryValue = array[currentIndex];
-        array[currentIndex] = array[randomIndex];
-        array[randomIndex] = temporaryValue;
-      }
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
 
-      return array;
-    }
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
 
-// day la ham kiem tra dung sai
-    function flip(card){
-      $(card).toggleClass('flip');
-      
-      if(!current){
-        current=$(card);
-      }else{
-        if (current.attr('data-name') != $(card).attr('data-name')){
-          console.log('khac nnhau');
-          setTimeout(function(){
-             current.toggleClass('flip');
-             $(card).toggleClass('flip');
-              current=null;      //gán về null để bắt đầu lực chọn khác
-          },400);
-          // $('.card').css('pointer-events', 'auto');
-        }else{
-          console.log('giong nhau');
-          setTimeout(function(){
-            $(card).css('opacity','0');
-            current.css('opacity','0');
-            current=null;
-            count++;
-            if(count==9){
-              alert('ban da thang');
-            }
-          },500);
-          
-        }
-      }
-    }
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
 
+  return array;
+}
 
+// function flip(card) {
+//   $(card).addClass('flip');
+//   if (!current) {
+//     current = $(card);
+//   } else {
+//     console.log(current.attr('data-name') == $(card).attr('data-name') && current.attr('id') !== $(card).attr('id'));
+//     if (current.attr('data-name') === $(card).attr('data-name') && current.attr('id') !== $(card).attr('id')) {
+//       setTimeout(function () {
+//         $(card).css('opacity', '0');
+//         current.css('opacity', '0');
+//         // count++;
+//         // if (count == 9) {
+//         //   alert('ban da thang');
+//         // }
+//       }, 500);
+//     }
+//     else {
+//       setTimeout(function () {
+//         current.removeClass('flip');
+//         $(card).removeClass('flip');
+//         current = null;
+//       },0);
+//     }
+//   }
+// }
 
+function flip(card) {
+  $(card).addClass('flip');
 
- $(function(){
-  // nhan dôi mảng
-  cards=cards.concat(cards);  
-    // dảo vị trí các con bài
-    cards=shuffle(cards);
-    var html='';
-    for(var i = 0 ;i<cards.length;i++){
-      html+= '<div class="content"> <div class="grid"> <div class="card" data-name="'+cards[i]+'" onclick="flip(this)"> <div class="font" > <img src="img/anhsau1.jpg"> </div> <div class="back" > <img src="img/'+cards[i]+'.jpg"> </div> </div> </div> </div> ';
-    };
-    $('.content').html(html);
-    $('.card').on('click',function(){
-      $(this).addClass('flip');
-      // $(this).css('pointer-events','none');
-    });
-     var run  =  setInterval(function(){
-       time--;
-       console.log(time);
-       if(time ==0 ){
-        clearInterval(run);
-        alert("you are lose");
-       }
-     },1000)
-  });
+  if (!hasFlippedCard) {
+    hasFlippedCard = true;
+    firstCard = $(card);
+    return;
+  }
+  secondCard = $(card);
 
+  if (firstCard.attr('data-name') == $(card).attr('data-name') && firstCard.attr('id') == $(card).attr('id')) return; // check click double item
 
-   
-   
+  if (firstCard.attr('data-name') == secondCard.attr('data-name') && firstCard.attr('id') != secondCard.attr('id')) { //check same
+    hasFlippedCard = false;
+    setTimeout(function () {
+      firstCard.css("opacity", "0");
+      secondCard.css("opacity", "0");
+    }, 500)
+  } else {
+    hasFlippedCard = false;
+    setTimeout(function () {
+      firstCard.removeClass('flip');
+      secondCard.removeClass('flip');
+    }, 500);
+  }
+}
+
+$(function () {
+  cards = shuffle(cards.concat(cards));
+  var cardElement = '';
+  for (var i = 0; i < cards.length; i++) {
+    cardElement += '<div class="content"> <div class="grid"> <div id="' + i + '" class="card" data-name="' + cards[i] + '" onclick="flip(this)"> <div class="font" > <img src="img/anhsau1.jpg"> </div> <div class="back" > <img src="img/' + cards[i] + '.jpg"> </div> </div> </div> </div> ';
+  };
+  $('.content').html(cardElement);
+  // var run = setInterval(function () {
+  //   time--;
+  //   console.log(time);
+  //   if (time == 0) {
+  //     clearInterval(run);
+  //     alert("you are lose");
+  //   }
+  // }, 1000)
+});
+
