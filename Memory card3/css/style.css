@@ -103,9 +103,6 @@ body{
 	transform: translateX(-50%);
 }
 
-.modal {
-	top: 50%;
-	transform: translateY(-50%);
+.modal-open .modal {
+	overflow: hidden;
 }
-
-
