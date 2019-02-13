@@ -3,15 +3,13 @@ let cards = ['a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9'];
 let hasFlippedCard = false;
 let point = 0;
 let time = 60;
-
-let firstCard, secondCard;
+let firstCard, secondCard, countDown;
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
 
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {
-
     // Pick a remaining element...
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
@@ -41,6 +39,14 @@ function flip(card) {
     hasFlippedCard = false;
     point++;
     $('#point-value').html(point);
+    if ((point*2 + 1) == cards.length + 1) {  // check user win
+      $('#modalResult').modal('show');
+      $('#status-game').html('You Win !');
+      $('#status').html('Continue')
+      $('#resultPoint').html(point);
+      clearInterval(countDown);
+    }
+
     setTimeout(function () {
       firstCard.css("opacity", "0");
       secondCard.css("opacity", "0");
@@ -64,12 +70,13 @@ $(function () {
 });
 
 function timeDown() {
-  var countDown = setInterval(function () {
+   countDown = setInterval(function () {
     time--;
     $('#countdown-time').html(time);
-    if (time <= 0) {
+    if (time <= 0) { //check game over
       $('#countdown-time').html('00');
       $('#modalResult').modal('show');
+      $('#status-game').html('Game Over')
       $('#resultPoint').html(point);
       clearInterval(countDown);
     }

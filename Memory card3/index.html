@@ -22,8 +22,9 @@
 		<span>00 :</span>
 		<span id="countdown-time">00</span>
 		<div class="point">
-			<span class="point-text">Điểm của <span id="username"></span> là : </span>
+			<span class="point-text"><span id="username"></span> have  </span>
 			<span id="point-value">0</span>
+			<span>points</span>
 		</div>
 	</div>
 
@@ -33,12 +34,12 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h1>Nhập tên bạn</h1>
+					<h1>Enter your name</h1>
 				</div>
 				<div class="modal-body">
 					<form>
 						<input autocomplete="off" type="text" id="modal-body-input">
-						<input type="submit" class="close submit" data-dismiss="modal" value="Submit">
+						<input type="submit" class="close submit" data-dismiss="modal" value="Start game!">
 					</form>
 				</div>
 			</div>
@@ -50,12 +51,12 @@
 			<!-- Modal content-->
 			<div class="modal-content">
 				<div class="modal-header">
-					<h1>Hết thời gian</h1>
+					<h1 id="status-game"></h1>
 				</div>
 				<div class="modal-body">
-					<span>Điểm của bạn là : </span>
+					<span>Your point is : </span>
 					<span id="resultPoint"></span>
-					<input type="button" class="try-again submit" data-dismiss="modal" value="Try again">
+					<button class="try-again submit" data-dismiss="modal" id="status">Try again </button>
 				</div>
 			</div>
 		</div>
