@@ -1,11 +1,14 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Memory cards</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
+
 <body>
 
 	<div class="container">
@@ -13,12 +16,10 @@
 			<div class="col-md-12">
 				<div class="content">
 					<div class="grid">
-						<div class="card" >
-							<div class="font" >
-							
+						<div class="card">
+							<div class="font">
 							</div>
-							<div class="back" >	
-							
+							<div class="back">
 							</div>
 						</div>
 					</div>
@@ -28,9 +29,38 @@
 	</div>
 
 
+	<div class="countdown">
+		<span>00 :</span>
+		<span id="countdown-time">00</span>
+		<div class="point">
+			<span class="point-text">Điểm của <span id="username"></span> là : </span>
+			<span id="point-value">0</span>
+		</div>
+	</div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="js/script.js"></script>
+	<div id="myModal" class="modal fade" data-backdrop="static">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h1>Nhập tên bạn</h1>
+				</div>
+				<div class="modal-body">
+					<form>
+						<input type="text" id="modal-body-input">
+						<input type="submit" class="close submit" data-dismiss="modal" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
+
 </html>

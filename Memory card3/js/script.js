@@ -1,8 +1,8 @@
 
 let cards = ['a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9'];
 let hasFlippedCard = false;
-let count = 0;
-let time = 30;
+let point = 0;
+let time = 60;
 
 let firstCard, secondCard;
 
@@ -25,32 +25,6 @@ function shuffle(array) {
   return array;
 }
 
-// function flip(card) {
-//   $(card).addClass('flip');
-//   if (!current) {
-//     current = $(card);
-//   } else {
-//     console.log(current.attr('data-name') == $(card).attr('data-name') && current.attr('id') !== $(card).attr('id'));
-//     if (current.attr('data-name') === $(card).attr('data-name') && current.attr('id') !== $(card).attr('id')) {
-//       setTimeout(function () {
-//         $(card).css('opacity', '0');
-//         current.css('opacity', '0');
-//         // count++;
-//         // if (count == 9) {
-//         //   alert('ban da thang');
-//         // }
-//       }, 500);
-//     }
-//     else {
-//       setTimeout(function () {
-//         current.removeClass('flip');
-//         $(card).removeClass('flip');
-//         current = null;
-//       },0);
-//     }
-//   }
-// }
-
 function flip(card) {
   $(card).addClass('flip');
 
@@ -65,6 +39,8 @@ function flip(card) {
 
   if (firstCard.attr('data-name') == secondCard.attr('data-name') && firstCard.attr('id') != secondCard.attr('id')) { //check same
     hasFlippedCard = false;
+    point++;
+    $('#point-value').html(point);
     setTimeout(function () {
       firstCard.css("opacity", "0");
       secondCard.css("opacity", "0");
@@ -85,13 +61,31 @@ $(function () {
     cardElement += '<div class="content"> <div class="grid"> <div id="' + i + '" class="card" data-name="' + cards[i] + '" onclick="flip(this)"> <div class="font" > <img src="img/anhsau1.jpg"> </div> <div class="back" > <img src="img/' + cards[i] + '.jpg"> </div> </div> </div> </div> ';
   };
   $('.content').html(cardElement);
-  // var run = setInterval(function () {
-  //   time--;
-  //   console.log(time);
-  //   if (time == 0) {
-  //     clearInterval(run);
-  //     alert("you are lose");
-  //   }
-  // }, 1000)
 });
+
+function timeDown() {
+  var countDown = setInterval(function () {
+    time--;
+    $('#countdown-time').html(time);
+    if (time <= 0) {
+      $('#countdown-time').html('00');
+      console.log('aaa');
+      clearInterval(countDown);
+    }
+  }, 1000)
+}
+
+$('.close').click(function () {
+  timeDown();
+
+  if ($('#modal-body-input').val() != '') {
+    $('#username').html($('#modal-body-input').val())
+  }
+})
+
+$(window).load(function () {
+  $('#myModal').modal('show');
+});
+
+
 
