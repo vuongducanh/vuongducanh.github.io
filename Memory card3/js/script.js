@@ -69,7 +69,8 @@ function timeDown() {
     $('#countdown-time').html(time);
     if (time <= 0) {
       $('#countdown-time').html('00');
-      console.log('aaa');
+      $('#modalResult').modal('show');
+      $('#resultPoint').html(point);
       clearInterval(countDown);
     }
   }, 1000)
@@ -81,6 +82,10 @@ $('.close').click(function () {
   if ($('#modal-body-input').val() != '') {
     $('#username').html($('#modal-body-input').val())
   }
+});
+
+$('.try-again').click(function() {
+  window.location.reload();
 })
 
 $(window).load(function () {
